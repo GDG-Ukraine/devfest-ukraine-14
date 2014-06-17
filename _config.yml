@@ -6,7 +6,7 @@ permalink: pretty
 # Site settings
 title: GDG DevFest Ukraine 2014
 email: devfest@gdg.org.ua
-description: "GDG DevFest is a set of events all around the world"
+description: "GDG DevFest - the biggest Google related event in Ukraine"
 baseurl: "/devfest-ukraine-14"
 url: "http://gdg-ukraine.github.io"
 permalink: /blog/:title
@@ -16,7 +16,7 @@ googleAnalyticsSiteUrl: "gdg-ukraine.github.io"
 # Locaion block
 eventLocationName: "Kinopalace"
 eventLocationAddress: "22 Teatral'na St, Lviv"
-eventStartTime: "2014-10-18T10:00"
+eventStartTime: "2014-10-24T10:00"
 eventStartTimeHumanReadable: "10:00"
 eventEndTime: "2014-10-18T20:00"
 eventEndTimeHumanReadable: "20:00"
@@ -29,7 +29,7 @@ twitterAccount: "@DevFest"
 socialImageSrc: "/img/hero.jpg"
 
 # Header
-eventDate: "October 24-26, Lviv"
+eventDate: "October 24-25, Lviv"
 typeoutTextValues: '"", "Workshops", "Hackathon", "Conference", "Ukraine"'
 
 # About

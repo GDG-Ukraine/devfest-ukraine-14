@@ -1,0 +1,47 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="author" content="Oleh Zasadnyy, GDG Lviv">
+    <meta name="description" content="{{site.description}}">
+    <meta name="keywords" content="{{site.metaKeywords}}">
+    <link rel="canonical" href="{{site.url}}">
+    <!-- Social: Google+ / Schema.org  -->
+    <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta itemprop="description" content="{{site.description}}">
+    <meta itemprop="image" content="{{site.socialImageSrc}}">
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="{{site.twitterAccount}}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{site.description}}">
+    <meta name="twitter:image:src" content="{{site.socialImageSrc}}">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" /> 
+    <meta property="og:type" content="website" /> 
+    <meta property="og:url" content="{{site.url}}" />
+    <meta property="og:image" content="{{site.socialImageSrc}}" />
+    <meta property="og:description" content="{{site.description}}" /> 
+    
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="icon" type="image/png" href="{{ "/img/favicon.png" | prepend: site.baseurl }}">
+    <!--[if IE]><link rel="shortcut icon" href="img/favicon.ico"/><![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <!-- TODC Bootstrap theme -->
+    <link href="{{ "/css/todc-bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "/css/animate.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>

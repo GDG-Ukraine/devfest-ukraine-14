@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="author" content="Oleh Zasadnyy, GDG Lviv">
+	<meta name="description" content="GDG DevFest Ukraine 2014">
+	<meta name="keywords" content="event, gdg, devfest, google, programming, android, chrome, developers, lviv">
+	<link rel="canonical" href="http://devfest.gdg.org.ua">
+	<!-- Social: Google+ / Schema.org  -->
+	<meta itemprop="name" content="GDG DevFest Ukraine 2014">
+	<meta itemprop="description" content="DevFest-is an annual event organized by the Ukrainian community Google Developers Group">
+	<meta itemprop="image" content="CHANGE_ME">
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@scotch_io">
+	<meta name="twitter:creator" content="ncerminara">
+	<meta name="twitter:title" content="Bootstrap 3 Tips and Tricks You Might Not Know">
+	<meta name="twitter:description" content="Bootstrap 3 has a ton of features and helpers to speed up front-end development. Sometimes you need something and you end up writing your own custom CSS and JavaScript without even realizing that Bootstrap could have done it for you....">
+	<meta name="twitter:image:src" content="http://scotch.io/wp-content/uploads/2014/05/bs31.jpg">
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="fb:admins" content="579622216,709634581">
+	<meta property="fb:app_id" content="1389892087910588">
+	<meta property="og:url" content="http://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Bootstrap 3 Tips and Tricks You Might Not Know">
+	<meta property="og:image" content="http://scotch.io/wp-content/uploads/2014/05/bs31.jpg" />
+	<meta property="og:description" content="Bootstrap 3 has a ton of features and helpers to speed up front-end development. Sometimes you need something and you end up writing your own custom CSS and JavaScript without even realizing that Bootstrap could have done it for you....">
+	<meta property="og:site_name" content="Scotch">
+	<meta property="article:author" content="https://www.facebook.com/NCerminara">
+	<meta property="article:publisher" content="https://www.facebook.com/scotchdevelopment">
+
+
+	<title>DevFest Ukraine 2014</title>
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<!--[if IE]><link rel="shortcut icon" href="img/favicon.ico"/><![endif]-->
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- TODC Bootstrap theme -->
+	<link href="css/todc-bootstrap.min.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="32" viewBox="0 0 320 32">
+		<defs>
+			<g id="icon-menu">
+				<path class="path1" d="M4 6.667h24q0.552 0 0.943 0.391t0.391 0.943-0.391 0.943-0.943 0.391h-24q-0.552 0-0.943-0.391t-0.391-0.943 0.391-0.943 0.943-0.391zM4 22.667h24q0.552 0 0.943 0.391t0.391 0.943-0.391 0.943-0.943 0.391h-24q-0.552 0-0.943-0.391t-0.391-0.943 0.391-0.943 0.943-0.391zM4 14.667h24q0.552 0 0.943 0.391t0.391 0.943-0.391 0.943-0.943 0.391h-24q-0.552 0-0.943-0.391t-0.391-0.943 0.391-0.943 0.943-0.391z"></path>
+			</g>
+			<g id="icon-arrow-down">
+				<path class="path1" d="M4.131 8.962c-0.434-0.429-1.134-0.429-1.566 0-0.432 0.427-0.432 1.122 0 1.55l12.653 12.528c0.434 0.429 1.133 0.429 1.566 0l12.653-12.528c0.432-0.429 0.434-1.122 0-1.55s-1.136-0.429-1.566-0.002l-11.87 11.426-11.869-11.424z"></path>
+			</g>
+			<g id="icon-twitter">
+				<path class="path1" d="M28.929 7.286q-1.196 1.75-2.893 2.982 0.018 0.25 0.018 0.75 0 2.321-0.679 4.634t-2.063 4.437-3.295 3.759-4.607 2.607-5.768 0.973q-4.839 0-8.857-2.589 0.625 0.071 1.393 0.071 4.018 0 7.161-2.464-1.875-0.036-3.357-1.152t-2.036-2.848q0.589 0.089 1.089 0.089 0.768 0 1.518-0.196-2-0.411-3.313-1.991t-1.313-3.67v-0.071q1.214 0.679 2.607 0.732-1.179-0.786-1.875-2.054t-0.696-2.75q0-1.571 0.786-2.911 2.161 2.661 5.259 4.259t6.634 1.777q-0.143-0.679-0.143-1.321 0-2.393 1.688-4.080t4.080-1.688q2.5 0 4.214 1.821 1.946-0.375 3.661-1.393-0.661 2.054-2.536 3.179 1.661-0.179 3.321-0.893z"></path>
+			</g>
+			<g id="icon-google-plus">
+				<path class="path1" d="M15.643 26.161q0-0.375-0.080-0.723t-0.17-0.643-0.313-0.616-0.375-0.545-0.473-0.527-0.491-0.455-0.571-0.455-0.554-0.411-0.589-0.411-0.545-0.375q-0.304-0.036-0.893-0.036-0.964 0-1.893 0.125t-1.929 0.446-1.75 0.821-1.232 1.339-0.482 1.911q0 1.214 0.634 2.17t1.661 1.5 2.152 0.813 2.268 0.268q1.054 0 2.009-0.223t1.795-0.696 1.33-1.313 0.491-1.964zM13.5 10.768q0-1.071-0.295-2.277t-0.839-2.33-1.5-1.857-2.134-0.732q-1.661 0-2.571 1.232t-0.911 2.946q0 0.839 0.205 1.768t0.634 1.857 1 1.67 1.393 1.205 1.732 0.464q1.732 0 2.509-1.080t0.777-2.866zM11.161 2.286h7.804l-2.411 1.411h-2.411q1.268 0.804 1.964 2.25t0.696 3.018q0 1.321-0.411 2.348t-1 1.652-1.179 1.152-1 1.089-0.411 1.205q0 0.464 0.295 0.911t0.768 0.857 1.045 0.857 1.143 0.991 1.045 1.179 0.768 1.518 0.295 1.902q0 2.857-2.5 5.036-2.714 2.339-7.5 2.339-1.054 0-2.134-0.179t-2.179-0.598-1.938-1.036-1.375-1.589-0.536-2.17q0-1.089 0.661-2.411 0.571-1.143 1.714-1.973t2.589-1.268 2.768-0.643 2.679-0.241q-1.143-1.482-1.143-2.661 0-0.214 0.036-0.42t0.089-0.348 0.143-0.384 0.125-0.384q-0.714 0.089-1.25 0.089-2.661 0-4.563-1.75t-1.902-4.393q0-2.5 1.696-4.473t4.179-2.527q1.679-0.357 3.339-0.357zM29.714 6.857v2.286h-4.571v4.571h-2.286v-4.571h-4.571v-2.286h4.571v-4.571h2.286v4.571h4.571z"></path>
+			</g>
+		</defs>
+	</svg>
+
+	<div id="st-container" class="st-container">
+		<div class="st-pusher">
+			<div class="st-content">
+
+				<!-- Begin Top Section -->
+				<section id="top-section" style="background-image: url('img/hero.jpg');">
+					<header id="top-header" class="col-lg-10 col-sm-12">
+						<div id="st-trigger-effects" class="visible-xs">
+							<svg class="icon icon-menu" viewBox="0 0 32 32" data-effect="st-effect">
+								<use xlink:href="#icon-menu"></use>
+							</svg>
+						</div>
+						<img id="logo-header" class="logo-header" src="img/svg/logo-light.svg" alt="GDG DevFest">
+						<nav class="st-menu st-effect" id="menu">
+							<img class="logo-navbar visible-xs" src="img/svg/logo-dark.svg" alt="GDG DevFest">
+							<ul>
+								<li><a class="current" href="http://devfest.gdg.org.ua/">Home</a>
+								</li>
+								<li><a href="#">Blog</a>
+								</li>
+								<li><a href="#">Schedule</a>
+								</li>
+								<li><a href="#">Speakers</a>
+								</li>
+								<li><a href="#">Team</a>
+								</li>
+								<li><a href="#">Hackathon</a>
+								</li>
+								<li><a href="#">Logistics</a>
+								</li>
+							</ul>
+							<ul class="bottom-navlinks visible-xs visible-sm">
+								<li><a href="#">Buy tickets</a>
+								</li>
+							</ul>
+							<a id="buy-tickets-button" href="#" class="btn btn-primary pull-right hidden-xs hidden-sm hidden">Buy tickets</a>
+						</nav>
+					</header>
+					<div class="jumbotron">
+						<div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+							<h1>GDG DevFest <span id="typeout-text"></span> 2014</h1>
+							<p>October - November, 2014</p>
+							<p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more</a>
+							</p>
+						</div>
+					</div>
+					<a href="#" class="explore">
+						<svg class="icon icon-arrow-down" viewBox="0 0 32 32">
+							<use xlink:href="#icon-arrow-down"></use>
+						</svg>
+					</a>
+				</section>
+				<!-- End Top Section -->
+
+				<!-- About Section -->
+				<section id="about">
+					<div class="col-lg-10 col-lg-offset-1">
+						<h3>About GDG DevFest 2014</h3>
+						<div class="row about-details">
+							<div class="col-md-4 col-sm-4 col-xs-6">
+								<div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+									<h5>Conference</h5>
+									<img class="img-circle" src="img/conference.jpg" alt="Conference">
+									<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable <a href="#">content</a>.</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-6">
+								<div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+									<h5>Workshops</h5>
+									<img class="img-circle" src="img/workshop.jpg" alt="Workshops">
+									<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable <a href="#">content</a>.</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-6">
+								<div class="animated hiding" data-animation="fadeInDown" data-delay="1000">
+									<h5>Hackathons</h5>
+									<img class="img-circle" src="img/hackathon.jpg" alt="Hackathons">
+									<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable content.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End About Section -->
+
+				<!-- Begin Statistic Section -->
+				<section id="statistic" data-type="background" style="background-image: url(img/statistic.jpg);">
+					<div class="overlay"></div>
+					<div class="col-lg-10 col-lg-offset-1">
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="counter animated hiding" data-animation="fadeInDown" data-delay="0">
+								<div class="stat"><span class="timer" data-from="0" data-to="72">72</span>+</div>
+								<div class="stat-info">hours</div>
+								<hr>
+								<p class="small">It is a long established fact that a reader will be.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="counter animated hiding" data-animation="fadeInDown" data-delay="500">
+								<div class="stat"><span class="timer" data-from="0" data-to="10">10</span>
+								</div>
+								<div class="stat-info">speakers</div>
+								<hr>
+								<p class="small">It is a long established fact that a reader will be.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="counter animated hiding" data-animation="fadeInDown" data-delay="1000">
+								<div class="stat"><span class="timer" data-from="0" data-to="20">20</span>+</div>
+								<div class="stat-info">technologies</div>
+								<hr>
+								<p class="small">It is a long established fact that a reader will be.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="counter animated hiding" data-animation="fadeInDown" data-delay="1500">
+								<div class="stat"><span class="timer" data-from="0" data-to="3">3</span>
+								</div>
+								<div class="stat-info">halls</div>
+								<hr>
+								<p class="small">It is a long established fact that a reader will be.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End Statistic Section -->
+
+				<!-- Begin Latest News Section -->
+				<section id="latest-news">
+					<div class="col-lg-10 col-lg-offset-1">
+						<h3>Latest news</h3>
+						<article class="row">
+							<div class="col-md-4 col-sm-4 col-md-offset-1 animated hiding" data-animation="fadeInLeft" data-delay="500">
+								<img class="img-responsive" src="img/moto360.png" alt="Moto 360">
+							</div>
+							<div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
+								<h6>Android Wear</h6>
+								<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable content.</p>
+								<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Distracted by the readable <a href="#">content</a>.</p>
+							</div>
+						</article>
+					</div>
+				</section>
+				<!-- End Latest News Section -->
+
+				<!-- Begin Top Speakers Section -->
+				<section id="top-speakers" data-type="background" data-speed="6" style="background-image: url(img/top-speakers.jpg);">
+					<div class="overlay"></div>
+					<div class="col-lg-10 col-lg-offset-1">
+						<h3>Top speakers</h3>
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="0">
+								<div class="flow-img img-circle speaker-img" style="background-image: url(img/speakers/oleh.jpg)"></div>
+								<div class="name">Oleh Zasadnyy</div>
+								<div class="sub">GDG Lviv</div>
+								<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<div class="social-link">
+									<a href="#"><span class="fa fa-facebook"></span></a>
+									<a href="#"><span class="fa fa-twitter"></span></a>
+									<a href="#"><span class="fa fa-google-plus"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="500">
+								<div class="flow-img img-circle speaker-img" style="background-image: url(img/speakers/ostap.jpg)"></div>
+								<div class="name">Ostap Andrysiv</div>
+								<div class="sub">GDG Lviv</div>
+								<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<div class="social-link">
+									<a href="#"><span class="fa fa-facebook"></span></a>
+									<a href="#"><span class="fa fa-twitter"></span></a>
+									<a href="#"><span class="fa fa-google-plus"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix visible-xs"></div>
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1000">
+								<div class="flow-img img-circle speaker-img" style="background-image: url(img/speakers/vitalik.jpg)"></div>
+								<div class="name">Vitaliy Zasadnyy</div>
+								<div class="sub">GDG Lviv</div>
+								<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<div class="social-link">
+									<a href="#"><span class="fa fa-facebook"></span></a>
+									<a href="#"><span class="fa fa-twitter"></span></a>
+									<a href="#"><span class="fa fa-google-plus"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1500">
+								<div class="flow-img img-circle speaker-img" style="background-image: url(img/speakers/valentyn.jpg)"></div>
+								<div class="name">Vlentyn Shybanov</div>
+								<div class="sub">GDG Kyiv</div>
+								<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<div class="social-link">
+									<a href="#"><span class="fa fa-facebook"></span></a>
+									<a href="#"><span class="fa fa-twitter"></span></a>
+									<a href="#"><span class="fa fa-google-plus"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End Top Speakers Section -->
+
+				<!-- Begin Buy Tickets Section -->
+				<section id="buy-tickets">
+					<div class="col-lg-10 col-lg-offset-1">
+						<h3>Pricetable</h3>
+						<div class="col-md-4 pricing-col animated hiding" data-animation="fadeInLeft" data-delay="500">
+							<div class="pricing-header">
+								<h3 class="title">1 day</h3>
+								<h4 class="amount">$100</h4>
+							</div>
+							<div class="pricing-content">
+								<ul>
+									<li>Lorem ipsum is simply</li>
+									<li>Dummy text of the printing</li>
+									<li>Typesetting industry</li>
+								</ul>
+								<a class="button" href="#">Buy Now</a>
+							</div>
+						</div>
+						<div class="col-md-4 pricing-col pricing-col-featured animated hiding" data-animation="fadeInDown" data-delay="0">
+							<div class="pricing-ribbon">-20%</div>
+							<div class="pricing-header">
+								<h3 class="title">3 days</h3>
+								<h4 class="amount">$150</h4>
+							</div>
+							<div class="pricing-content">
+								<ul>
+									<li>Lorem ipsum is simply</li>
+									<li>Dummy text of the printing</li>
+									<li>Typesetting industry</li>
+								</ul>
+								<a class="button" href="#">Buy Now</a>
+							</div>
+						</div>
+						<div class="col-md-4 pricing-col animated hiding" data-animation="fadeInRight" data-delay="500">
+							<div class="pricing-header">
+								<h3 class="title">2 days</h3>
+								<h4 class="amount">$200</h4>
+							</div>
+							<div class="pricing-content">
+								<ul>
+									<li>Lorem ipsum is simply</li>
+									<li>Dummy text of the printing</li>
+									<li>Typesetting industry</li>
+								</ul>
+								<a class="button" href="#">Buy Now</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End Buy Tickets Section -->
+
+				<!-- Begin Location Section -->
+				<section id="location">
+					<div id="canvas-map"></div>
+					<div class="col-md-4 col-sm-6 col-md-offset-1 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
+						<div class="row">
+							<div class="pull-left">
+								<h3>Location</h3>
+								<ul itemscope="" itemtype="http://schema.org/PostalAddress">
+									<li itemprop="address">22 Teatral'na St, Lviv</li>
+									<li itemprop="email"><a href="mailto:devfest@gdg.org.ua">devfest@gdg.org.ua</a>
+									</li>
+									<li itemscope="" itemtype="http://schema.org/Event">
+										<time itemprop="startDate" datetime="2014-10-18T10:00">10:00</time>-
+										<time itemprop="endDate" datetime="2014-10-18T20:00">20:00</time>
+									</li>
+								</ul>
+							</div>
+							<a href="https://www.google.com/maps/dir//Teatral'na+St,+22,+Lviv,+79000/@49.8433784,24.0280573,18z/data=!4m12!1m3!3m2!1s0x0:0x6cf545e48e348c1f!2z0JrQhtCd0J7Qn9CQ0JvQkNCm!4m7!1m0!1m5!1m1!1s0x473add72950f6e8d:0x6cf545e48e348c1f!2m2!1d24.028718!2d49.843293" class="pull-right" target="_blank">
+								<img src="img/svg/direction.svg">
+							</a>
+						</div>
+					</div>
+
+				</section>
+				<!-- End Location Section -->
+
+				<!-- Begin Sponsors Section -->
+				<section id="sponsors">
+					<div class="col-lg-10 col-lg-offset-1">
+						<h3>Sponsors</h3>
+						<h5>Platium</h5>
+						<ul class="list-inline">
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/google.svg" alt="sponsor-1">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+								</a>
+							</li>
+						</ul>
+						<h5>Gold</h5>
+						<ul class="list-inline">
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/google.svg" alt="sponsor-1">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
+								</a>
+							</li>
+						</ul>
+						<h5>Information partners</h5>
+						<ul class="list-inline">
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/google.svg" alt="sponsor-1">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/google.svg" alt="sponsor-1">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/google.svg" alt="sponsor-1">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/google.svg" alt="sponsor-1">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
+								</a>
+							</li>
+						</ul>
+						<a href="#" class="btn btn-primary">Become a sponsor</a>
+					</div>
+				</section>
+				<!-- End Sponsors Section -->
+
+				<!-- Begin Footer -->
+				<footer id="footer">
+					<div class="row">
+						<div class="pull-left">
+							<div class="g-plusone" data-annotation="none" data-href="http://devfest.gdg.org.ua/"></div>
+						</div>
+						<img class="logo-footer pull-right" src="img/svg/logo-grey.svg" alt="GDG DevFest">
+					</div>
+					<div class="row">
+						<div class="pull-left">
+							<ul class="footer-links">
+								<li><a href="http://gdg.org.ua" target="_blank">GDG.org.ua</a>
+								</li>
+								<li><a href="https://developers.google.com" target="_blank">Google Developers</a>
+								</li>
+								<li><a href="https://devfest.gdg.org.ua" target="_blank">GDG DevFest Ukraine 2013</a>
+								</li>
+							</ul>
+							<ul class="social-links">
+								<li>
+									<a href="https://plus.google.com/events/c9c0oh98tjmovmorbjq3eanesc0" target="_blank">
+										<svg class="icon icon-google-plus" viewBox="0 0 30 32">
+											<use xlink:href="#icon-google-plus"></use>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/search?q=%23devfest%20%23ua&mode=realtime" target="_blank">
+										<svg class="icon icon-twitter" viewBox="0 0 30 32">
+											<use xlink:href="#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<!-- Please don't delete this line-->
+						<p class="copyright">
+							&copy; 2014 Designed and created by <a href="https://plus.google.com/+OlehZasadnyy/about">Oleh Zasadnyy</a> &middot; <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
+						</p>
+					</div>
+				</footer>
+				<!-- End Footer -->
+
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/sidebarEffects.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script>
+		//Location properties
+		var eventPlace = new google.maps.LatLng(49.843237, 24.028751);
+		var centerMap = new google.maps.LatLng(49.842537, 24.025701);
+
+		$(function () {
+			$("#typeout-text").typed({
+				strings: ["", "Season", "Ukraine", "Germany", "USA"],
+				typeSpeed: 150,
+				backDelay: 900,
+				loop: true
+			});
+		});
+	</script>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>

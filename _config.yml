@@ -1,0 +1,40 @@
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+
+# Site settings
+title: GDG DevFest Ukraine 2014
+email: devfest@gdg.org.ua
+description: "GDG DevFest is a set of events all around the world"
+baseurl: "/devfest-ukraine-14"
+url: "http://gdg-ukraine.github.io"
+permalink: /blog/:title
+googleAnalyticsTrackingId: "UA-43643469-1"
+googleAnalyticsSiteUrl: "gdg-ukraine.github.io"
+
+# Locaion block
+eventLocationName: "Kinopalace"
+eventLocationAddress: "22 Teatral'na St, Lviv"
+eventStartTime: "2014-10-18T10:00"
+eventStartTimeHumanReadable: "10:00"
+eventEndTime: "2014-10-18T20:00"
+eventEndTimeHumanReadable: "20:00"
+eventPlaceCoordinates: "49.843237,24.028751"
+mapCenterCoordinates: "49.842537,24.025701"
+
+# Head
+metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+twitterAccount: "@DevFest"
+socialImageSrc: "/img/hero.jpg"
+
+# Header
+eventDate: "October 24-26, Lviv"
+typeoutTextValues: '"", "Workshops", "Hackathon", "Conference", "Ukraine"'
+
+# About
+eventName: "GDG DevFest Ukraine"
+
+# Footer
+gplusFollowUsUrl: "https://plus.google.com/events/c9c0oh98tjmovmorbjq3eanesc0"
+twitterFollowUsUrl: "https://twitter.com/search?q=%23devfest%20%23ua&mode=realtime"

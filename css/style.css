@@ -317,6 +317,23 @@ nav ul> li > a:hover {
 .icon-arrow-down {
 	fill: #e6e6e6;
 }
+#mc_embed_signup .form-control {
+	text-align: center;
+	background: transparent;
+	color: #fff;
+	height: 53px;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: 0px 0px 0px transparent;
+	font-size: 18px;
+}
+#mc-embedded-subscribe {
+	margin-left: -1em;
+	font-size: 18px;
+	padding: 13px 35px;
+	background: transparent;
+	border: 1px solid #ddd;
+}
 /* --END TOP SECTION */
 
 /* ABOUT SECTION */

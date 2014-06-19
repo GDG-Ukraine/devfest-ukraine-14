@@ -7,11 +7,11 @@ permalink: pretty
 title: GDG DevFest Ukraine 2014
 email: devfest@gdg.org.ua
 description: "GDG DevFest - the biggest Google related event in Ukraine"
-baseurl: "/devfest-ukraine-14"
-url: "http://gdg-ukraine.github.io"
+baseurl: ""
+url: "http://devfest.gdg.org.ua/"
 permalink: /blog/:title
 googleAnalyticsTrackingId: "UA-43643469-1"
-googleAnalyticsSiteUrl: "gdg-ukraine.github.io"
+googleAnalyticsSiteUrl: "devfest.gdg.org.ua"
 
 # Locaion block
 eventLocationName: "Kinopalace"

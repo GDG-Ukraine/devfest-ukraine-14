@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="author" content="Oleh Zasadnyy, GDG Lviv">
+    <meta name="description" content="GDG DevFest Ukraine 2014">
+    <meta name="keywords" content="event, gdg, devfest, google, programming, android, chrome, developers, lviv">
+    <link rel="canonical" href="http://devfest.gdg.org.ua">
+    <!-- Social: Google+ / Schema.org  -->
+    <meta itemprop="name" content="GDG DevFest Ukraine 2014">
+    <meta itemprop="description" content="DevFest-is an annual event organized by the Ukrainian community Google Developers Group">
+    <meta itemprop="image" content="CHANGE_ME">
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@scotch_io">
+    <meta name="twitter:creator" content="ncerminara">
+    <meta name="twitter:title" content="Bootstrap 3 Tips and Tricks You Might Not Know">
+    <meta name="twitter:description" content="Bootstrap 3 has a ton of features and helpers to speed up front-end development. Sometimes you need something and you end up writing your own custom CSS and JavaScript without even realizing that Bootstrap could have done it for you....">
+    <meta name="twitter:image:src" content="http://scotch.io/wp-content/uploads/2014/05/bs31.jpg">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="fb:admins" content="579622216,709634581">
+    <meta property="fb:app_id" content="1389892087910588">
+    <meta property="og:url" content="http://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Bootstrap 3 Tips and Tricks You Might Not Know">
+    <meta property="og:image" content="http://scotch.io/wp-content/uploads/2014/05/bs31.jpg" />
+    <meta property="og:description" content="Bootstrap 3 has a ton of features and helpers to speed up front-end development. Sometimes you need something and you end up writing your own custom CSS and JavaScript without even realizing that Bootstrap could have done it for you....">
+    <meta property="og:site_name" content="Scotch">
+    <meta property="article:author" content="https://www.facebook.com/NCerminara">
+    <meta property="article:publisher" content="https://www.facebook.com/scotchdevelopment">
+
+
+    <title>DevFest Ukraine 2014</title>
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- TODC Bootstrap theme -->
+    <link href="css/todc-bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="loading-animation">&nbsp;</div>
+    </div>
+    <div id="st-container" class="st-container">
+        <div class="st-pusher">
+            <div class="st-content">
+
+                <!-- Begin Top Section -->
+                <section id="top-section">
+                    <header id="top-header" class="col-lg-10 col-sm-12 dark-header">
+                        <svg id="menu-trigger" class="icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
+                            <use xlink:href="img/sprites/sprites.svg#icon-menu"></use>
+                        </svg>
+                        <a href="index.html" id="logo-header" class="logo-header logo-dark"></a>
+                        <nav class="st-menu st-effect" id="menu">
+                            <div class="logo-navbar logo-dark visible-xs"></div>
+                            <ul>
+                                <li><a href="index.html">Home</a>
+                                </li>
+                                <li><a href="#">Blog</a>
+                                </li>
+                                <li><a href="#">Schedule</a>
+                                </li>
+                                <li><a href="speakers.html">Speakers</a>
+                                </li>
+                                <li><a href="team.html">Team</a>
+                                </li>
+                                <li><a href="#">Hackathon</a>
+                                </li>
+                                <li><a class="current" href="logistics.html">Logistics</a>
+                                </li>
+                            </ul>
+                            <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
+                                <li><a href="#">Buy tickets</a>
+                                </li>
+                                <li><a href="#">Call for papers</a>
+                                </li>
+                            </ul>
+                            <a id="buy-tickets-button" href="#" class="btn btn-primary pull-right hidden-xs hidden-sm hidden">Buy tickets</a>
+                        </nav>
+                    </header>
+                    <div class="jumbotron text-left">
+                        <div class="animated hiding" data-animation="fadeInLeft" data-delay="500">
+                            <h1>Get ready to GDG DevFest 2014</h1>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Top Section -->
+
+                <!-- Begin Find Way-->
+                <section id="find-way">
+                    <div id="canvas-map"></div>
+                    <div class="content-wrapper text-left">
+                        <h3 class="animated hiding" data-animation="fadeInUp" data-delay="0">Find your way here</h3>
+                        <div class="map-card col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="map-search">
+                                <input type="text" id="location-input" class="location-input" name="location-input" data-input-value="Your location" placeholder="Your location" autocomplete="off">
+                                <svg id="direction-locate" class="icon icon-location-arrow" viewBox="0 0 30 32">
+                                    <use xlink:href="img/sprites/sprites.svg#icon-location-arrow"></use>
+                                </svg>
+                            </div>
+                            <div class="location-result">
+                                <span id="result-name"></span>
+                                <span>to DevFest</span>
+                                <svg id="direction-cancel" class="icon icon-cross" viewBox="0 0 30 32">
+                                    <use xlink:href="img/sprites/sprites.svg#icon-cross"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="map-card location-details col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <ul>
+                                <li>
+                                    <svg class="icon icon-flag" viewBox="0 0 30 32">
+                                        <use xlink:href="img/sprites/sprites.svg#icon-flag"></use>
+                                    </svg>
+                                    <span>Distance</span>
+                                    <span id="distance" class="details-result pull-right"></span>
+                                </li>
+                                <li>
+                                    <div id="mode">
+                                        <svg id="mode-icon" class="icon icon-mode" viewBox="0 0 30 32">
+                                            <use xlink:href="img/sprites/sprites.svg#icon-flight"></use>
+                                        </svg>
+                                        <select id="mode-select">
+                                            <option value="DRIVING">DRIVING</option>
+                                            <option value="WALKING">WALKING</option>
+                                            <option value="BICYCLING">BICYCLING</option>
+                                            <option value="TRANSIT">TRANSIT</option>
+                                        </select>
+                                        <span id="estimateTime" class="details-result pull-right"></span>
+                                    </div>
+                                    <a id="find-flight" href="https://google.com/flights" class="pull-right hidden" target="_blank">Find Flight</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Find Way -->
+
+                <!-- Begin Direction Details-->
+                <section id="direction-details">
+                    <div class="content-wrapper">
+                        <section class="image-section" style="background-image: url('img/direction-details.jpg');">
+                            <h3>Get around Lviv</h3>
+                        </section>
+                        <div class="row">
+                            <div class="col-lg-10 col-lg-offset-1 text-left same-height-wrapper">
+                                <div class="col-md-4 col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="0">
+                                    <div class="card">
+                                        <h4>From the Airport</h4>
+                                        <p>Super Shuttle International is offering a discount to all Google I/O attendees. Reservations must be booked in advance either online or by calling 1-800-BLUE-VAN (1-800-258-3826). The discount code for Google I/O is G66Z7.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="500">
+                                    <div class="card">
+                                        <h4>Public Transit</h4>
+                                        <p>The Moscone Center is located at the corner of Fourth & Howard streets, at 800 Howard St. San Francisco, CA 94103 Public transportation to the Moscone Center is accessible via:</p>
+                                        <p>BART Subway linking San Francisco to Oakland and Berkeley</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="1000">
+                                    <div class="card">
+                                        <h4>Hotels</h4>
+                                        <p>We have room blocks at the following hotels</p>
+                                        <ul class="list-with-description">
+                                            <li><a href="#" target="_blank">InterContinental</a>Sold out</li>
+                                            <li><a href="#" target="_blank">The Hotel Rex</a>Group Code: GDG or DevFest 2014</li>
+                                            <li><a href="#" target="_blank">Westin Market Street</a>Group Code: GOIO</li>
+                                            <li><a href="#" target="_blank">Hotel Adagio</a>Group Code: 1406GOOGLE</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-xs-12 animated hiding" data-animation="fadeInDown" data-delay="0">
+                                    <div class="card questions">
+                                        <h4>Questions?</h4>
+                                        <div class="col-md-4 col-xs-12">
+                                            <h5>General</h5>
+                                            <ul>
+                                                <li><a href="#" target="_blank">InterContinental</a>
+                                                </li>
+                                                <li><a href="#" target="_blank">The Hotel Rex</a>
+                                                </li>
+                                                <li><a href="#" target="_blank">Westin Market Street</a>
+                                                </li>
+                                                <li><a href="#" target="_blank">Hotel Adagio</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <h5>Registration</h5>
+                                            <ul>
+                                                <li><a href="#" target="_blank">InterContinental</a>
+                                                </li>
+                                                <li><a href="#" target="_blank">The Hotel Rex</a>
+                                                </li>
+                                                <li><a href="#" target="_blank">Westin Market Street</a>
+                                                </li>
+                                                <li><a href="#" target="_blank">Hotel Adagio</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <h5>Attendance Details</h5>
+                                            <ul>
+                                                <li><a href="#" target="_blank">InterContinental</a>
+                                                </li>
+                                                <li><a href="#" target="_blank">The Hotel Rex</a>
+                                                </li>
+                                                <li><a href="#" target="_blank">Westin Market Street</a>
+                                                </li>
+                                                <li><a href="#" target="_blank">Hotel Adagio</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                        </div>
+                    </div>
+                </section>
+                <!-- End Direction Details -->
+
+                <!-- Begin Footer -->
+                <footer id="footer">
+                    <div class="row">
+                        <div class="pull-left col-md-1">
+                            <div class="g-plusone" data-annotation="none" data-href="http://devfest.gdg.org.ua/"></div>
+                        </div>
+                        <div class="logo-footer logo-gray pull-right"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-6">
+                            <h5>Links</h5>
+                            <ul>
+                                <li><a href="http://gdg.org.ua" target="_blank">GDG.org.ua</a>
+                                </li>
+                                <li><a href="https://developers.google.com" target="_blank">Google Developers</a>
+                                </li>
+                                <li><a href="https://devfest.gdg.org.ua" target="_blank">GDG DevFest Ukraine 2013</a>
+                                </li>
+                            </ul>
+                            <ul class="social-links">
+                                <li>
+                                    <a href="https://plus.google.com/events/c9c0oh98tjmovmorbjq3eanesc0" target="_blank">
+                                        <svg class="icon icon-google-plus" viewBox="0 0 30 32">
+                                            <use xlink:href="img/sprites/sprites.svg#icon-google-plus"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/search?q=%23devfest%20%23ua&mode=realtime" target="_blank">
+                                        <svg class="icon icon-twitter" viewBox="0 0 30 32">
+                                            <use xlink:href="img/sprites/sprites.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-6">
+                            <h5>Contacts</h5>
+                            <ul>
+                                <li><a href="mailto:devfest@gdg.org.ua" target="_blank">devfest@gdg.org.ua</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Please don't delete this line-->
+                        <div class="col-md-6">
+                            <p class="copyright">
+                                &copy; 2014 Designed and created by <a href="https://plus.google.com/+OlehZasadnyy/about">Oleh Zasadnyy</a> &middot; <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End Footer -->
+            </div>
+        </div>
+    </div>
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- jQuery local fallback -->
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')
+    </script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS local fallback -->
+    <script>
+        if (typeof ($.fn.modal) === 'undefined') {
+            document.write('<script src="js/bootstrap.min.js"><\/script>')
+        }
+    </script>
+    <script src="js/jquery.appear.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry"></script>
+    <script>
+
+            var googleMaps = 'logistics';
+            var eventPlace = new google.maps.LatLng(49.843237, 24.028751);
+            var centerMap = new google.maps.LatLng(49.056728, 3.117289);
+            var mobileCenterMap = new google.maps.LatLng(44.347164, 23.175017);
+        $(document).ready(function () {
+            var bodyColor = $('body').css('color');
+            if (bodyColor != 'rgb(51, 51, 51)') {
+                $("head").prepend('<link rel="stylesheet" href="css/bootstrap.min.css">');
+            }
+       });
+    </script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

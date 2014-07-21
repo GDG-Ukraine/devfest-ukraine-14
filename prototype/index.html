@@ -34,13 +34,28 @@
 
 
 	<title>DevFest Ukraine 2014</title>
-	<link rel="icon" type="image/png" href="img/favicon.png">
-	<!--[if IE]><link rel="shortcut icon" href="img/favicon.ico"/><![endif]-->
+	<link rel="shortcut icon" href="/img/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/img/favicons/favicon-196x196.png" sizes="196x196">
+	<link rel="icon" type="image/png" href="/img/favicons/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 	<!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<!-- TODC Bootstrap theme -->
 	<link href="css/todc-bootstrap.min.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">
@@ -55,6 +70,9 @@
 </head>
 
 <body>
+	<div id="preloader">
+		<div id="loading-animation">&nbsp;</div>
+	</div>
 	<svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="32" viewBox="0 0 320 32">
 		<defs>
 			<g id="icon-menu">
@@ -77,16 +95,14 @@
 			<div class="st-content">
 
 				<!-- Begin Top Section -->
-				<section id="top-section" style="background-image: url('img/hero.jpg');">
+				<section id="top-section-hero" style="background-image: url('img/hero.jpg');">
 					<header id="top-header" class="col-lg-10 col-sm-12">
-						<div id="st-trigger-effects" class="visible-xs">
-							<svg class="icon icon-menu" viewBox="0 0 32 32" data-effect="st-effect">
-								<use xlink:href="#icon-menu"></use>
-							</svg>
-						</div>
-						<img id="logo-header" class="logo-header" src="img/svg/logo-light.svg" alt="GDG DevFest">
+						<svg id="menu-trigger" class="icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
+							<use xlink:href="#icon-menu"></use>
+						</svg>
+						<a href="index.html" id="logo-header" class="logo-header logo-light"></a>
 						<nav class="st-menu st-effect" id="menu">
-							<img class="logo-navbar visible-xs" src="img/svg/logo-dark.svg" alt="GDG DevFest">
+							<div class="logo-navbar logo-dark visible-xs"></div>
 							<ul>
 								<li><a class="current" href="http://devfest.gdg.org.ua/">Home</a>
 								</li>
@@ -94,7 +110,7 @@
 								</li>
 								<li><a href="#">Schedule</a>
 								</li>
-								<li><a href="#">Speakers</a>
+								<li><a href="speakers.html">Speakers</a>
 								</li>
 								<li><a href="#">Team</a>
 								</li>
@@ -103,7 +119,7 @@
 								<li><a href="#">Logistics</a>
 								</li>
 							</ul>
-							<ul class="bottom-navlinks visible-xs visible-sm">
+							<ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
 								<li><a href="#">Buy tickets</a>
 								</li>
 							</ul>
@@ -118,7 +134,7 @@
 							</p>
 						</div>
 					</div>
-					<a href="#" class="explore">
+					<a href="#about" class="explore">
 						<svg class="icon icon-arrow-down" viewBox="0 0 32 32">
 							<use xlink:href="#icon-arrow-down"></use>
 						</svg>
@@ -128,28 +144,30 @@
 
 				<!-- About Section -->
 				<section id="about">
-					<div class="col-lg-10 col-lg-offset-1">
-						<h3>About GDG DevFest 2014</h3>
-						<div class="row about-details">
-							<div class="col-md-4 col-sm-4 col-xs-6">
-								<div class="animated hiding" data-animation="fadeInDown" data-delay="0">
-									<h5>Conference</h5>
-									<img class="img-circle" src="img/conference.jpg" alt="Conference">
-									<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable <a href="#">content</a>.</p>
+					<div class="content-wrapper">
+						<div class="col-lg-10 col-lg-offset-1">
+							<h3>About GDG DevFest 2014</h3>
+							<div class="row about-details">
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="animated hiding" data-animation="fadeInDown" data-delay="0">
+										<h5>Conference</h5>
+										<img class="img-circle" src="img/conference.jpg" alt="Conference">
+										<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable <a href="#">content</a>.</p>
+									</div>
 								</div>
-							</div>
-							<div class="col-md-4 col-sm-4 col-xs-6">
-								<div class="animated hiding" data-animation="fadeInDown" data-delay="500">
-									<h5>Workshops</h5>
-									<img class="img-circle" src="img/workshop.jpg" alt="Workshops">
-									<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable <a href="#">content</a>.</p>
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+										<h5>Workshops</h5>
+										<img class="img-circle" src="img/workshop.jpg" alt="Workshops">
+										<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable <a href="#">content</a>.</p>
+									</div>
 								</div>
-							</div>
-							<div class="col-md-4 col-sm-4 col-xs-6">
-								<div class="animated hiding" data-animation="fadeInDown" data-delay="1000">
-									<h5>Hackathons</h5>
-									<img class="img-circle" src="img/hackathon.jpg" alt="Hackathons">
-									<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable content.</p>
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="animated hiding" data-animation="fadeInDown" data-delay="1000">
+										<h5>Hackathons</h5>
+										<img class="img-circle" src="img/hackathon.jpg" alt="Hackathons">
+										<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable content.</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -158,41 +176,43 @@
 				<!-- End About Section -->
 
 				<!-- Begin Statistic Section -->
-				<section id="statistic" data-type="background" style="background-image: url(img/statistic.jpg);">
+				<section id="statistic" class="parallax" style="background-image: url(img/statistic.jpg);">
 					<div class="overlay"></div>
-					<div class="col-lg-10 col-lg-offset-1">
-						<div class="col-md-3 col-sm-3 col-xs-6">
-							<div class="counter animated hiding" data-animation="fadeInDown" data-delay="0">
-								<div class="stat"><span class="timer" data-from="0" data-to="72">72</span>+</div>
-								<div class="stat-info">hours</div>
-								<hr>
-								<p class="small">It is a long established fact that a reader will be.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-3 col-xs-6">
-							<div class="counter animated hiding" data-animation="fadeInDown" data-delay="500">
-								<div class="stat"><span class="timer" data-from="0" data-to="10">10</span>
+					<div class="content-wrapper">
+						<div class="col-lg-10 col-lg-offset-1">
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="counter animated hiding" data-animation="fadeInDown" data-delay="0">
+									<div class="stat"><span class="timer" data-from="0" data-to="72">72</span>+</div>
+									<div class="stat-info">hours</div>
+									<hr>
+									<p class="small">It is a long established fact that a reader will be.</p>
 								</div>
-								<div class="stat-info">speakers</div>
-								<hr>
-								<p class="small">It is a long established fact that a reader will be.</p>
 							</div>
-						</div>
-						<div class="col-md-3 col-sm-3 col-xs-6">
-							<div class="counter animated hiding" data-animation="fadeInDown" data-delay="1000">
-								<div class="stat"><span class="timer" data-from="0" data-to="20">20</span>+</div>
-								<div class="stat-info">technologies</div>
-								<hr>
-								<p class="small">It is a long established fact that a reader will be.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-3 col-xs-6">
-							<div class="counter animated hiding" data-animation="fadeInDown" data-delay="1500">
-								<div class="stat"><span class="timer" data-from="0" data-to="3">3</span>
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="counter animated hiding" data-animation="fadeInDown" data-delay="500">
+									<div class="stat"><span class="timer" data-from="0" data-to="10">10</span>
+									</div>
+									<div class="stat-info">speakers</div>
+									<hr>
+									<p class="small">It is a long established fact that a reader will be.</p>
 								</div>
-								<div class="stat-info">halls</div>
-								<hr>
-								<p class="small">It is a long established fact that a reader will be.</p>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="counter animated hiding" data-animation="fadeInDown" data-delay="1000">
+									<div class="stat"><span class="timer" data-from="0" data-to="20">20</span>+</div>
+									<div class="stat-info">technologies</div>
+									<hr>
+									<p class="small">It is a long established fact that a reader will be.</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="counter animated hiding" data-animation="fadeInDown" data-delay="1500">
+									<div class="stat"><span class="timer" data-from="0" data-to="3">3</span>
+									</div>
+									<div class="stat-info">halls</div>
+									<hr>
+									<p class="small">It is a long established fact that a reader will be.</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -201,79 +221,84 @@
 
 				<!-- Begin Latest News Section -->
 				<section id="latest-news">
-					<div class="col-lg-10 col-lg-offset-1">
-						<h3>Latest news</h3>
-						<article class="row">
-							<div class="col-md-4 col-sm-4 col-md-offset-1 animated hiding" data-animation="fadeInLeft" data-delay="500">
-								<img class="img-responsive" src="img/moto360.png" alt="Moto 360">
-							</div>
-							<div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
-								<h6>Android Wear</h6>
-								<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable content.</p>
-								<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Distracted by the readable <a href="#">content</a>.</p>
-							</div>
-						</article>
+					<div class="content-wrapper">
+						<div class="col-lg-10 col-lg-offset-1">
+							<h3>Latest news</h3>
+							<article class="row">
+								<div class="col-md-4 col-sm-4 col-md-offset-1 col-sm-offset-1 animated hiding" data-animation="fadeInLeft" data-delay="500">
+									<img class="img-responsive" src="img/moto360.png" alt="Moto 360">
+								</div>
+								<div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
+									<h6>Android Wear</h6>
+									<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. HTML &amp; CSS It is a long established fact that a reader will be distracted by the readable content.</p>
+									<p>Lorem Ipsum is simply dummy <strong>text</strong> of the printing and typesetting industry. <span class="highlight">jQuery</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Distracted by the readable <a href="#">content</a>.</p>
+								</div>
+							</article>
+						</div>
 					</div>
 				</section>
 				<!-- End Latest News Section -->
 
 				<!-- Begin Top Speakers Section -->
-				<section id="top-speakers" data-type="background" data-speed="6" style="background-image: url(img/top-speakers.jpg);">
+				<section id="top-speakers" class="parallax" style="background-image: url(img/top-speakers.jpg);">
 					<div class="overlay"></div>
-					<div class="col-lg-10 col-lg-offset-1">
-						<h3>Top speakers</h3>
-						<div class="col-md-3 col-sm-3 col-xs-6">
-							<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="0">
-								<div class="flow-img img-circle speaker-img" style="background-image: url(img/speakers/oleh.jpg)"></div>
-								<div class="name">Oleh Zasadnyy</div>
-								<div class="sub">GDG Lviv</div>
-								<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-								<div class="social-link">
-									<a href="#"><span class="fa fa-facebook"></span></a>
-									<a href="#"><span class="fa fa-twitter"></span></a>
-									<a href="#"><span class="fa fa-google-plus"></span></a>
+					<div class="content-wrapper">
+						<div class="col-lg-10 col-lg-offset-1">
+							<h3>Top speakers</h3>
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="top-speaker-item animated hiding" data-animation="fadeInUp" data-delay="0">
+									<div class="flow-img img-circle top-speaker-img" style="background-image: url(img/speakers/OlehZasadnyy.jpg)"></div>
+									<div class="name">Oleh Zasadnyy</div>
+									<div class="sub">GDG Lviv</div>
+									<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+									<div class="social-link">
+										<a href="#"><span class="fa fa-facebook"></span></a>
+										<a href="#"><span class="fa fa-twitter"></span></a>
+										<a href="#"><span class="fa fa-google-plus"></span></a>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-3 col-sm-3 col-xs-6">
-							<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="500">
-								<div class="flow-img img-circle speaker-img" style="background-image: url(img/speakers/ostap.jpg)"></div>
-								<div class="name">Ostap Andrysiv</div>
-								<div class="sub">GDG Lviv</div>
-								<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-								<div class="social-link">
-									<a href="#"><span class="fa fa-facebook"></span></a>
-									<a href="#"><span class="fa fa-twitter"></span></a>
-									<a href="#"><span class="fa fa-google-plus"></span></a>
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="top-speaker-item animated hiding" data-animation="fadeInUp" data-delay="500">
+									<div class="flow-img img-circle top-speaker-img" style="background-image: url(img/speakers/OstapAndrusiv.jpg)"></div>
+									<div class="name">Ostap Andrusiv</div>
+									<div class="sub">GDG Lviv</div>
+									<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+									<div class="social-link">
+										<a href="#"><span class="fa fa-facebook"></span></a>
+										<a href="#"><span class="fa fa-twitter"></span></a>
+										<a href="#"><span class="fa fa-google-plus"></span></a>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="clearfix visible-xs"></div>
-						<div class="col-md-3 col-sm-3 col-xs-6">
-							<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1000">
-								<div class="flow-img img-circle speaker-img" style="background-image: url(img/speakers/vitalik.jpg)"></div>
-								<div class="name">Vitaliy Zasadnyy</div>
-								<div class="sub">GDG Lviv</div>
-								<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-								<div class="social-link">
-									<a href="#"><span class="fa fa-facebook"></span></a>
-									<a href="#"><span class="fa fa-twitter"></span></a>
-									<a href="#"><span class="fa fa-google-plus"></span></a>
+							<div class="clearfix visible-xs"></div>
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="top-speaker-item animated hiding" data-animation="fadeInUp" data-delay="1000">
+									<div class="flow-img img-circle top-speaker-img" style="background-image: url(img/speakers/VitaliyZasadnyy.jpg)"></div>
+									<div class="name">Vitaliy Zasadnyy</div>
+									<div class="sub">GDG Lviv</div>
+									<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+									<div class="social-link">
+										<a href="#"><span class="fa fa-facebook"></span></a>
+										<a href="#"><span class="fa fa-twitter"></span></a>
+										<a href="#"><span class="fa fa-google-plus"></span></a>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-3 col-sm-3 col-xs-6">
-							<div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1500">
-								<div class="flow-img img-circle speaker-img" style="background-image: url(img/speakers/valentyn.jpg)"></div>
-								<div class="name">Vlentyn Shybanov</div>
-								<div class="sub">GDG Kyiv</div>
-								<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-								<div class="social-link">
-									<a href="#"><span class="fa fa-facebook"></span></a>
-									<a href="#"><span class="fa fa-twitter"></span></a>
-									<a href="#"><span class="fa fa-google-plus"></span></a>
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="top-speaker-item animated hiding" data-animation="fadeInUp" data-delay="1500">
+									<div class="flow-img img-circle top-speaker-img" style="background-image: url(img/speakers/ValentynShybanov.jpg)"></div>
+									<div class="name">Valentyn Shybanov</div>
+									<div class="sub">GDG Kyiv</div>
+									<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+									<div class="social-link">
+										<a href="#"><span class="fa fa-facebook"></span></a>
+										<a href="#"><span class="fa fa-twitter"></span></a>
+										<a href="#"><span class="fa fa-google-plus"></span></a>
+									</div>
 								</div>
 							</div>
+							<a href="speakers.html" class="bottom-section-link-white">See all speakers</a>
 						</div>
 					</div>
 				</section>
@@ -281,49 +306,51 @@
 
 				<!-- Begin Buy Tickets Section -->
 				<section id="buy-tickets">
-					<div class="col-lg-10 col-lg-offset-1">
-						<h3>Pricetable</h3>
-						<div class="col-md-4 pricing-col animated hiding" data-animation="fadeInLeft" data-delay="500">
-							<div class="pricing-header">
-								<h3 class="title">1 day</h3>
-								<h4 class="amount">$100</h4>
+					<div class="content-wrapper">
+						<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
+							<h3>Pricetable</h3>
+							<div class="col-md-4 col-sm-4 pricing-col animated hiding" data-animation="fadeInLeft" data-delay="500">
+								<div class="pricing-header">
+									<h3 class="title">1 day</h3>
+									<h4 class="amount">$100</h4>
+								</div>
+								<div class="pricing-content">
+									<ul>
+										<li>Lorem ipsum is simply</li>
+										<li>Dummy text of the printing</li>
+										<li>Typesetting industry</li>
+									</ul>
+									<a class="button" href="#">Buy Now</a>
+								</div>
 							</div>
-							<div class="pricing-content">
-								<ul>
-									<li>Lorem ipsum is simply</li>
-									<li>Dummy text of the printing</li>
-									<li>Typesetting industry</li>
-								</ul>
-								<a class="button" href="#">Buy Now</a>
+							<div class="col-md-4 col-sm-4 pricing-col pricing-col-featured animated hiding" data-animation="fadeInDown" data-delay="0">
+								<div class="pricing-ribbon">-20%</div>
+								<div class="pricing-header">
+									<h3 class="title">3 days</h3>
+									<h4 class="amount">$150</h4>
+								</div>
+								<div class="pricing-content">
+									<ul>
+										<li>Lorem ipsum is simply</li>
+										<li>Dummy text of the printing</li>
+										<li>Typesetting industry</li>
+									</ul>
+									<a class="button" href="#">Buy Now</a>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-4 pricing-col pricing-col-featured animated hiding" data-animation="fadeInDown" data-delay="0">
-							<div class="pricing-ribbon">-20%</div>
-							<div class="pricing-header">
-								<h3 class="title">3 days</h3>
-								<h4 class="amount">$150</h4>
-							</div>
-							<div class="pricing-content">
-								<ul>
-									<li>Lorem ipsum is simply</li>
-									<li>Dummy text of the printing</li>
-									<li>Typesetting industry</li>
-								</ul>
-								<a class="button" href="#">Buy Now</a>
-							</div>
-						</div>
-						<div class="col-md-4 pricing-col animated hiding" data-animation="fadeInRight" data-delay="500">
-							<div class="pricing-header">
-								<h3 class="title">2 days</h3>
-								<h4 class="amount">$200</h4>
-							</div>
-							<div class="pricing-content">
-								<ul>
-									<li>Lorem ipsum is simply</li>
-									<li>Dummy text of the printing</li>
-									<li>Typesetting industry</li>
-								</ul>
-								<a class="button" href="#">Buy Now</a>
+							<div class="col-md-4 col-sm-4 pricing-col animated hiding" data-animation="fadeInRight" data-delay="500">
+								<div class="pricing-header">
+									<h3 class="title">2 days</h3>
+									<h4 class="amount">$200</h4>
+								</div>
+								<div class="pricing-content">
+									<ul>
+										<li>Lorem ipsum is simply</li>
+										<li>Dummy text of the printing</li>
+										<li>Typesetting industry</li>
+									</ul>
+									<a class="button" href="#">Buy Now</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -333,143 +360,178 @@
 				<!-- Begin Location Section -->
 				<section id="location">
 					<div id="canvas-map"></div>
-					<div class="col-md-4 col-sm-6 col-md-offset-1 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
-						<div class="row">
-							<div class="pull-left">
-								<h3>Location</h3>
-								<ul itemscope="" itemtype="http://schema.org/PostalAddress">
-									<li itemprop="address">22 Teatral'na St, Lviv</li>
-									<li itemprop="email"><a href="mailto:devfest@gdg.org.ua">devfest@gdg.org.ua</a>
-									</li>
-									<li itemscope="" itemtype="http://schema.org/Event">
-										<time itemprop="startDate" datetime="2014-10-18T10:00">10:00</time>-
-										<time itemprop="endDate" datetime="2014-10-18T20:00">20:00</time>
-									</li>
-								</ul>
+					<div class="content-wrapper">
+						<div class="col-lg-3 col-md-4 col-sm-6 col-md-offset-1 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
+							<div class="row">
+								<div class="pull-left">
+									<h3>Location</h3>
+									<ul itemscope="" itemtype="http://schema.org/PostalAddress">
+										<li itemprop="address">22 Teatral'na St, Lviv</li>
+										<li itemprop="email"><a href="mailto:devfest@gdg.org.ua">devfest@gdg.org.ua</a>
+										</li>
+										<li itemscope="" itemtype="http://schema.org/Event">
+											<time itemprop="startDate" datetime="2014-10-18T10:00">10:00</time>-
+											<time itemprop="endDate" datetime="2014-10-18T20:00">20:00</time>
+										</li>
+									</ul>
+								</div>
+								<a href="https://www.google.com/maps/dir//Teatral'na+St,+22,+Lviv,+79000/@49.8433784,24.0280573,18z/data=!4m12!1m3!3m2!1s0x0:0x6cf545e48e348c1f!2z0JrQhtCd0J7Qn9CQ0JvQkNCm!4m7!1m0!1m5!1m1!1s0x473add72950f6e8d:0x6cf545e48e348c1f!2m2!1d24.028718!2d49.843293" class="pull-right" target="_blank">
+									<svg class="icon icon-direction" viewBox="0 0 32 32">
+										<use xlink:href="img/sprites/sprites.svg#icon-direction"></use>
+									</svg>
+								</a>
 							</div>
-							<a href="https://www.google.com/maps/dir//Teatral'na+St,+22,+Lviv,+79000/@49.8433784,24.0280573,18z/data=!4m12!1m3!3m2!1s0x0:0x6cf545e48e348c1f!2z0JrQhtCd0J7Qn9CQ0JvQkNCm!4m7!1m0!1m5!1m1!1s0x473add72950f6e8d:0x6cf545e48e348c1f!2m2!1d24.028718!2d49.843293" class="pull-right" target="_blank">
-								<img src="img/svg/direction.svg">
-							</a>
 						</div>
 					</div>
-
 				</section>
 				<!-- End Location Section -->
 
 				<!-- Begin Sponsors Section -->
 				<section id="sponsors">
-					<div class="col-lg-10 col-lg-offset-1">
-						<h3>Sponsors</h3>
-						<h5>Platium</h5>
-						<ul class="list-inline">
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/google.svg" alt="sponsor-1">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
-								</a>
-							</li>
-						</ul>
-						<h5>Gold</h5>
-						<ul class="list-inline">
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/google.svg" alt="sponsor-1">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
-								</a>
-							</li>
-						</ul>
-						<h5>Information partners</h5>
-						<ul class="list-inline">
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/google.svg" alt="sponsor-1">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/google.svg" alt="sponsor-1">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/google.svg" alt="sponsor-1">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/google.svg" alt="sponsor-1">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
-								</a>
-							</li>
-							<li>
-								<a href="#" target="_blank">
-									<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
-								</a>
-							</li>
-						</ul>
-						<a href="#" class="btn btn-primary">Become a sponsor</a>
+					<div class="content-wrapper">
+						<div class="col-lg-10 col-lg-offset-1">
+							<h3>Sponsors</h3>
+							<h5>Platium</h5>
+							<ul class="list-inline">
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/google.svg" alt="sponsor-1">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+									</a>
+								</li>
+							</ul>
+							<h5>Gold</h5>
+							<ul class="list-inline">
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/google.svg" alt="sponsor-1">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
+									</a>
+								</li>
+							</ul>
+							<h5>Information partners</h5>
+							<ul class="list-inline">
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/google.svg" alt="sponsor-1">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/google.svg" alt="sponsor-1">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/google.svg" alt="sponsor-1">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/google.svg" alt="sponsor-1">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/gdg-lviv.svg" alt="sponsor-2">
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="img/sponsors/gdg-x.svg" alt="sponsor-3">
+									</a>
+								</li>
+							</ul>
+							<a href="#" class="btn btn-primary">Become a sponsor</a>
+						</div>
 					</div>
 				</section>
 				<!-- End Sponsors Section -->
 
+				<!-- Begin Subscribe Section -->
+				<section id="subscribe" class="parallax" style="background-image: url(img/subscribe.jpg);">
+					<div class="overlay"></div>
+					<div class="content-wrapper">
+						<div class="col-lg-8 col-lg-offset-2 animated hiding" data-animation="fadeInUp" data-delay="0">
+							<h3>Subscribe for updates</h3>
+							<div id="mc_embed_signup" class="col-lg-8 col-sm-8 col-lg-offset-2 col-sm-offset-2">
+								<form action="http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+									<div class="mc-field-group col-lg-9 col-sm-9 col-xs-12">
+										<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="your@email.com">
+									</div>
+									<div id="mce-responses" class="clear">
+										<div class="response" id="mce-error-response" style="display:none"></div>
+										<div class="response" id="mce-success-response" style="display:none"></div>
+									</div>
+									<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+									<div style="position: absolute; left: -5000px;">
+										<input type="text" name="b_9fc8aa205b0521b5f05fc8e1e_ae0fb459fc" tabindex="-1" value="">
+									</div>
+									<div class="mc-submit-group clear col-lg-3 col-sm-3 col-xs-12">
+										<input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End Subscribe  Section -->
+
 				<!-- Begin Footer -->
 				<footer id="footer">
 					<div class="row">
-						<div class="pull-left">
+						<div class="pull-left col-md-1">
 							<div class="g-plusone" data-annotation="none" data-href="http://devfest.gdg.org.ua/"></div>
 						</div>
-						<img class="logo-footer pull-right" src="img/svg/logo-grey.svg" alt="GDG DevFest">
+						<div class="logo-footer logo-gray pull-right"></div>
 					</div>
 					<div class="row">
-						<div class="pull-left">
-							<ul class="footer-links">
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<h5>Links</h5>
+							<ul>
 								<li><a href="http://gdg.org.ua" target="_blank">GDG.org.ua</a>
 								</li>
 								<li><a href="https://developers.google.com" target="_blank">Google Developers</a>
@@ -494,12 +556,21 @@
 								</li>
 							</ul>
 						</div>
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<h5>Contacts</h5>
+							<ul>
+								<li><a href="mailto:devfest@gdg.org.ua" target="_blank">devfest@gdg.org.ua</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 					<div class="row">
 						<!-- Please don't delete this line-->
-						<p class="copyright">
-							&copy; 2014 Designed and created by <a href="https://plus.google.com/+OlehZasadnyy/about">Oleh Zasadnyy</a> &middot; <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
-						</p>
+						<div class="col-md-6">
+							<p class="copyright">
+								&copy; 2014 Designed and created by <a href="https://plus.google.com/+OlehZasadnyy/about">Oleh Zasadnyy</a> &middot; <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
+							</p>
+						</div>
 					</div>
 				</footer>
 				<!-- End Footer -->
@@ -507,26 +578,40 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/jquery-2.1.1.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/classie.js"></script>
-	<script src="js/sidebarEffects.js"></script>
-	<script src="js/typed.js"></script>
-	<script src="js/jquery.countTo.js"></script>
-	<script src="js/jquery.appear.js"></script>
+	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- jQuery local fallback -->
+	<script>
+		window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')
+	</script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<!-- Bootstrap JS local fallback -->
+	<script>
+		if (typeof ($.fn.modal) === 'undefined') {
+			document.write('<script src="js/bootstrap.min.js"><\/script>')
+		}
+	</script>
+	<script src="js/typed.min.js"></script>
+	<script src="js/jquery.countTo.min.js"></script>
+	<script src="js/jquery.appear.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 	<script>
 		//Location properties
+		var googleMaps = 'index';
 		var eventPlace = new google.maps.LatLng(49.843237, 24.028751);
 		var centerMap = new google.maps.LatLng(49.842537, 24.025701);
-
-		$(function () {
-			$("#typeout-text").typed({
-				strings: ["", "Season", "Ukraine", "Germany", "USA"],
-				typeSpeed: 150,
-				backDelay: 900,
-				loop: true
+		var mobileCenterMap = new google.maps.LatLng(49.841620, 24.029411);
+		$(document).ready(function () {
+			var bodyColor = $('body').css('color');
+			if (bodyColor != 'rgb(51, 51, 51)') {
+				$("head").prepend('<link rel="stylesheet" href="css/bootstrap.min.css">');
+			}
+			$(function () {
+				$("#typeout-text").typed({
+					strings: ["", "Season", "Ukraine", "Germany", "USA"],
+					typeSpeed: 150,
+					backDelay: 900,
+					loop: true
+				});
 			});
 		});
 	</script>

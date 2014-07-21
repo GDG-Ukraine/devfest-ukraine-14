@@ -1,32 +1,34 @@
 <header id="top-header" class="col-lg-10 col-sm-12">
-  <div id="st-trigger-effects" class="visible-xs">
-    <svg class="icon icon-menu" viewBox="0 0 32 32" data-effect="st-effect">
-      <use xlink:href="#icon-menu"></use>
+    <svg id="menu-trigger" class="icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
+        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-menu"></use>
     </svg>
-  </div>
-  <img id="logo-header" class="logo-header" src="{{ site.baseurl }}/img/svg/logo-light.svg" alt="GDG DevFest">
-  <nav class="st-menu st-effect" id="menu">
-    <img class="logo-navbar visible-xs" src="{{ site.baseurl }}/img/svg/logo-dark.svg" alt="GDG DevFest">
-    <ul>
-      <li><a {% if page.permalink == '/' %} class="current" {% endif %} href="{{ site.baseurl }}/">Home</a>
-      </li>
-      <li><a {% if page.permalink == '/blog/' %} class="current" {% endif %} href="{{ site.baseurl }}/blog/">Blog</a>
-      </li>
-      <li><a href="#">Schedule</a>
-      </li>
-      <li><a href="#">Speakers</a>
-      </li>
-      <li><a href="#">Team</a>
-      </li>
-      <li><a href="#">Hackathon</a>
-      </li>
-      <li><a href="#">Logistics</a>
-      </li>
-    </ul>
-    <ul class="bottom-navlinks visible-xs visible-sm">
-      <li><a href="#">Buy tickets</a>
-      </li>
-    </ul>
-    <a id="buy-tickets-button" href="#" class="btn btn-primary pull-right hidden-xs hidden-sm hidden">Buy tickets</a>
-  </nav>
+    <a href="{{ site.baseurl }}/" id="logo-header" class="logo-header logo-light"></a>
+    <nav class="st-menu st-effect" id="menu">
+        <div class="logo-navbar logo-dark visible-xs"></div>
+        <ul>
+            <li><a {% if page.permalink == '/' %} class="current" {% endif %} href="{{ site.baseurl }}/">Home</a>
+            </li>
+            <li><a {% if page.permalink == '/blog/' %} class="current" {% endif %} href="{{ site.baseurl }}/blog/">Blog</a>
+            </li>
+            <!-- <li><a href="#">Schedule</a>
+            </li> -->
+            <li><a {% if page.permalink == '/speakers/' %} class="current" {% endif %} href="{{ site.baseurl }}/speakers/">Speakers</a>
+            </li>
+            <li><a {% if page.permalink == '/team/' %} class="current" {% endif %} href="{{ site.baseurl }}/team/">Team</a>
+            </li>
+            <!-- <li><a href="#">Hackathon</a>
+            </li> -->
+            <li><a {% if page.permalink == '/logistics/' %} class="current" {% endif %} href="{{ site.baseurl }}/logistics/">Logistics</a>
+            </li>
+        </ul>
+        <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
+            <!-- <li><a href="#">Buy tickets</a>
+            </li> -->
+            <li><a href="{{ site.c4pUrl }}" target="_blank">Become a speaker</a>
+            </li>
+        </ul>
+        <span id="buy-tickets-button"  class="btn btn-primary waves-element waves-button waves-light waves-will-raise pull-right hidden-xs hidden-sm hidden">
+            <a href="{{ site.c4pUrl }}" target="_blank">Become a speaker</a>
+        </span>
+    </nav>
 </header>

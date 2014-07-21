@@ -4,19 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-<section style="background-color: #135bc2;">
-  {% include navigation.html %}
-</section>
+ {% include header.html %}
 
-<section>
-  <div class="col-lg-10 col-lg-offset-1">
-    <h2>Latest news</h2>
-    {% for post in site.posts %}
-      <article class="row">
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </article>
-    {% endfor %}
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-  </div>
-</section>
+ {% include blog.html %}

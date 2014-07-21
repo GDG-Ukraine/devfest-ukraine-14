@@ -1,0 +1,54 @@
+<!-- Begin Speakers Modals -->
+<div class="modals">
+	{% for speaker in site.data.speakers %}
+		<div class="modal fade text-left speaker-modal" id="speakerDetail-{{ speaker.id }}" tabindex="-1" role="dialog" aria-labelledby="speakerDetailLabel-{{ speaker.id }}" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="close">
+							<svg class="icon icon-cross" viewBox="0 0 32 32">
+								<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
+							</svg>
+							<div class="close-mask" data-dismiss="modal"></div>
+						</div>
+						{% for session in site.data.sessions %}
+							{% for session_speaker in session.speakers %}
+								{% if session_speaker == speaker.id %}
+									<h4>{{ session.title }}</h4>
+									<span class="theme-language"><span class="caption">Language: </span>{{session.language}}</span>
+									<p class="theme-description">{{ session.description }}</p>
+								{% endif %}
+							{% endfor %}		
+						{% endfor %}
+						<hr>
+						<div class="speaker-details">
+							<div class="row">
+								<div class="col-md-2 col-sm-2">
+									<div class="flow-img img-circle speaker-img" style="background-image: url({{ speaker.thumbnailUrl }})"></div>
+								</div>
+								<div class="col-md-10 col-sm-10 details">
+									<p class="name">{{ speaker.name }} {{ speaker.surname }}
+										<span class="position">{{ speaker.title }}, {{ speaker.company }}</span>
+									</p>
+									<p class="about">{{ speaker.bio }}</p>
+									<ul class="social">
+										{% for social in speaker.social %}
+											<li>
+												<a href="{{ social["link"] }}" target="_blank">
+													<svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+														<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+													</svg>
+												</a>
+											</li>
+										{% endfor %}
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>
+<!-- End Speakers Modals -->

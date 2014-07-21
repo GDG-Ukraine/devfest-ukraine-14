@@ -4,59 +4,43 @@
 {% include head.html %}
 
 <body>
-  <svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="32" viewBox="0 0 320 32">
-    <defs>
-      <g id="icon-menu">
-        <path class="path1" d="M4 6.667h24q0.552 0 0.943 0.391t0.391 0.943-0.391 0.943-0.943 0.391h-24q-0.552 0-0.943-0.391t-0.391-0.943 0.391-0.943 0.943-0.391zM4 22.667h24q0.552 0 0.943 0.391t0.391 0.943-0.391 0.943-0.943 0.391h-24q-0.552 0-0.943-0.391t-0.391-0.943 0.391-0.943 0.943-0.391zM4 14.667h24q0.552 0 0.943 0.391t0.391 0.943-0.391 0.943-0.943 0.391h-24q-0.552 0-0.943-0.391t-0.391-0.943 0.391-0.943 0.943-0.391z"></path>
-      </g>
-      <g id="icon-arrow-down">
-        <path class="path1" d="M4.131 8.962c-0.434-0.429-1.134-0.429-1.566 0-0.432 0.427-0.432 1.122 0 1.55l12.653 12.528c0.434 0.429 1.133 0.429 1.566 0l12.653-12.528c0.432-0.429 0.434-1.122 0-1.55s-1.136-0.429-1.566-0.002l-11.87 11.426-11.869-11.424z"></path>
-      </g>
-      <g id="icon-twitter">
-        <path class="path1" d="M28.929 7.286q-1.196 1.75-2.893 2.982 0.018 0.25 0.018 0.75 0 2.321-0.679 4.634t-2.063 4.437-3.295 3.759-4.607 2.607-5.768 0.973q-4.839 0-8.857-2.589 0.625 0.071 1.393 0.071 4.018 0 7.161-2.464-1.875-0.036-3.357-1.152t-2.036-2.848q0.589 0.089 1.089 0.089 0.768 0 1.518-0.196-2-0.411-3.313-1.991t-1.313-3.67v-0.071q1.214 0.679 2.607 0.732-1.179-0.786-1.875-2.054t-0.696-2.75q0-1.571 0.786-2.911 2.161 2.661 5.259 4.259t6.634 1.777q-0.143-0.679-0.143-1.321 0-2.393 1.688-4.080t4.080-1.688q2.5 0 4.214 1.821 1.946-0.375 3.661-1.393-0.661 2.054-2.536 3.179 1.661-0.179 3.321-0.893z"></path>
-      </g>
-      <g id="icon-google-plus">
-        <path class="path1" d="M15.643 26.161q0-0.375-0.080-0.723t-0.17-0.643-0.313-0.616-0.375-0.545-0.473-0.527-0.491-0.455-0.571-0.455-0.554-0.411-0.589-0.411-0.545-0.375q-0.304-0.036-0.893-0.036-0.964 0-1.893 0.125t-1.929 0.446-1.75 0.821-1.232 1.339-0.482 1.911q0 1.214 0.634 2.17t1.661 1.5 2.152 0.813 2.268 0.268q1.054 0 2.009-0.223t1.795-0.696 1.33-1.313 0.491-1.964zM13.5 10.768q0-1.071-0.295-2.277t-0.839-2.33-1.5-1.857-2.134-0.732q-1.661 0-2.571 1.232t-0.911 2.946q0 0.839 0.205 1.768t0.634 1.857 1 1.67 1.393 1.205 1.732 0.464q1.732 0 2.509-1.080t0.777-2.866zM11.161 2.286h7.804l-2.411 1.411h-2.411q1.268 0.804 1.964 2.25t0.696 3.018q0 1.321-0.411 2.348t-1 1.652-1.179 1.152-1 1.089-0.411 1.205q0 0.464 0.295 0.911t0.768 0.857 1.045 0.857 1.143 0.991 1.045 1.179 0.768 1.518 0.295 1.902q0 2.857-2.5 5.036-2.714 2.339-7.5 2.339-1.054 0-2.134-0.179t-2.179-0.598-1.938-1.036-1.375-1.589-0.536-2.17q0-1.089 0.661-2.411 0.571-1.143 1.714-1.973t2.589-1.268 2.768-0.643 2.679-0.241q-1.143-1.482-1.143-2.661 0-0.214 0.036-0.42t0.089-0.348 0.143-0.384 0.125-0.384q-0.714 0.089-1.25 0.089-2.661 0-4.563-1.75t-1.902-4.393q0-2.5 1.696-4.473t4.179-2.527q1.679-0.357 3.339-0.357zM29.714 6.857v2.286h-4.571v4.571h-2.286v-4.571h-4.571v-2.286h4.571v-4.571h2.286v4.571h4.571z"></path>
-      </g>
-    </defs>
-  </svg>
+	<div id="preloader">
+         <div class="loader-gplus"></div>
+	</div>
 
-  <div id="st-container" class="st-container">
-    <div class="st-pusher">
-      <div class="st-content">
-        
-        {{ content }}
+	<div id="st-container" class="st-container">
+		<div class="st-pusher">
+			<div class="st-content">
 
-      </div>
-    </div>
-  </div>
+				{{ content }} {% include footer.html %}
 
-  {% include analytics.html %}
+			</div>
+		</div>
+	</div>
 
-  <script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/sidebarEffects.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/typed.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/jquery.countTo.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/jquery.appear.js" | prepend: site.baseurl }}"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-  <script>
-    //Location properties
-    var eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }});
-    var centerMap = new google.maps.LatLng({{ site.mapCenterCoordinates }});
-
-    $(function () {
-      $("#typeout-text").typed({
-        strings: [{{site.typeoutTextValues}}],
-        typeSpeed: 150,
-        backDelay: 900,
-        loop: true
-      });
-    });
-  </script>
-  <script src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>
+	{% include analytics.html %}
+	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- jQuery local fallback -->
+	<script>
+		window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js " | prepend: site.baseurl }}><\/script>')
+	</script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<!-- Bootstrap JS local fallback -->
+	<script>
+		if (typeof ($.fn.modal) === 'undefined') {
+			document.write('<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}><\/script>')
+		}
+	</script>
+	<script src="{{ "/js/jquery.appear.min.js " | prepend: site.baseurl }}"></script>
+	<script>
+		$(document).ready(function () {
+			var bodyColor = $('body').css('color');
+			if (bodyColor != 'rgb(51, 51, 51)') {
+				$("head").prepend('<link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">');
+			}
+		});
+	</script>
+	<script src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>
 </body>
 
 </html>

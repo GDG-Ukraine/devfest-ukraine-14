@@ -774,7 +774,6 @@ nav ul > li > a.current, nav ul > li > a:hover {
 	font-size: 18px;
 }
 #mc-embedded-subscribe {
-	margin-left: -1em;
 	font-size: 18px;
 	padding: 13px 35px;
 	background: transparent;
@@ -1054,7 +1053,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
 #subscribe .email, #subscribe .button {
     font-size: 1.2em;
     font-weight: 200;
-    width: 100%;
+    width: 99%;
     height: 3.5em;
     margin-bottom: 1em;
     padding: 0;
@@ -1082,6 +1081,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
 }
 .mc-submit-group {
     padding-left: .2em;
+    padding-right: .2em;
 }
 /* --END SUBSCRIBE SECTION */
 

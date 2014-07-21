@@ -1,35 +1,63 @@
 <!-- Begin Team List-->
 <section id="team">
-	<div class="content-wrapper">
-		<div class="col-lg-10 col-lg-offset-1">
-			<h3>About us</h3>
-			<p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>
-		</div>
-		<div class="col-lg-8 col-lg-offset-2">
-			{% for speaker in site.data.speakers %}
-				{% if speaker.team == true %}
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="team-item animated hiding increment-animation" data-animation="fadeInUp" data-delay="500">
-							<figure class="flow-img" style="background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})">
-								<div class="overlay"></div>
-								<figcaption>
-									<h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
-									{% for social in speaker.social %}
-									<a href="{{ social["link"] }}" target="_blank">
-										<svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
-											<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
-										</svg>
-									</a>
-									{% endfor %}
-								</figcaption>
-								<p class="bio">{{ speaker.bio }}</p>
-							</figure>
-						</div>
-					</div>
-				{% endif %}
-			{% endfor %}
-		</div>
-		
-	</div>
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>About us</h3>
+            <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>
+        </div>
+        <div class="col-lg-10 col-lg-offset-1">
+            <h4 class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">Main organizers</h4>
+            {% for speaker in site.data.speakers %} {% if speaker.team != null %}
+            <div class="team-item-wrapper col-md-4 col-sm-6 col-xs-12">
+                <div class="team-item animated waves-element waves-block waves-light hiding increment-animation" data-animation="fadeInUp" data-delay="100" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
+                    <figure class="flow-img" style="background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})">
+                        <div class="overlay"></div>
+                        <figcaption>
+                            <div class="col-md-8 col-xs-9 text-left">
+                                <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
+                                <div class="clearfix"></div>
+                                <span class="position">{{ speaker.company }}</span>
+                            </div>
+                            {% for social in speaker.social %}
+                            <a href="{{ social["link"] }}" target="_blank">
+                                <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+                                </svg>
+                            </a>
+                            {% endfor %}
+                        </figcaption>
+                        <p class="bio">{{ speaker.bio }}</p>
+                    </figure>
+                </div>
+            </div>
+            {% endif %} {% endfor %}
+            <div class="clearfix"></div>
+            <h4 class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">Sub organizers</h4>
+            {% for speaker in site.data.speakers %} {% if speaker.subTeam != null %}
+            <div class="team-item-wrapper col-md-4 col-sm-6 col-xs-12">
+                <div class="team-item animated waves-element waves-block waves-light hiding increment-animation" data-animation="fadeInUp" data-delay="100" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
+                    <figure class="flow-img" style="background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})">
+                        <div class="overlay"></div>
+                        <figcaption>
+                            <div class="col-md-8 col-xs-9 text-left">
+                                <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
+                                <div class="clearfix"></div>
+                                <span class="position">{{ speaker.company }}</span>
+                            </div>
+                            {% for social in speaker.social %}
+                            <a href="{{ social["link"] }}" target="_blank">
+                                <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+                                </svg>
+                            </a>
+                            {% endfor %}
+                        </figcaption>
+                        <p class="bio">{{ speaker.bio | strip_html }}</p>
+                    </figure>
+                </div>
+            </div>
+            {% endif %} {% endfor %}
+        </div>
+    </div>
 </section>
 <!-- End Team List -->

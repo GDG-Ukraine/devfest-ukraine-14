@@ -5,7 +5,7 @@
             <div class="row text-left">
                 {% for speaker in site.data.speakers %}
                 <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                    <div class="speaker-item waves-element waves-block waves-light animated hiding increment-animation" data-animation="fadeInUp" data-delay="50">
+                    <div class="speaker-item animated hiding increment-animation" data-animation="fadeInUp" data-delay="50">
                         <div class="speaker-head" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
                             <figure class="flow-img" style="background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})">
                                 <div class="overlay"></div>

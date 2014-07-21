@@ -16,6 +16,11 @@
             generateSameHeight();
         });
 
+        if ($(window).width() > 1500) {
+            $('.team-item-wrapper').each(function() {
+                $(this).addClass('col-lg-3');
+            });
+        }
         if ($(window).width() < 768) {
             $('.animated').removeClass('animated').removeClass('hiding');
             $('.stat span').removeClass('timer');
@@ -186,6 +191,15 @@
         });
 
         $(window).resize(function() {
+            if ($(window).width() > 1500) {
+                $('.team-item-wrapper').each(function() {
+                    $(this).addClass('col-lg-3');
+                });
+            } else {
+                $('.team-item-wrapper').each(function() {
+                    $(this).removeClass('col-lg-3');
+                });
+            }
             if ($(window).width() > 767) {
                 if (container.hasClass('st-menu-open')) {
                     container.removeClass('st-menu-open');

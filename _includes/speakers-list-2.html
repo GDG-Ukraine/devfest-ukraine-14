@@ -3,6 +3,7 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             {% for speaker in site.data.speakers %}
+                {% if speaker.team == false %}
             <div class="col-md-3 col-sm-3 col-xs-12">
                 <div class="team-item animated hiding increment-animation" data-animation="fadeInUp" data-delay="500">
                     <figure class="flow-img" style="background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})">
@@ -35,6 +36,7 @@
                     </figure>
                 </div>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
         <span class="btn btn-primary waves-element waves-button waves-light waves-will-raise" style="margin-top: 25px;">

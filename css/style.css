@@ -1380,6 +1380,8 @@ nav ul > li > a.current, nav ul > li > a:hover {
 }
 #team h4 {
     margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    text-align: center;
 }
 .team-item figure {
     position: relative;
@@ -1736,6 +1738,9 @@ nav ul > li > a.current, nav ul > li > a:hover {
 .post-body iframe, .post-body img {
     display: block;
     margin: 1.1em 0;
+}
+.post-body h4 {
+    margin-top: 1em;
 }
 .comments {
     margin-top: 2em;

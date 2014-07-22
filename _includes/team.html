@@ -6,7 +6,7 @@
             <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>
         </div>
         <div class="col-lg-10 col-lg-offset-1 row-centered">
-            <h4 class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">Main organizers</h4>
+            <h4 class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">Organizers</h4>
             {% for speaker in site.data.speakers %} {% if speaker.team != null %}
             <div class="team-item-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered">
                 <div class="team-item animated waves-element waves-block waves-light hiding increment-animation" data-animation="fadeInUp" data-delay="100" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
@@ -32,7 +32,7 @@
             </div>
             {% endif %} {% endfor %}
             <div class="clearfix"></div>
-            <h4 class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">Sub organizers</h4>
+            <h4 class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">Program committee</h4>
             {% for speaker in site.data.speakers %} {% if speaker.subTeam != null %}
             <div class="team-item-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered">
                 <div class="team-item animated waves-element waves-block waves-light hiding increment-animation" data-animation="fadeInUp" data-delay="100" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">

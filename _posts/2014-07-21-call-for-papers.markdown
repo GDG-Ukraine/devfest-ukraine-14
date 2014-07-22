@@ -38,20 +38,28 @@ __General__
 
 ##### Web
 
-* Polymer and WebComponets
-* Dart in production
-* Angular Js best practices
+* AngularJS (1x and 2.0)
+* Dart (AngularDart, server-side)
+* Polymer and WebComponents
+* Material Design in Web
+* ChromeOS (apps development)
+* Web Performance (tools, techniques, approaches)
+
 
 ##### Cloud
 
-* Scale with Google Cloud Platform
-* Google Data Flow
-* Analyzing big data sets<br/>
- 
-__Please note:__ There is no guarantee that a submission will be put onto the conference agenda!<br/>
+* Google Cloud Platform
+  * Compute Engine
+  * App Engine
+  * Storages (SQL, NoSQL, BigData)
+  * APIs
+* Go (as a language for a Cloud Ready Apps)
+
 
 #### Please submit your proposals [here](http://bit.ly/dfua-c4p).
 __Deadline__ is September 1, 2014
+
+__Please note:__ There is no guarantee that a submission will be put onto the conference agenda!<br/>
 
 The program committee picks the most interesting talk proposals and informs the selected submitters until September 15, 2014.<br/>
 

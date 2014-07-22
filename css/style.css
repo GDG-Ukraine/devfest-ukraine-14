@@ -60,7 +60,7 @@ h4 {
     font-size: 3.125em;
 }
 h5 {
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 h6 {
     font-size: 1.875em;
@@ -105,8 +105,8 @@ h6 {
     background: #4285f4;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-    background: #3266d5;
     outline: none;
+    background: #3266d5;
 }
 .icon {
     display: inline-block;
@@ -527,6 +527,15 @@ h6 {
     float: none;
     margin: 0 auto;
 }
+.row-centered {
+    text-align: center;
+}
+.cols-centered {
+    display: inline-block;
+    float: none;
+    margin-right: -4px;
+    text-align: left;
+}
 .hiding {
     opacity: 0;
 }
@@ -720,13 +729,11 @@ nav ul > li > a.current, nav ul > li > a:hover {
     color: #fff;
     background: none;
 }
-
 #top-section-hero .jumbotron p {
-    margin-bottom: 15px;
     font-size: 25px;
     font-weight: 200;
+    margin-bottom: 15px;
 }
-
 .explore {
     position: absolute;
     bottom: 4em;
@@ -980,13 +987,13 @@ nav ul > li > a.current, nav ul > li > a:hover {
 .location-description {
     z-index: 1;
     min-width: 400px;
-    padding: 20px 40px;
+    padding: 20px 50px;
     background: #fff;
 }
 .location-description .icon-direction {
     width: 32px;
     height: 32px;
-    margin: 1em;
+    margin: 1em 0;
 }
 .location-description ul {
     margin-top: 2em;
@@ -995,6 +1002,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
 }
 .location-description li {
     font-size: 1.6em;
+    font-weight: 200;
     margin-bottom: .4em;
 }
 #canvas-map {
@@ -1615,10 +1623,10 @@ nav ul > li > a.current, nav ul > li > a:hover {
     list-style: none;
 }
 .location-details li {
-    line-height: 50px;
     font-weight: 400;
-    color: #333;
+    line-height: 50px;
     text-transform: uppercase;
+    color: #333;
     border-bottom: 1px solid #e7e7e7;
 }
 .location-details svg {
@@ -1629,9 +1637,9 @@ nav ul > li > a.current, nav ul > li > a:hover {
 }
 .location-details select {
     margin-left: -5px;
+    color: #333;
     border: none;
     outline: none;
-    color: #333;
 }
 .location-details select option {
     margin: 40px;
@@ -1696,12 +1704,17 @@ nav ul > li > a.current, nav ul > li > a:hover {
 /* --END LOGISTICS */
 
 /* BLOG */
+
 #post-section {
     padding-top: 20px;
 }
 .post {
     max-width: 750px;
     margin-bottom: 4em;
+}
+.post li {
+    font-size: 11pt;
+    line-height: 20pt;
 }
 .post-header {
     height: 20px;

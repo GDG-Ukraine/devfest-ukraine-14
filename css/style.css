@@ -176,9 +176,6 @@ h6 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    -webkit-background-size:
-    /*@@prefixmycss->No equivalent*/
-    ;
     background-size: cover;
     -webkit-box-shadow: inset 0 0 12px 3px rgba(0, 0, 0, .75);
     box-shadow: inset 0 0 12px 3px rgba(0, 0, 0, .75);
@@ -188,9 +185,6 @@ h6 {
     color: #fff;
     background-repeat: no-repeat;
     background-position: center center;
-    -webkit-background-size:
-    /*@@prefixmycss->No equivalent*/
-    ;
     background-size: cover;
 }
 .card {
@@ -547,9 +541,6 @@ h6 {
     width: 100%;
     height: 100%;
     background-position: center center;
-    -webkit-background-size:
-    /*@@prefixmycss->No equivalent*/
-    ;
     background-size: cover;
 }
 .overlay {
@@ -714,9 +705,6 @@ nav ul > li > a.current, nav ul > li > a:hover {
     padding-top: 0;
     background-repeat: no-repeat;
     background-position: center center;
-    -webkit-background-size:
-    /*@@prefixmycss->No equivalent*/
-    ;
     background-size: cover;
 }
 #top-section-hero .jumbotron {
@@ -758,9 +746,6 @@ nav ul > li > a.current, nav ul > li > a:hover {
     background: #03a9f4;
     background-repeat: no-repeat;
     background-position: center center;
-    -webkit-background-size:
-    /*@@prefixmycss->No equivalent*/
-    ;
     background-size: cover;
 }
 #top-section .gradient-overlay {
@@ -1016,6 +1001,44 @@ nav ul > li > a.current, nav ul > li > a:hover {
     height: 700px;
 }
 /* --END LOCATION SECTION */
+
+/* VENUE SECTION */
+
+.venue-col {
+    height: 100%;
+    padding: 0;
+    padding-right: 5px;
+}
+.venue-col:last-child {
+    padding: 0;
+}
+.venue-elem-wrapper {
+    padding: 0;
+    padding-bottom: 5px;
+}
+.venue-elem {
+    overflow: hidden;
+}
+.venue-big-elem {
+    height: 730px;
+    background-position: center center;
+    background-size: cover;
+}
+.venue-small-elem {
+    height: 240px;
+    background-position: center center;
+    background-size: cover;
+}
+.venue-text {
+    padding: 30px 20px;
+    background: #03a9f4;
+    text-align: left;
+    color: #fff;
+}
+.venue-text p {
+    font-size: 1.4em;
+}
+/* --END VENUE SECTION */
 
 /* SPONSORS SECTION */
 
@@ -1380,7 +1403,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
 }
 #team h4 {
     margin-top: 1.2em;
-    margin-bottom: 0.5em;
+    margin-bottom: .5em;
     text-align: center;
 }
 .team-item figure {
@@ -1875,6 +1898,18 @@ nav ul > li > a.current, nav ul > li > a:hover {
         margin-top: .2em;
     }
     /* --END NAVBAR */
+    /* VENUE SECTION */
+    .venue-big-elem {
+        height: 550px;
+    }
+    .venue-small-elem {
+        height: 180px;
+    }
+    .venue-text p {
+        font-size: 1.2em;
+        line-height: 16pt;
+    }
+    /* --END VENUE SECTION */
     /* --SPEAKERS */
     .speaker-item figure figcaption {
         bottom: .5em;
@@ -2063,6 +2098,27 @@ nav ul > li > a.current, nav ul > li > a:hover {
         top: 0;
     }
     /* --END SECTION BUY TICKETS */
+    /* VENUE SECTION */
+    .venue-col {
+        padding: 0;
+    }
+    .venue-small-col .venue-elem-wrapper:nth-child(odd) {
+        padding-right: 2.5px;
+    }
+    .venue-small-col .venue-elem-wrapper:nth-child(even) {
+        padding-left: 2.5px;
+    }
+    .venue-big-elem {
+        height: 340px;
+    }
+    .venue-small-elem {
+        height: 180px;
+    }
+    .venue-text p {
+        font-size: 1.1em;
+        line-height: 13pt;
+    }
+    /* --END VENUE SECTION */
     /* SPONSORS SECTION */
     #sponsors .list-inline li {
         width: 40%;

@@ -1,52 +1,4 @@
 - 
-  id: 0
-  name: "Vitaliy"
-  surname: "Zasadnyy"
-  company: "Nravo, GDG Lviv"
-  title: "Team Lead, Unity 3D Developer"
-  bio: "Mobile developer, Google Developers Group and Gamedev Community Lviv co-founder. Interested in gamedev, Android, iOS, Google App Engine and community management. Used to work for enterprise giants like EPAM as well as for product companies such as NRavo. TEDx speaker."
-  thumbnailUrl: VitaliyZasadnyy.jpg
-  team: true
-  rockstar: false
-  ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
-    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
-    - {name: "site", link: "http://zasadnyy.com/"}
-- 
-  id: 1
-  name: "Oleh"
-  surname: "Zasadnyy"
-  company: "GDG Lviv"
-  title: "Designer"
-  bio: "Finalist of Google I/O 2013, GDG DevFest 2013, Google I/O 2014 T-Shirt design contest. Web developer."
-  thumbnailUrl: OlehZasadnyy.jpg
-  team: true
-  rockstar: false
-  ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
-    - {name: "github", link: "https://github.com/ozasadnyy"}
-- 
-  id: 2
-  name: "Ostap"
-  surname: "Andrusiv"
-  company: "ELEKS, GDG Lviv"
-  title: "R&D Engineer"
-  bio: "Creates awesome stuff as R&D Engineer at ELEKS. Breakes Glass as Glass Explorer for Google. Makes devs happy via GDG Lviv events. Brings joy and happiness to large and unwieldy enterprise development."
-  thumbnailUrl: OstapAndrusiv.jpg
-  team: true
-  rockstar: false
-  ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
-    - {name: "twitter", link: "https://twitter.com/p1f"}
-    - {name: "site", link: "http://andrusiv.com/"}
-- 
   id: 3
   name: "Dawid"
   surname: "Ostrowski"
@@ -65,7 +17,6 @@
   title: "Android Developer"
   bio: '<p>Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.Valentyn focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences.</p>'
   thumbnailUrl: DmytroDanylyk.jpg
-  subTeam: true
   rockstar: true
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
@@ -108,8 +59,9 @@
   title: "Software engineer/country manager"
   bio: "Valentyn focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences."
   thumbnailUrl: ValentynShybanov.jpg
-  subTeam: true
   rockstar: true
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group"}
   social: 
     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
     - {name: "site", link: "http://olostan.name/"}

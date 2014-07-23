@@ -7,7 +7,7 @@
         </div>
         <div class="col-lg-10 col-lg-offset-1 row-centered">
             <h4 class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">Organizers</h4>
-            {% for speaker in site.data.speakers %} {% if speaker.team != null %}
+            {% for speaker in site.data.team %} {% if speaker.team != null %}
             <div class="team-item-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered">
                 <div class="team-item animated waves-element waves-block waves-light hiding increment-animation" data-animation="fadeInUp" data-delay="100" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
                     <figure class="flow-img" style="background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})">
@@ -16,7 +16,7 @@
                             <div class="col-md-8 col-xs-8 text-left">
                                 <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
                                 <div class="clearfix"></div>
-                                <span class="position">{{ speaker.company }}</span>
+                                <span class="position">{{ speaker.title }}</span>
                             </div>
                             {% for social in speaker.social %}
                             <a href="{{ social["link"] }}" target="_blank">
@@ -26,14 +26,14 @@
                             </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio text-center">{{ speaker.bio }}</p>
+                        
                     </figure>
                 </div>
             </div>
             {% endif %} {% endfor %}
             <div class="clearfix"></div>
             <h4 class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">Program committee</h4>
-            {% for speaker in site.data.speakers %} {% if speaker.subTeam != null %}
+            {% for speaker in site.data.team %} {% if speaker.subTeam != null %}
             <div class="team-item-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered">
                 <div class="team-item animated waves-element waves-block waves-light hiding increment-animation" data-animation="fadeInUp" data-delay="100" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
                     <figure class="flow-img" style="background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})">
@@ -42,7 +42,7 @@
                             <div class="col-md-8 col-xs-8 text-left">
                                 <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
                                 <div class="clearfix"></div>
-                                <span class="position">{{ speaker.company }}</span>
+                                <span class="position">{{ speaker.title }}</span>
                             </div>
                             {% for social in speaker.social %}
                             <a href="{{ social["link"] }}" target="_blank">
@@ -52,7 +52,7 @@
                             </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio text-center">{{ speaker.bio | strip_html }}</p>
+                        
                     </figure>
                 </div>
             </div>

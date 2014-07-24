@@ -1020,12 +1020,12 @@ nav ul > li > a.current, nav ul > li > a:hover {
     overflow: hidden;
 }
 .venue-big-elem {
-    height: 730px;
+    height: 610px;
     background-position: center center;
     background-size: cover;
 }
 .venue-small-elem {
-    height: 240px;
+    height: 200px;
     background-position: center center;
     background-size: cover;
 }
@@ -1039,6 +1039,27 @@ nav ul > li > a.current, nav ul > li > a:hover {
     font-size: 1.4em;
 }
 /* --END VENUE SECTION */
+
+/* TWITTER FEED SECTION */
+
+#twitter-feed {
+    color: #fff;
+}
+#twitter-feed .icon {
+    width: 64px;
+    height: 64px;
+    fill: #fff;
+}
+.tweet-text {
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 1.3;
+}
+.tweet-meta {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+/* --END TWITTER FEED SECTION */
 
 /* SPONSORS SECTION */
 
@@ -1900,10 +1921,10 @@ nav ul > li > a.current, nav ul > li > a:hover {
     /* --END NAVBAR */
     /* VENUE SECTION */
     .venue-big-elem {
-        height: 550px;
+        height: 490px;
     }
     .venue-small-elem {
-        height: 180px;
+        height: 160px;
     }
     .venue-text p {
         font-size: 1.2em;

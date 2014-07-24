@@ -224,7 +224,45 @@
         $('.modal').on('hide.bs.modal', function() {
             $('body').css('overflow', 'auto');
         });
+
+        if (typeof twitterFeedUrl !== 'undefined') {
+            var yql = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select * from json where url="' + twitterFeedUrl + '"') + '&format=json&callback=?';
+            $.getJSON(yql, function(data) {
+                $.each(data.query.results.json.json, function(i, gist) {
+                    var tweetElement = '<div class="tweet animated fadeInUp hidden"><p class="tweet-text">' + linkify(gist.text) + '</p><p class="tweet-meta">by <a href="https://twitter.com/' + gist.user.screen_name + ' target="_blank">@' + gist.user.screen_name + '</a></p></div>';
+                    $('#tweets').append(tweetElement);
+                });
+                animateTweets();
+            });
+
+            function linkify(inputText) {
+                var replacedText, pattern1, pattern2, pattern3, pattern4;
+                pattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+                replacedText = inputText.replace(pattern1, '<a href="$1" target="_blank">$1</a>');
+                pattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+                replacedText = replacedText.replace(pattern2, '$1<a href="http://$2" target="_blank">$2</a>');
+                pattern3 = /#(\S*)/g;
+                replacedText = replacedText.replace(pattern3, '<a href="https://twitter.com/search?q=%23$1" target="_blank">#$1</a>');
+                pattern4 = /\B@([\w-]+)/gm;
+                replacedText = replacedText.replace(pattern4, '<a href="https://twitter.com/$1" target="_blank">@$1</a>');
+                return replacedText;
+            }
+
+            function animateTweets() {
+                var $tweets = $('#tweets').find('.tweet'),
+                    i = 0;
+                $($tweets.get(0)).removeClass('hidden');
+
+                function changeTweets() {
+                    var next = (++i % $tweets.length);
+                    $($tweets.get(next - 1)).addClass('hidden');
+                    $($tweets.get(next)).removeClass('hidden');
+                }
+                var interval = setInterval(changeTweets, 5000);
+            }
+        }
     });
+
 
     //Google plus
     (function() {

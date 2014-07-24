@@ -1038,6 +1038,10 @@ nav ul > li > a.current, nav ul > li > a:hover {
 .venue-text p {
     font-size: 1.4em;
 }
+
+.venue-text h5 {
+    margin-top: 0px;
+}
 /* --END VENUE SECTION */
 
 /* TWITTER FEED SECTION */

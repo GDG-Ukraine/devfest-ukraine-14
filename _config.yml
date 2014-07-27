@@ -1,6 +1,7 @@
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 
 
 # Site settings
@@ -13,7 +14,7 @@ permalink: /blog/:title
 googleAnalyticsTrackingId: "UA-43643469-1"
 googleAnalyticsSiteUrl: "devfest.gdg.org.ua"
 
-# Conference Locaion block
+# Conference Location block
 eventLocationName: "Kinopalace Cinema"
 eventLocationAddress: "22 Teatral'na St, Lviv"
 eventStartTime: "2014-10-24T09:00"
@@ -37,6 +38,7 @@ subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b052
 
 # Documents
 c4pUrl: "http://bit.ly/dfua-c4p"
+c4sponsorsUrl: "/assets/GDG_DevFest_2014_Partnership_Proposition.pdf"
 
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"

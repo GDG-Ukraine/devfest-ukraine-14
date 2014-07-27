@@ -1038,7 +1038,6 @@ nav ul > li > a.current, nav ul > li > a:hover {
 .venue-text p {
     font-size: 1.4em;
 }
-
 .venue-text h5 {
     margin-top: 0px;
 }
@@ -1053,6 +1052,9 @@ nav ul > li > a.current, nav ul > li > a:hover {
     width: 64px;
     height: 64px;
     fill: #fff;
+}
+.tweet {
+    height: 130px;
 }
 .tweet-text {
     font-size: 2em;
@@ -1162,7 +1164,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
     background-size: 115%;
 }
 .speaker-item:hover figure {
-    background-position: 0;
+    background-position: center left;
     -webkit-background-size: 105% 105%;
     background-size: 105%;
 }
@@ -2144,6 +2146,11 @@ nav ul > li > a.current, nav ul > li > a:hover {
         line-height: 13pt;
     }
     /* --END VENUE SECTION */
+    /* TWITTER FEED SECTON */
+    .tweet {
+        height: 200px;
+    }
+    /* --END TWITTER FEED SECTON */
     /* SPONSORS SECTION */
     #sponsors .list-inline li {
         width: 40%;

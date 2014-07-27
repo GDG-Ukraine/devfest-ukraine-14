@@ -1031,15 +1031,15 @@ nav ul > li > a.current, nav ul > li > a:hover {
 }
 .venue-text {
     padding: 30px 20px;
-    background: #03a9f4;
     text-align: left;
     color: #fff;
+    background: #03a9f4;
 }
 .venue-text p {
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 .venue-text h5 {
-    margin-top: 0px;
+    margin-top: 0;
 }
 /* --END VENUE SECTION */
 
@@ -1925,16 +1925,24 @@ nav ul > li > a.current, nav ul > li > a:hover {
         margin-top: .2em;
     }
     /* --END NAVBAR */
+    /* SECTION STATISTICS */
+    #statistic .stat {
+        font-size: 80px;
+    }
+    /* --END SECTION STATISTICS */
     /* VENUE SECTION */
     .venue-big-elem {
-        height: 490px;
+        height: 580px;
     }
     .venue-small-elem {
-        height: 160px;
+        height: 190px;
+    }
+    .venue-text h5 {
+        font-size: 2em;
     }
     .venue-text p {
         font-size: 1.2em;
-        line-height: 16pt;
+        line-height: 14pt;
     }
     /* --END VENUE SECTION */
     /* --SPEAKERS */
@@ -2112,6 +2120,9 @@ nav ul > li > a.current, nav ul > li > a:hover {
     #statistic .counter {
         padding-top: 2em;
     }
+    #statistic .stat {
+        font-size: 70px;
+    }
     /* --END SECTION STATISTICS */
     /* SECTION BUY TICKETS */
     .pricing-col {
@@ -2139,11 +2150,17 @@ nav ul > li > a.current, nav ul > li > a:hover {
         height: 340px;
     }
     .venue-small-elem {
-        height: 180px;
+        height: 200px;
+    }
+    .venue-text {
+        padding: 20px 15px;
+    }
+    .venue-text h5 {
+        font-size: 1.6em;
     }
     .venue-text p {
         font-size: 1.1em;
-        line-height: 13pt;
+        line-height: 12pt;
     }
     /* --END VENUE SECTION */
     /* TWITTER FEED SECTON */

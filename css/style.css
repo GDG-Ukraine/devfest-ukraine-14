@@ -1239,12 +1239,14 @@ nav ul > li > a.current, nav ul > li > a:hover {
     clear: both;
     margin-top: -22px;
 }
-.speaker-ribbon-wrapper .full-title, .team-item:hover .speaker-ribbon-wrapper .abbr {
+.speaker-ribbon-wrapper .full-title, .team-item:hover .speaker-ribbon-wrapper .abbr,
+.speaker-item:hover .speaker-ribbon-wrapper .abbr {
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
 }
-.team-item:hover .speaker-ribbon-wrapper .full-title {
+.team-item:hover .speaker-ribbon-wrapper .full-title,
+.speaker-item:hover .speaker-ribbon-wrapper .full-title {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
@@ -1263,18 +1265,18 @@ nav ul > li > a.current, nav ul > li > a:hover {
     font-weight: 600;
     display: block;
 }
-.speaker-item figure p {
+.speaker-item figure .position {
     margin: 0;
     -webkit-transform: translateY(20px);
     -ms-transform: translateY(20px);
     transform: translateY(20px);
 }
-.speaker-item:hover figure h2, .speaker-item:hover figure p {
+.speaker-item:hover figure h2, .speaker-item:hover figure .position {
     -webkit-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
 }
-.speaker-item figure p {
+.speaker-item figure .position {
     font-size: .7em;
     -webkit-transition: opacity .2s, -webkit-transform .35s;
     transition: opacity .2s, transform .35s;
@@ -1282,7 +1284,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
     opacity: 0;
     color: rgba(255, 255, 255, .9);
 }
-.speaker-item:hover figure p {
+.speaker-item:hover figure .position {
     line-height: 1;
     margin-top: .7em;
     -webkit-transition-delay: .05s;
@@ -1355,6 +1357,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
     padding-left: 3em;
 }
 .speaker-details .name {
+    margin-bottom: .5em;
     font-size: 1.3em;
     font-weight: 500;
     color: #212121;
@@ -1362,6 +1365,9 @@ nav ul > li > a.current, nav ul > li > a:hover {
 .speaker-details .position {
     font-weight: 300;
     color: #757575;
+}
+.modal-ribbon-wrapper {
+    margin-bottom: .4em;
 }
 .modal-ribbon {
     margin-right: .5em;
@@ -2187,7 +2193,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
     /* END SUBSCRIBE SECTION */
     /* SPEAKERS*/
     .speaker-item figure {
-        background-position: 0;
+        background-position: center left;
         -webkit-background-size: 105% 105%;
         background-size: 105%;
     }
@@ -2216,7 +2222,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
     }
     /* --END SPEAKERS*/
     /* TEAM */
-    .team-item:hover .overlay {
+    .speaker-item:hover .overlay, .team-item:hover .overlay {
         background: rgba(0, 0, 0, 0);
     }
     .team-item:hover .speaker-ribbon-wrapper .abbr {
@@ -2230,7 +2236,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
         transform: translateX(100%);
     }
     .team-item figure {
-        background-position: 0;
+        background-position: center left;
         -webkit-background-size: 105% 105%;
         background-size: 105%;
     }

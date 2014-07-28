@@ -10,18 +10,18 @@
     <!-- Social: Google+ / Schema.org  -->
     <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta itemprop="description" content="{{site.description}}">
-    <meta itemprop="image" content="{{site.socialImageSrc | prepend: site.baseurl | prepend: site.url}}">
+    <meta itemprop="image" content="{{site.socialImageSrc | prepend: site.url}}">
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="{{site.twitterAccount}}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{{site.description}}">
-    <meta name="twitter:image:src" content="{{site.socialImageSrc | prepend: site.baseurl | prepend: site.url}}">
+    <meta name="twitter:image:src" content="{{site.socialImageSrc | prepend: site.url}}">
     <!-- Social: Facebook / Open Graph -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" /> 
     <meta property="og:type" content="website" /> 
     <meta property="og:url" content="{{site.url}}" />
-    <meta property="og:image" content="{{site.socialImageSrc | prepend: site.baseurl | prepend: site.url}}" />
+    <meta property="og:image" content="{{site.socialImageSrc | prepend: site.url}}" />
     <meta property="og:description" content="{{site.description}}" /> 
     
 

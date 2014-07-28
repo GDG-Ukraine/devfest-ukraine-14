@@ -43,7 +43,9 @@ c4sponsorsUrl: "/assets/GDG_DevFest_2014_Partnership_Proposition.pdf"
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
 twitterAccount: "@GDGLviv"
-socialImageSrc: "/img/logo.png"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Header
 eventDate: "October 24-25, Lviv"

@@ -1197,6 +1197,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
     z-index: 5;
     right: 0;
     margin-top: 10px;
+    list-style: none;
 }
 .speaker-ribbon-wrapper li {
     overflow: hidden;
@@ -1239,14 +1240,14 @@ nav ul > li > a.current, nav ul > li > a:hover {
     margin-top: -22px;
 }
 .speaker-ribbon-wrapper .full-title, .team-item:hover .speaker-ribbon-wrapper .abbr {
-    -webkit-transform: translate(100%, 0);
-    -ms-transform: translate(100%, 0);
-    transform: translate(100%, 0);
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
 }
 .team-item:hover .speaker-ribbon-wrapper .full-title {
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
 }
 .speaker-item figure h2 {
     font-size: 1.2em;
@@ -1362,6 +1363,10 @@ nav ul > li > a.current, nav ul > li > a:hover {
     font-weight: 300;
     color: #757575;
 }
+.modal-ribbon {
+    margin-right: .5em;
+    font-size: 1.1em;
+}
 .speaker-details .social {
     padding: 0;
     list-style: none;
@@ -1448,7 +1453,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
     background-size: 115%;
 }
 .team-item:hover figure {
-    background-position: 0;
+    background-position: center left;
     -webkit-background-size: 105% 105%;
     background-size: 105%;
 }
@@ -2211,6 +2216,19 @@ nav ul > li > a.current, nav ul > li > a:hover {
     }
     /* --END SPEAKERS*/
     /* TEAM */
+    .team-item:hover .overlay {
+        background: rgba(0, 0, 0, 0);
+    }
+    .team-item:hover .speaker-ribbon-wrapper .abbr {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .team-item:hover .speaker-ribbon-wrapper .full-title {
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+    }
     .team-item figure {
         background-position: 0;
         -webkit-background-size: 105% 105%;
@@ -2220,6 +2238,12 @@ nav ul > li > a.current, nav ul > li > a:hover {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
         color: #3c4a50;
+    }
+    .team-item:hover .bio {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 0;
     }
     /* --END TEAM */
     /* LOGISTICS */

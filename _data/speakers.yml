@@ -77,3 +77,18 @@
   social: 
     - {name: "twitter", link: "https://twitter.com/dimko1"}
     - {name: "github", link: "https://github.com/dimko1"}
+- 
+  id: 9
+  name: 'Konrad'
+  surname: 'Dzwinel'
+  company: 'Making Waves'
+  title: 'Front-End developer'
+  bio: 'Konrad is a developer at Making Waves, Google Developer Expert for Chrome and co-organizer of Google Developers Group in Krakow. Originally a back-end programmer for five years, he decided to switch to the more exciting, in his opinion, front-end world. At Making Waves he works on hybrid apps, websites and runs internal trainings. After work, he develops Chrome extensions, experiments with various front-end technologies, gives presentations and runs workshops.'
+  thumbnailUrl: KonradDzwinel.jpg
+  rockstar: true
+  ribbon: 
+    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+KonradDzwinel"}
+    - {name: "twitter", link: "https://twitter.com/kdzwinel"}
+    - {name: "github", link: "https://github.com/kdzwinel"}

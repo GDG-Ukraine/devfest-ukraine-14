@@ -65,3 +65,15 @@
   social: 
     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
     - {name: "site", link: "http://olostan.name/"}
+- 
+  id: 8
+  name: "Dima"
+  surname: "Maleev"
+  company: "N-iX"
+  title: "Mobile Developer"
+  bio: 'Dima is a developer for about 10 years, making his way from junior to technical architect and manager of complex mobile solutions. In the past .NET developer, ex-leader of "Lviv .NET User Group" and one of the organizers of the "Oh, Mobile!"  community. A fan of mobile technology and javascript. Makes fun talks all around the world and plays american football:)'
+  thumbnailUrl: DimaMaleev.jpg
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/dimko1"}
+    - {name: "github", link: "https://github.com/dimko1"}

@@ -1083,6 +1083,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
 }
 #sponsors img {
     width: 100%;
+    max-height: 130px;
     -webkit-transition: all .5s;
     transition: all .5s;
     -webkit-filter: grayscale(1);

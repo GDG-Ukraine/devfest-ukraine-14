@@ -1,0 +1,36 @@
+- 
+  group: 'general'
+  name: 'Google'
+  description: 'Google'
+  link: 'https://www.google.com.ua/intl/en/about/'
+  imageUrl: 'google.svg'
+- 
+  group: 'support'
+  name: 'Lviv Convention Bureau'
+  description: 'Lviv Convention Bureau - Business tourism in Lviv, Ukraine'
+  link: 'http://lvivconvention.com.ua/'
+  imageUrl: 'lvivconventionbureau.svg'
+- 
+  group: 'support'
+  name: 'IT-BPO'
+  description: 'IT-BPO Lviv Cluster'
+  link: 'http://it-bpo.lviv.ua/'
+  imageUrl: 'it-bpo.png'
+- 
+  group: 'information'
+  name: 'career4it'
+  description: 'career4it - employment fair for it talents'
+  link: 'http://career4it.com/en/'
+  imageUrl: 'career4it.png'
+- 
+  group: 'information'
+  name: 'IT Arena'
+  description: 'IT Arena - the biggest IT conference in western Ukraine'
+  link: 'http://itarena.lviv.ua/'
+  imageUrl: 'it-arena.svg'
+- 
+  group: 'information'
+  name: 'Startup Depot'
+  description: 'Startup Depot - Lviv Business Incubator'
+  link: 'http://innovateinlviv.com/'
+  imageUrl: 'startup-depot.svg'

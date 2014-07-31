@@ -5,42 +5,39 @@
             <h3>Partners</h3>
             <h5>General sponsor</h5>
             <ul class="list-inline">
-                <li>
-                    <a href="https://www.google.com.ua/intl/en/about/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/sponsors/google.svg" alt="Google">
-                    </a>
-                </li>
+                {% for sponsor in site.data.sponsors %}
+                    {% if sponsor.group == "general" %}
+                    <li>
+                        <a href="{{ sponsor.link }}" target="_blank">
+                            <img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.imageUrl }}" alt="{{ sponsor.description }}">
+                        </a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
             </ul>
             <h5>With support of</h5>
             <ul class="list-inline">
-                <li>
-                    <a href="http://lvivconvention.com.ua/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/sponsors/lvivconventionbureau.svg" alt="Lviv Convention Bureau - Business tourism in Lviv, Ukraine">
-                    </a>
-                </li>
-                <li>
-                    <a href="http://it-bpo.lviv.ua/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/sponsors/it-bpo.png" alt="IT-BPO Lviv Cluster">
-                    </a>
-                </li>
+                 {% for sponsor in site.data.sponsors %}
+                    {% if sponsor.group == "support" %}
+                    <li>
+                        <a href="{{ sponsor.link }}" target="_blank">
+                            <img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.imageUrl }}" alt="{{ sponsor.description }}">
+                        </a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
             </ul>
             <h5>Information partners</h5>
             <ul class="list-inline">
-                <li>
-                    <a href="http://career4it.com/en/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/sponsors/career4it.png" alt="career4it - employment fair for it talents">
-                    </a>
-                </li>
-                <li>
-                    <a href="http://itarena.lviv.ua/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/sponsors/it-arena.png" alt="IT Arena - the biggest IT conference in western Ukraine">
-                    </a>
-                </li>
-                <li>
-                    <a href="http://innovateinlviv.com/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/sponsors/startup-depot.svg" alt="Startup Depot - Lviv Business Incubator">
-                    </a>
-                </li>
+                 {% for sponsor in site.data.sponsors %}
+                    {% if sponsor.group == "information" %}
+                    <li>
+                        <a href="{{ sponsor.link }}" target="_blank">
+                            <img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.imageUrl }}" alt="{{ sponsor.description }}">
+                        </a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
             </ul>
             <span class="btn btn-primary waves-element waves-button waves-light waves-will-raise">
 			     <a href="{{ site.baseurl | append: site.c4sponsorsUrl }}">Become a sponsor</a>

@@ -14,6 +14,9 @@
             $('body').css('overflow', 'auto');
             hidePreloader();
             initGooglePlus();
+            if (typeof twitterFeedUrl !== 'undefined') {
+                initTwitterFeed();
+            }
             generateSameHeight();
         });
 
@@ -226,7 +229,7 @@
             $('body').css('overflow', 'auto');
         });
 
-        if (typeof twitterFeedUrl !== 'undefined') {
+        function initTwitterFeed() {
             var yql = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select * from json where url="' + twitterFeedUrl + '"') + '&format=json&callback=?';
             $.getJSON(yql, function(data) {
                 $.each(data.query.results.json.json, function(i, gist) {

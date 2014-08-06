@@ -12,8 +12,8 @@
   social: 
     - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
     - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
     - {name: "site", link: "http://zasadnyy.com/"}
+    - {name: "email", link: "mailto:vitaliy.zasadnyy@gdg.org.ua"}
 - 
   id: 1
   name: "Oleh"
@@ -28,6 +28,7 @@
   social: 
     - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
     - {name: "github", link: "https://github.com/ozasadnyy"}
+    - {name: "email", link: "mailto:oleh.zasadnyy@gdg.org.ua"}
 - 
   id: 2
   name: "Ostap"
@@ -43,6 +44,7 @@
     - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
     - {name: "twitter", link: "https://twitter.com/p1f"}
     - {name: "site", link: "http://andrusiv.com/"}
+    - {name: "email", link: "mailto:ostap.andrusiv@gdg.org.ua"}
 - 
   id: 4
   name: "Dmytro"

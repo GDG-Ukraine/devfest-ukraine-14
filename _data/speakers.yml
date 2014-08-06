@@ -73,7 +73,7 @@
   title: 'Mobile Developer'
   bio: 'Dima is a developer for about 10 years, making his way from junior to technical architect and manager of complex mobile solutions. In the past .NET developer, ex-leader of "Lviv .NET User Group" and one of the organizers of the "Oh, Mobile!"  community. A fan of mobile technology and javascript. Makes fun talks all around the world and plays american football:)'
   thumbnailUrl: DimaMaleev.jpg
-  rockstar: true
+  rockstar: false
   social: 
     - {name: 'twitter', link: 'https://twitter.com/dimko1'}
     - {name: 'github', link: 'https://github.com/dimko1'}
@@ -94,3 +94,18 @@
     - {name: 'twitter', link: 'https://twitter.com/kdzwinel'}
     - {name: 'github', link: 'https://github.com/kdzwinel'}
     - {name: 'linkedin', link: 'https://www.linkedin.com/in/kdzwinel/en'}
+- 
+  id: 10
+  name: 'Wojtek'
+  surname: 'Kalicinski'
+  company: 'Kalicinscy.com'
+  title: 'Co-founder and CTO'
+  bio: 'Co-founder and CTO of a successful interactive agency, these days Wojtek mostly works on mobile apps with his team. He likes to share ideas and experience with other technology enthusiasts during Google Developer Group meetups, which he helps organize. As a Google Developer Expert, he is interested in anything and everything related to Android.'
+  thumbnailUrl: WojtekKalicinski.JPG
+  rockstar: true
+  ribbon: 
+    - {abbr: 'GDE', title: 'Google Developer Expert', url: 'https://developers.google.com/experts/'}
+    - {abbr: 'GDG', title: 'Google Developer Group Warsaw', url: 'https://developers.google.com/groups/chapter/105909141177271768718/'}
+  social: 
+    - {name: 'google-plus', link: 'https://plus.google.com/+WojtekKalicinski'}
+    - {name: 'site', link: 'http://www.kalicinscy.com/'}

@@ -38,7 +38,7 @@ subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b052
 
 # Documents
 c4pUrl: "http://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_2014_Partnership_Proposition.pdf"
+c4sponsorsUrl: "/assets/GDG_DevFest_2014_Partnership_Proposition_compressed.pdf"
 
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"

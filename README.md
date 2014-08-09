@@ -1,122 +1,117 @@
-# GDG DevFest 2014 site template
+# Project Zeppelin / GDG DevFest 2014 site template
 
-### Demo
-You can always check current dev version at http://gdg-ukraine.github.io/devfest-2014/
+### About 
+Project Zeppelin allows you to setup awesome GDG DevFest site in 5 minutes. 
 
-### Local development
-Generate site: 
+Project is builded on top of [Jekyll](http://jekyllrb.com/) - simple, blog-aware, static site generator. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your website from GitHub’s servers for free. [Learn more about Jekyll](http://jekyllrb.com/).
 
-```
-jekyll build -w --config _config.yml
-```
+Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
 
-Start server: 
+### Live demo http://gdg-ukraine.github.io/devfest-2014/
 
-```
-jekyll serve --config _config.yml
-```
-
-### Benefits
-* Simple and beautiful design
-* Responsive
+### Features
+* Easy to setup
+* Simple and responsive design
+* Inegrated speakers and sessions management
 * SVG icons
-* Easily to configure
-* Easily to deploy
 * SEO friendly
 
+
+### Quick-start guide
+1. [Fork](https://github.com/gdg-x/zeppelin/fork) this repo
+2. Clone locally
+3. Update ```_config.yml``` 
+4. Select what content blocks do you need
+5. Push changes to ```gh-pages``` branch
+6. Enjoy your awesome DevFest site at ```http://[your github name].github.io/zeppelin/```
+
+
+## Local development
+
+Check if you have [all requirments for local environment](http://jekyllrb.com/docs/installation/), install [Jekyll server](http://jekyllrb.com/docs/quickstart/) gem and run this command from project root folder:
+
+```bash
+    jekyll serve -w
+```
+Site will be available at http://127.0.0.1:4000/zeppelin/
+
+**NOTE:** in this mode all changes to html and data files will be automatically regenerated, but after changing ```_config.yml``` you have to restart server.
+
+### Sass support
+Install Sass. Ruby uses Gems to manage its various packages of code like Sass. In your open terminal window type:
+```bash
+	gem install sass
+```
+
+Also you need to install the latest version of [Compass](http://compass-style.org/) with command
+```bash
+	gem install compass --pre
+```
+
+Then for combining media queries you can use [Sass::MediaQueryCombiner](https://github.com/aaronjensen/sass-media_query_combiner) plugin. Install with command
+```bash
+	gem install sass-media_query_combiner
+```
+
+And for prefixing css3 properties use [Autoprefixer](https://github.com/ai/autoprefixer)
+```bash
+	gem install autoprefixer-rails
+```
+
+To watch changes in `.sass` files and compile it to the `.css` on a fly, run this command from `\_sass\` folder
+```bash
+	compass watch -c config.rb -e production
+```
+
+Learn more about Sass development from [documentation](https://github.com/gdg-x/zeppelin/wiki/Sass-development).
+
+
+### Resource optimizations (optional)
+
+You can optimize images and minify css and javascript automaticaly (for now only on Windows).
+Optimize all images by running this script from `/automation/images/` folder:
+```bash
+    all_image_optimization.bat -d -jtran -pout -pquant -optip -gsicle -svgo
+```
+
+To minify CSS and JS run `minify_all.bat` from `/automation/minifying/` folder:
+```bash
+    minify_all.bat
+```
+
+Learn more about available optimization options from [documentation](https://github.com/gdg-x/zeppelin/wiki/Resources-optimizations).
+
+### Documentation
+Quick-start guide is not enough? Checkout [full documentation](https://github.com/gdg-x/zeppelin/wiki).
+
+
+### TODO List
+* Schedule page template
+* Optimization scripts for mac and linux
+
+### Known issues
+* Scrolling on open navbar
+
+### Used libraries
+* [Bootstrap](https://github.com/twbs/bootstrap)
+* [Animate.css](https://github.com/daneden/animate.css)
+* [Waves](https://github.com/publicis-indonesia/Waves)
+* [jquery.appear](https://github.com/bas2k/jquery.appear)
+* [jQuery countTo Plugin](https://github.com/mhuggins/jquery-countTo)
+* [Typed.js](https://github.com/mattboldt/typed.js)
+
+### Who is using template?
+Going to use template? Go on! The only thing we ask - let us know at [*lviv@gdg.org.ua*](mailto:lviv@gdg.org.ua) so we can include you to this list, or make a pull request.
+
+* [GDG DevFest Ukraine 2014](http://devfest.gdg.org.ua/)
+* [GDG DevFest Instanbul 2014](http://devfesttr.com/)
+* [GDG DevFest Omsk 2014](http://gdg-devfest-omsk.org/)
+* [GDG Bangalore Site](http://gdgbangalore.github.io/)
+* [2014 南阳 GDG Devfest 大会](http://devfest.gdgny.org)
+
 ### Contributors
-* Design and markup: [ozasadnyy](https://github.com/ozasadnyy)
-* Jekyll integration: [zasadnyy](https://github.com/zasadnyy)
+* Design and markup: [Oleh Zasadnyy](https://github.com/ozasadnyy)
+* Idea and Jekyll integration: [Vitaliy Zasadnyy](https://github.com/zasadnyy)
 
-
-
-## Documentation
-
-### Automation (only Windows)
-
-
-#### Images
-You can optimize images by running **all_image_optimization.bat** from `..\automation\images` folder
-
-```
-all_image_optimization.bat -d -jtran -pout -pquant -optip -gsicle -svgo
-```
-
-Parameters:
-* **-d** - default path to images' folder (you can pass your own path: `all_image_optimization.bat D:\development\web\devfest-14\images -jtran`) **Required!**
-* [**-jtran**](http://jpegclub.org/jpegtran) - optimize JPEG images (suggested by [Web Fundamentals](https://developers.google.com/web/fundamentals))
-* [**-pout**](http://advsys.net/ken/utils.htm) - lossless PNG optimization
-* [**-optip**](http://optipng.sourceforge.net) - lossless PNG optimization (suggested by [Web Fundamentals](https://developers.google.com/web/fundamentals))
-* [**-pquant**](http://pngquant.org) - lossy PNG optimization (suggested by [Web Fundamentals](https://developers.google.com/web/fundamentals))
-* [**-gsicle**](http://www.lcdf.org/gifsicle) - create and optimize GIF images (suggested by [Web Fundamentals](https://developers.google.com/web/fundamentals))
-* [**-svgo**](https://github.com/svg/svgo) - Nodejs-based tool for optimizing SVG vector graphics files (suggested by [Web Fundamentals](https://developers.google.com/web/fundamentals)) (**Nodejs required**)
-
-For `-svgo` intall [Nodejs](http://nodejs.org/) and then run command
-
-```
-[sudo] npm install -g svgo
-```
-
-You can use some of parameters. For example
-
-```
-all_image_optimization.bat -d -jtran -optip
-```
-
-Moreover, you can run the files separately **jpegtran.bat**, **pngout.bat**, **optipng.bat**, **pngquant.bat**, **gifsicle.bat** or **svgo.bat** which by default will optimize all images in `../img/` folder and subfolder or pass a path to the folder.
-
-```
-jpegtran.bat 
-```
-Or
-
-```
-jpegtran.bat D:\development\web\devfest-14\images
-```
-
-#### Minify CSS and JS
-You can optimize all `.css` and `.js` files in `../css/` and `../js/` folders  by running **minify_all.bat** from `..\automation\minifying` folder
-
-```
-minify_all.bat
-```
-
-Specify pathes to `.css` and `.js` folders through parameters
-
-```
-minify_all.bat path_to_css_folder path_to_js_folder
-```
-
-For example
-
-```
-minify_all.bat D:\development\web\devfest-14\styles D:\development\web\devfest-14\scripts
-```
-
-**Note!** path to css folder should be first
-For sure, you can run the files separately **minify_css.bat** or **minify_js.bat**
-You can use some of them. For example
-
-```
-minify_css.bat 
-```
-
-Or
-
-```
-minify_css.bat D:\development\web\devfest-14\styles
-```
-
-Also you can generate `.min` files only of **style.css** and **scripts.js**
-
-```
-minify_style_css_js
-```
-
-```
-minify_scripts_js
-```
-
-
-
-#### _More information comming soon... Stay tuned!_
+### Licence
+Project is published under the [MIT licence](https://github.com/gdg-x/zeppelin/blob/master/LICENSE.txt). Feel free to clone and modify repo as you want, but don'y forget to add reference to authors :)

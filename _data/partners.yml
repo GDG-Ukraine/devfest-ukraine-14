@@ -13,3 +13,4 @@
     - {name: 'career4it', description: 'career4it - employment fair for it talents', link: 'http://career4it.com/en/', imageUrl: 'career4it.png'}
     - {name: 'IT Arena', description: 'IT Arena - the biggest IT conference in western Ukraine', link: 'http://itarena.lviv.ua/', imageUrl: 'it-arena.svg'}
     - {name: 'Startup Depot', description: 'Startup Depot - Lviv Business Incubator', link: 'http://innovateinlviv.com/', imageUrl: 'startup-depot.svg'}
+    - {name: 'SoftServe', description: 'SoftServe – Best IT Employer', link: 'https://softserve.ua/en/', imageUrl: 'softserve.svg'}

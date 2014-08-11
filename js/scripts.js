@@ -6,7 +6,7 @@
                 preloaderFadeOutTime = 800;
 
             function hidePreloader() {
-                var loadingAnimation = $('#loading-animation'),
+                var loadingAnimation = $('#loader-gplus'),
                     preloader = $('#preloader');
                 loadingAnimation.fadeOut();
                 preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime);

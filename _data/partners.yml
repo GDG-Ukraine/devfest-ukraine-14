@@ -1,17 +1,13 @@
 - 
-  group: 'Organizer'
-  elements: 
-    - {name: 'GDG Lviv', description: 'GDG Lviv - Open and volunteer geek community', link: 'http://lviv.gdg.org.ua', imageUrl: 'gdg-lviv.svg'}
-- 
-  group: 'General sponsors'
+  group: 'General sponsor'
   elements: 
     - {name: 'Google', description: 'Google', link: 'https://www.google.com.ua/intl/en/about/', imageUrl: 'google.svg'}
 - 
-  group: 'Gold sponsors'
+  group: 'Gold sponsor'
   elements: 
     - {name: 'Lemberg', description: 'Lemberg Solutions - Web and Mobile App Development Company', link: 'http://lemberg.co.uk/', imageUrl: 'lemberg.svg'}
 - 
-  group: 'General partners'
+  group: 'General partner'
   elements: 
     - {name: 'IT-BPO', description: 'IT-BPO Lviv Cluster', link: 'http://it-bpo.lviv.ua/', imageUrl: 'it-bpo.png'}
 - 

@@ -17,7 +17,7 @@
   title: 'Android Developer'
   bio: '<p>Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.</p>'
   thumbnailUrl: DmytroDanylyk.jpg
-  rockstar: true
+  rockstar: false
   social: 
     - {name: 'google-plus', link: 'https://plus.google.com/+DmytroDanylyk'}
     - {name: 'twitter', link: 'https://twitter.com/dmytrodanylyk'}
@@ -45,7 +45,7 @@
   title: 'Head of Android/Java Unit'
   bio: 'Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv.'
   thumbnailUrl: RomanMazur.jpg
-  rockstar: true
+  rockstar: false
   ribbon:
     - {abbr: 'GDG', title: 'Google Developer Group Kyiv', url: 'https://developers.google.com/groups/chapter/110301321530950732281/'}
   social: 
@@ -109,3 +109,17 @@
   social: 
     - {name: 'google-plus', link: 'https://plus.google.com/+WojtekKalicinski'}
     - {name: 'site', link: 'http://www.kalicinscy.com/'}
+- 
+  id: 11
+  name: 'Xavier'
+  surname: 'Hallade'
+  company: 'Intel'
+  title: 'Developer Evangelist'
+  bio: 'Xavier is Developer Evangelist in Intel Software and Service Group in Paris, France. He is helping developers to improve their support for new hardware and technologies backed by Intel, with a focus on the Android NDK, 64-bit and dual-displays.'
+  thumbnailUrl: XavierHallade.jpg
+  rockstar: true
+  social: 
+    - {name: 'google-plus', link: 'https://plus.google.com/+XavierHallade'}
+    - {name: 'twitter', link: 'https://twitter.com/ph0b'}
+    - {name: 'github', link: 'https://github.com/ph0b'}
+    - {name: 'linkedin', link: 'https://www.linkedin.com/in/xavierhallade/en'}

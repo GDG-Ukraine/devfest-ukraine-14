@@ -5,7 +5,6 @@
             <div class="col-lg-8 col-md-10 col-xs-12">
 
                 <article class="row post">
-
                     {% if include.isStaticPost == false %}
                     <div class="post-header">
                         <div class="published pull-left">
@@ -48,7 +47,7 @@
                                 <a href="{{page.next.url}}" title="{{page.next.title |  strip_html }}">&laquo; {{page.next.title |  strip_html | truncate: 15 }}</a>
                             {% endif %}
                         </div>
-                        <div class="previous col-xs-6 text-right">
+                        <div class="previous col-xs-6">
                             {% if page.previous.url %}
                                 <a href="{{page.previous.url}}" title="{{page.previous.title |  strip_html }}">{{page.previous.title |  strip_html | truncate: 15 }} &raquo;</a>
                             {% endif %}

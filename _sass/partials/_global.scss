@@ -27,6 +27,9 @@ p {
     font-weight: 300;
     line-height: $base-line-height;
 }
+i {
+    font-style: normal;
+}
 b, strong {
     font-weight: $bold;
 }
@@ -75,6 +78,9 @@ h6 {
     @media (max-width: 767px) {
         font-size: $h6-font-size * 80 / 100;
     }
+}
+time {
+    display: block;
 }
 .content-wrapper {
     position: relative;

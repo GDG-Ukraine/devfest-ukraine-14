@@ -19,8 +19,6 @@
     .social-links {
         li {
             margin-left: 4px;
-            margin-right: 0;
-            display: inline;
         }
     }
 }
@@ -48,9 +46,6 @@
 .page-navigation {
     margin-bottom: 40px;
     font-weight: $bold;
-    .next, .previous {
-        padding: 0;
-    }
 }
 .comments {
     margin-top: 26px;

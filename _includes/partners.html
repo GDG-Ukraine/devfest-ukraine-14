@@ -2,33 +2,34 @@
 <section id="partners" class="partners">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3>Organizer</h3>
+            <h3>{{ site.organizersTitle }}</h3>
+            {% for organizer in site.data.organizers %}
+            <h5>{{ organizer.group }}</h5>
             <ul class="list-inline">
+                {% for element in organizer.elements %}
                 <li>
-                    <a href="http://lviv.gdg.org.ua" target="_blank">
-                        <img src="{{ site.baseurl }}/img/partners/gdg-lviv.svg" alt="GDG Lviv - Open and volunteer geek community">
+                    <a href="{{ element.link }}" target="_blank">
+                        <img src="{{ site.baseurl }}/img/organizers/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
                     </a>
                 </li>
+                {% endfor %}
             </ul>
-            <h3>Partners</h3>
+            {% endfor %}
+            <h3>{{ site.partnersTitle }}</h3>
             {% for partner in site.data.partners %}
             <h5>{{ partner.group }}</h5>
             <ul class="list-inline">
                 {% for element in partner.elements %}
                 <li>
                     <a href="{{ element.link }}" target="_blank">
-                        <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" alt="{{ element.description }}">
+                        <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
                     </a>
                 </li>
                 {% endfor %}
             </ul>
             {% endfor %}
-            <a href="{{ site.baseurl | append: site.c4sponsorsUrl }}">
-                <span class="btn btn-primary waves-element waves-button waves-light waves-will-raise">
-                     Become a sponsor
-                </span>
-            </a>
+            <a href="{{ site.c4sponsorsUrl | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.partnersC4sponsorsButton }}</a>
         </div>
-    </div>
+    </div> 
 </section>
 <!-- End Sponsors Section -->

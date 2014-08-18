@@ -10,22 +10,19 @@
     <!-- Social: Google+ / Schema.org  -->
     <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta itemprop="description" content="{{ site.description }}">
-    <meta itemprop="image" content="{{ site.socialImageSrcGooglePlus | prepend: site.url }}">
-    <meta itemprop="image" content="{{ site.socialImageSrcGooglePlusTwo | prepend: site.url }}">
+    <meta itemprop="image" content="{{ site.socialImageSrcGooglePlus | prepend: site.baseurl | prepend: site.url }}">
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="{{ site.twitterAccount }}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image:src" content="{{ site.socialImageSrcTwitter | prepend: site.url }}">
-    <meta name="twitter:image:src" content="{{ site.socialImageSrcTwitterTwo | prepend: site.url }}">
+    <meta name="twitter:image:src" content="{{ site.socialImageSrcTwitter | prepend: site.baseurl | prepend: site.url }}">
     <!-- Social: Facebook / Open Graph -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" /> 
     <meta property="og:site_name" content="{{ site.title }}" /> 
     <meta property="og:type" content="website" /> 
     <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:image" content="{{ site.socialImageSrcFacebook | prepend: site.url }}" />
-    <meta property="og:image" content="{{ site.socialImageSrcFacebookTwo | prepend: site.url }}" />
+    <meta property="og:image" content="{{ site.socialImageSrcFacebook | prepend: site.baseurl | prepend: site.url }}" />
     <meta property="og:description" content="{{ site.description }}" /> 
     
 
@@ -47,7 +44,7 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-TileImage" content="{{ "/img/favicons/mstile-144x144.png" | prepend: site.baseurl }}">
     <meta name="msapplication-config" content="{{ "/img/favicons/browserconfig.xml" | prepend: site.baseurl }}">
-
+    
     <link href="{{ "/css/main.min.css" | prepend: site.baseurl }}" rel="stylesheet"> 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,5 +52,5 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+      <![endif]-->
   </head>

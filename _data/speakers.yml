@@ -123,3 +123,17 @@
   social: 
     - {name: 'twitter', link: 'https://twitter.com/dimko1'}
     - {name: 'github', link: 'https://github.com/dimko1'}
+- 
+  id: 2
+  name: 'Nilay'
+  surname: 'Yener'
+  company: 'Eteration'
+  title: 'Product Manager'
+  bio: 'Nilay is co-organizer of GDG Istanbul and GDG Women Istanbul. In this time she has been one of the key organisers of big events such as DevFest and DevFest Women Istanbul. She has been working for Eteration for 5 years. '
+  thumbnailUrl: NilayYener.jpg
+  rockstar: false
+  ribbon:
+    - {abbr: 'GDG', title: 'Google Developer Group Istanbul', url: 'https://developers.google.com/groups/chapter/100514812580249787371/'}
+  social: 
+    - {name: 'google-plus', link: 'https://plus.google.com/+NilayCoşkunYener'}
+    - {name: 'twitter', link: 'https://twitter.com/nlycskn'}

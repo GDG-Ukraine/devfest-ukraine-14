@@ -131,10 +131,10 @@ $figcaption-color: #3c4a50;
         padding: 1.4em;
         transition: $base-transition;
         transform: translateY(0);
+        text-overflow: ellipsis;
         opacity: 0;
         color: #fff;
         background: none;
-        text-overflow: ellipsis;
         -webkit-line-clamp: 5;
         -webkit-box-orient: vertical;
     }

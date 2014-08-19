@@ -10,6 +10,21 @@
   social: 
     - {name: 'google-plus', link: 'https://plus.google.com/+DawidOstrowski/'}
 - 
+  id: 12
+  name: 'Murat'
+  surname: 'Yener'
+  company: 'Intel'
+  title: 'Android Developer'
+  bio: 'Murat Yener is a code geek, open source committer and working in Intel as an Android Developer. He has extensive experience on developing Java, Web, JavaEE and OSGi applications besides teaching courses and mentoring. Murat is an Eclipse committer and one of the initial committers of Eclipse Libra project. He is currently working on building native and Hybrid mobile apps with mGWT. He is the author of upcoming Professional Java EE Design Patterns book from Wiley. He has been a user group leader at GDG Istanbul since 2009. Murat is a regular speaker at conferences like JavaOne, EclipseCon and user group meetings.'
+  thumbnailUrl: MuratYener.jpg
+  rockstar: true
+  ribbon: 
+    - {abbr: 'GDG', title: 'Google Developer Group Itanbul', url: 'https://developers.google.com/groups/chapter/100514812580249787371/'}
+  social: 
+    - {name: 'linkedin', link: 'www.linkedin.com/in/muratyener'}
+    - {name: 'twitter', link: 'https://twitter.com/yenerm'}
+    - {name: 'site', link: 'https://www.devchronicles.com'}
+- 
   id: 11
   name: 'Xavier'
   surname: 'Hallade'

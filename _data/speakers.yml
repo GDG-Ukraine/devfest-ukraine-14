@@ -15,7 +15,7 @@
   surname: 'Yener'
   company: 'Intel'
   title: 'Android Developer'
-  bio: 'Murat Yener is a code geek, open source committer and working in Intel as an Android Developer. He has extensive experience on developing Java, Web, JavaEE and OSGi applications besides teaching courses and mentoring. Murat is an Eclipse committer and one of the initial committers of Eclipse Libra project. He is currently working on building native and Hybrid mobile apps with mGWT. He is the author of upcoming Professional Java EE Design Patterns book from Wiley. He has been a user group leader at GDG Istanbul since 2009. Murat is a regular speaker at conferences like JavaOne, EclipseCon and user group meetings.'
+  bio: '<p>Murat Yener is a code geek, open source committer and working in Intel as an Android Developer. He has extensive experience on developing Java, Web, JavaEE and OSGi applications besides teaching courses and mentoring. Murat is an Eclipse committer and one of the initial committers of Eclipse Libra project. He is currently working on building native and Hybrid mobile apps with mGWT.</p> <p>He is the author of upcoming Professional Java EE Design Patterns book from Wiley.</p> <p>He has been a user group leader at GDG Istanbul since 2009.</p> <p>Murat is a regular speaker at conferences like JavaOne, EclipseCon and user group meetings.</p>'
   thumbnailUrl: MuratYener.jpg
   rockstar: true
   ribbon: 

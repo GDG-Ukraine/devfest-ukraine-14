@@ -23,7 +23,7 @@
   social: 
     - {name: 'linkedin', link: 'www.linkedin.com/in/muratyener'}
     - {name: 'twitter', link: 'https://twitter.com/yenerm'}
-    - {name: 'site', link: 'https://www.devchronicles.com'}
+    - {name: 'site', link: 'http://www.devchronicles.com'}
 - 
   id: 11
   name: 'Xavier'

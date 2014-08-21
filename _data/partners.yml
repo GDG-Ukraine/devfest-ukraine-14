@@ -22,3 +22,4 @@
     - {name: 'Startup Depot', description: 'Startup Depot - Lviv Business Incubator', link: 'http://innovateinlviv.com/', imageUrl: 'startup-depot.svg'}
     - {name: 'SoftServe', description: 'SoftServe – Best IT Employer', link: 'https://softserve.ua/en/', imageUrl: 'softserve.svg'}
     - {name: 'Betaplace', description: 'Betaplace – Covorking center in Lviv', link: 'http://betaplace.com.ua/', imageUrl: 'betaplace.svg'}
+    - {name: 'MCE 2015', description: 'MCE – The mobile technology conference created by developers and designers', link: 'http://mceconf.com/', imageUrl: 'mce.svg'}

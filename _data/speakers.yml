@@ -144,11 +144,27 @@
   surname: 'Yener'
   company: 'Eteration'
   title: 'Product Manager'
-  bio: 'Nilay is co-organizer of GDG Istanbul and GDG Women Istanbul. In this time she has been one of the key organisers of big events such as DevFest and DevFest Women Istanbul. She has been working for Eteration for 5 years. '
+  bio: 'Nilay is co-organizer of GDG Istanbul and GDG Women Istanbul. In this time she has been one of the key organisers of big events such as DevFest and DevFest Women Istanbul. She has been working for Eteration for 5 years.'
   thumbnailUrl: NilayYener.jpg
   rockstar: false
   ribbon:
     - {abbr: 'GDG', title: 'Google Developer Group Istanbul', url: 'https://developers.google.com/groups/chapter/100514812580249787371/'}
+    - {abbr: 'GDGW', title: 'Google Developer Group Women Istanbul', url: 'http://www.gdgistanbul.com/'}
   social: 
     - {name: 'google-plus', link: 'https://plus.google.com/+NilayCoşkunYener'}
     - {name: 'twitter', link: 'https://twitter.com/nlycskn'}
+- 
+  id: 13
+  name: 'Kseniia'
+  surname: 'Shumelchyk'
+  company: 'SoftServe'
+  title: 'Software developer'
+  bio: 'Kseniia is working as software developer at SotServe. For two years she is leader of GDG Women Ukraine and GDG Dnipropetrovsk. Kseniia actively participate in GDG events, techtalks and conferences devoted software development and so on. Regularly she shares among girls an overview about different programs, grants available for women in IT and my own experience how was involved in some of these programs. Developer of several open-source project during Google Summer of Code program. Participant of TechTalk with global Women Techmakers community.'
+  thumbnailUrl: KseniiaShumelchyk.jpg
+  rockstar: false
+  ribbon:
+    - {abbr: 'GDG', title: 'Google Developer Group Dnipropetrovsk', url: 'https://developers.google.com/groups/chapter/116033068768596939209/'}
+    - {abbr: 'GDGW', title: 'Google Developer Group Women Ukraine', url: 'http://dnipro.gdg.org.ua/'}
+  social: 
+    - {name: 'google-plus', link: 'https://plus.google.com/u/0/104006672956574838559'}
+    - {name: 'linkedin', link: 'http://ua.linkedin.com/pub/kseniia-shumelchyk/49/26/935'}

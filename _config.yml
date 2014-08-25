@@ -45,16 +45,16 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
 bottomNavigationLinks:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/#tickets-2", text: "Buy tickets"}
 rightNavigationButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/#tickets-2", text: "Buy tickets"}
 
 # Hero Block
 heroTitle: "GDG DevFest <typeout> 2014"
 eventDate: "October 24-25, Lviv"
 typeoutTextValues: '"", "Conference", "Workshops", "Hackathon", "Ukraine"'
 heroButtons:
- - {url: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/#tickets-2", text: "Buy tickets"}
 
 # About Block
 aboutTitle: "About GDG DevFest"
@@ -114,33 +114,37 @@ subscribeTitle: "Subscribe for updates"
 subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
-# Buy Tickets Block
-buyTicketsTitle: "Pricetable"
+# Tickets Block
+ticketsTitle: "Pricetable"
+ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
 ticketsOffers:
  -
-  name: "1 day"
-  price: "$100"
+  name: "Early Bird"
+  price: "350"
+  priceCurrency: "UAH"
+  ticketsNumber: "150"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
+  validFrom: "2014-08-25T10:00"
+  validThrough: "2014-09-30T23:59"
  -
-  name: "3 days"
-  price: "$180"
-  ribbon: "-20%"
-  featured: true
+  name: "Last Chance"
+  price: "450"
+  priceCurrency: "UAH"
+  ticketsNumber: "100"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
+  validFrom: "2014-10-01T00:00"
   validThrough: "2014-10-23T23:59"
+  disabled: true
  -
-  name: "2 days"
-  price: "$150"
+  name: "Student"
+  price: "200"
+  priceCurrency: "UAH"
+  ticketsNumber: "50"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
   validFrom: "2014-08-20T10:00"
   validThrough: "2014-10-23T23:59"
 

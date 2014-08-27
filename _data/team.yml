@@ -18,7 +18,7 @@
   id: 1
   name: "Oleh"
   surname: "Zasadnyy"
-  company: "GDG Lviv"
+  company: "EPAM Systems, GDG Lviv"
   title: "Designer and Web Developer"
   bio: "Finalist of Google I/O 2013, GDG DevFest 2013, Google I/O 2014 T-Shirt design contest. Web developer."
   thumbnailUrl: OlehZasadnyy.jpg
@@ -45,6 +45,19 @@
     - {name: "twitter", link: "https://twitter.com/p1f"}
     - {name: "site", link: "http://andrusiv.com/"}
     - {name: "email", link: "mailto:ostap.andrusiv@gdg.org.ua"}
+- 
+  id: 3
+  name: "Volodya"
+  surname: "Karpliuk"
+  company: "ViSoft"
+  title: "Sponsors and Speakers Manager"
+  bio: ""
+  thumbnailUrl: VolodyaKarpliuk.jpg
+  team: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+VolodyaKarpliuk23"}
+    - {name: "twitter", link: "https://twitter.com/keyv23"}
+    - {name: "email", link: "mailto:volodya.karpuk@gmail.com"}
 - 
   id: 4
   name: "Dmytro"

@@ -28,16 +28,6 @@
                 "longitude" : "{{ coordinates[1] }}"
             }
         },
-        // Not supported yet
-        // "organizer" : {
-        //     "@type" : "Organization",
-        //     "name" : "{{ site.organizerName }}",
-        //     "alternateName" : "{{ site.organizerAlternateName }}",
-        //     "description" : "{{ site.organizerDescription }}",
-        //     "logo" : "{{ site.organizerLogo | prepend: site.baseurl | prepend: site.url }}",
-        //     "email" : "{{ site.organizerEmail }}",
-        //     "sameAs" : "{{ site.organizerLink }}"
-        // },
         "offers" : [
         {% for ticketsOffer in site.ticketsOffers %}
         {

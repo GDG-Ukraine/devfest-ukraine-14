@@ -50,6 +50,7 @@ rightNavigationButtons:
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # Hero Block
+heroImage: "hero.jpg"
 heroTitle: "GDG DevFest <typeout> 2014"
 eventDate: "October 24-25, Lviv"
 typeoutTextValues: '"", "Conference", "Workshops", "Hackathon", "Ukraine"'
@@ -65,6 +66,7 @@ aboutBlock:
  - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day free-style hackaton! Want some real teambuilding on friday? Grab your team and join our hackathon!" }
 
 # Statistic Block
+statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
  - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
@@ -75,6 +77,7 @@ statisticBlock:
 latestNewsTitle: "Latest news"
 
 # Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
 rockstarSpeakersTitle: "Rockstar speakers"
 rockstarSpeakersButtonText: "See all speakers"
@@ -97,10 +100,15 @@ mapMobileCenterCoordinates: "49.841620, 24.029411"
 
 # Venue Block
 venueBlockTitle: "Venue"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
 venueTitle: "Kinopalace Cinema"
 venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
 
 # Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "dfua"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=900"
@@ -111,6 +119,7 @@ partnersTitle: "Partners"
 partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
+subscribeImage: "subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
 subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
@@ -179,7 +188,6 @@ discusShortName: "devfestua"
 
 # Speakers List Block
 showSessions: false
-thumbnailsFolder: /img/speakers/
 
 # Team Block
 teamBlockTitle: "About us"
@@ -187,10 +195,17 @@ aboutUs: "Google's services have become synonymous with simple things online. Nu
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
 logisticsMapCenterCoordinates: "49.056728, 3.117289"
 logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
 
 # Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
 directionDetailsTitle: "Get around Lviv"
 directionDetailsCards:
  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}

@@ -24,7 +24,7 @@
 			<ul class="social-links">
 				{% for social in site.socialLinks %}
 				<li>
-					<a href="{% if social.permalink != null %} {{ social.permalink | prepend: site.baseurl }} {% else %} {{ social.link }} {% endif %}" {% if social.link != null %}target="_blank"{% endif %}>
+					<a href="{% if social.permalink != null %} {{ social.permalink | prepend: site.baseurl }} {% else %} {{ social.link }} {% endif %}" target="_blank">
 						<svg class="icon icon-{{ social.icon }}" viewBox="0 0 30 32">
 							<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social.icon }}"></use>
 						</svg>

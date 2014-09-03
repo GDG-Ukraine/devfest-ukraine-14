@@ -10,7 +10,7 @@
   service: true
 -
   id: 303
-  title: "See You!"
+  title: "Closing and GDG Awards"
   place: "Blue room"
   service: true
 -
@@ -47,7 +47,7 @@
   title: "Android L Animation"
   description: "I will speak and show how to:<br>- Respond to touch events in your views with touch feedback animations.<br>- Hide and show views with reveal effect animations.<br>- Switch between activities with custom activity transition animations.<br>- Create more natural animations with curved motion.<br>- Animate changes in one or more view properties with view state change animations.<br>- Create icon morphing transition"
   speakers: [4]
-  language: ukr
+  language: en
   complexity: "Intermediate" 
 -
   id: 004
@@ -68,7 +68,7 @@
   title: "Android Loader, problems and solutions"
   description: "Assuming the audience is already familiar with Loader class, we'll discuss problems that occur while using it, try to understand their reasons and see how they can be solved with Enroscar Async. And maybe we'll find out that Loader can be a rather powerful tool."
   speakers: [6]
-  language: ukr
+  language: en
   complexity: "Intermediate"
 -
   id: 007
@@ -82,7 +82,7 @@
   title: "RESTful API with Dart"
   description: "RESTful API is one of the most important part of the modern web applications and Dart provides us possibility to write it easily, fast and effectively. Want to know how? Follow my presentation!"
   speakers: [15]
-  language: ukr
+  language: en
   complexity: "Intermediate"
 -
   id: 009
@@ -103,7 +103,7 @@
   title: "Polymer, mf, do you speak it? Bonus track: material design"
   description: "Everything you should know about Polymer.<br>Material Design: purpose and patterns"
   speakers: [16]
-  language: ukr
+  language: en
   complexity: "Intermediate"
 -
   id: 012
@@ -119,3 +119,10 @@
   speakers: [13]
   language: urk
   complexity: "Beginner"
+-
+  id: 014
+  title: 'Go in the Cloud: How using Go can help building “cloud ready” applications'
+  description: "TBD"
+  speakers: [7]
+  language: urk
+  complexity: "Intermediate"

@@ -246,6 +246,13 @@
             }
         });
 
+        $('.timeslot-elements').each(function() {
+            var elementsCount = $(this).children().length;
+            if ($(this).find('> div.blank-col').length == elementsCount) {
+                $(this).parent().addClass('hidden-xs');
+            }
+        });
+
 
         if (typeof twitterFeedUrl !== 'undefined') {
             $.getJSON(twitterFeedUrl, function(data) {

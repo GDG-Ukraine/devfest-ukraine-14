@@ -154,6 +154,20 @@
     - {name: 'google-plus', link: 'https://plus.google.com/+NilayCoşkunYener'}
     - {name: 'twitter', link: 'https://twitter.com/nlycskn'}
 - 
+  id: 14
+  name: 'Michal'
+  surname: 'Tajchert'
+  company: 'Polidea'
+  title: 'Android Developer'
+  bio: 'Michal is Android Developer for all kinds of wearables, done programming for things such Oakley Airwave, Glass, Sony Smartwatch, and lately found his place in Android Wear development. He has contributed most of his project to the community and shared his knowledge to the community by organising many of Warsaw GDG meetings.'
+  thumbnailUrl: MichalTajchert.jpg
+  rockstar: false
+  social: 
+    - {name: 'google-plus', link: 'https://plus.google.com/+MichalTajchert'}
+    - {name: 'twitter', link: 'https://twitter.com/Tajchert'}
+    - {name: 'github', link: 'https://github.com/tajchert'}
+    - {name: 'site', link: 'http://tajchert.pl/'}
+- 
   id: 13
   name: 'Kseniia'
   surname: 'Shumelchyk'
@@ -168,3 +182,30 @@
   social: 
     - {name: 'google-plus', link: 'https://plus.google.com/u/0/104006672956574838559'}
     - {name: 'linkedin', link: 'http://ua.linkedin.com/pub/kseniia-shumelchyk/49/26/935'}
+- 
+  id: 15
+  name: 'Andriy'
+  surname: 'Nechytailov'
+  company: 'Twinfield'
+  title: 'Software engineer'
+  bio: 'Andriy started as junior backend developer at Twinfield about 3 years ago. Ambitious and inquisitive, during work on complex enterprise system he progressed, looked aside new technologies and experimented. Nowadays Andriy trying to balance between stable back-end and unpredictable front-end developments. The main technologies he currently focused on are AngularJS, Dart and Android.'
+  thumbnailUrl: AndriyNechytailov.jpg
+  rockstar: false
+  social: 
+    - {name: 'google-plus', link: 'https://plus.google.com/+AndreyNechitailov'}
+    - {name: 'github', link: 'https://github.com/Ne4istb'}
+    - {name: 'linkedin', link: 'https://www.linkedin.com/profile/view?id=354203327'}
+- 
+  id: 16
+  name: 'Anton'
+  surname: 'Iatsenko'
+  company: 'Evoldes'
+  title: 'Developer'
+  bio: 'Natural born geek. 10+ years as front-end engineer'
+  thumbnailUrl: AntonIatsenko.jpg
+  rockstar: false
+  social: 
+    - {name: 'facebook', link: 'https://www.facebook.com/anton.yatsenko'}
+    - {name: 'twitter', link: 'https://twitter.com/small_jam'}
+    - {name: 'github', link: 'https://github.com/smalljam'}
+    - {name: 'linkedin', link: 'https://www.linkedin.com/in/antonyatsenko'}

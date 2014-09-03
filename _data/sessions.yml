@@ -1,50 +1,121 @@
 -
+  id: 202
+  title: "Registration"
+  place: "Hall"
+  service: true
+-
+  id: 302
+  title: "Keynote"
+  place: "Blue room"
+  service: true
+-
+  id: 303
+  title: "See You!"
+  place: "Blue room"
+  service: true
+-
+  id: 307
+  title: "Coffee Break"
+  place: "Hall"
+  service: true
+-
+  id: 408
+  title: "Afterparty"
+  place: "Hall"
+  service: true
+-
+  id: 503
+  title: "Lunch Break"
+  place: "Dining room"
+  service: true
+-
   id: 001
-  title: "Material design: Visual style and imagery"
-  description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
-  track: android
-  subtype: workshop
-  speakers: [0]
-  startTimeStamp: 1382774400
-  endTimestamp: 1382796000
+  title: "L(e) Android: The whole android ecosystem experience with wear and glass"
+  description: "Google TV was an early but premature attempt to extend android out of the phone. Google Glass took that a step further by providing a new UI, UX and APIs. Now with Android Wear, Android has extended to a new environment which is much adoptable than Glass. However, Wear comes with a price, with wear once again we have new UI, UX and set of APIs.<br>This talk intends to give a deep dive into whole new UI, UX and development tools introduced by Android L, Android Wear and the Google Glass showing ways to integrate each and offer a smooth flow between all android platforms."
+  speakers: [12]
   language: en
+  complexity: "Intermediate"
 -
   id: 002
-  title: "Building Cloud-powered wearable Apps"
-  description: "Android wear extends the Android platform to a new generation of wearable devices. The user experience is designed specifically for wearables. In this session you’ll see how to use the Android Wear SDK to build a connected cloud-powered application. Using Android Studio and it’s cloud extensions, you’ll see how to build an app that ‘listens’ for changes in stock prices, and notifies a wearable device. You’ll also see how to use voice controls on the device to trigger interactions with the app, such as buying or selling the stock after a notification. Call to action: Get the SDK and start building apps today!"
-  track: cloud
-  subtype: presentation
-  speakers: [1, 2]
-  startTimeStamp: 1382774400
-  endTimestamp: 1382796000
-  language: uk
+  title: "The Android NDK"
+  description: "The Android NDK is used to integrate asm/C/C++ code into Android applications and libraries.<br>Learn how to use it as well as NDK-based libraries with Eclipse and Android Studio. Discover what changes from the new Android Runtime (ART) may break your integration, and what you need to do in order to take advantage of 64-bit architectures."
+  speakers: [11]
+  language: en
+  complexity: "Intermediate"
 -
   id: 003
-  title: "The world is your playground - go global with Google"
-  description: "More than ever before, developing for global audience is a necessity than a luxury in today's world. Are you ready ... where to start? what does it entail? how do I do it? how to promote in local markets? This talk will address above questions for android, chrome and web developers. In our journey of the where, what and how, we will take an in-depth look at various internationalization and localization tools & strategies available to you."
-  track: android
-  subtype: presentation
-  speakers: [2]
-  startTimeStamp: 1382774400
-  endTimestamp: 1382796000
-  language: en
+  title: "Android L Animation"
+  description: "I will speak and show how to:<br>- Respond to touch events in your views with touch feedback animations.<br>- Hide and show views with reveal effect animations.<br>- Switch between activities with custom activity transition animations.<br>- Create more natural animations with curved motion.<br>- Animate changes in one or more view properties with view state change animations.<br>- Create icon morphing transition"
+  speakers: [4]
+  language: ukr
+  complexity: "Intermediate" 
 -
   id: 004
-  title: "Polymer: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  track: web
-  subtype: keynote
-  speakers: [3]
-  startTimeStamp: 1382774400
-  endTimestamp: 1382796000
+  title: "Guava beyond Collections"
+  description: "Based on the stats gathered by imaginarynumbers inc., 49% of Java developers wouldn't code Java anymore if not Guava.<br>In fact, Guava is a wonderful library that makes Java development easier and friendlier. And it's applicable also for Android. However, many developers limit its usage to simple Collections' transformations and filters, not revealing many advantages coming with the whole lib.<br>During my presentation I'll also cover some android-specific topics like:<br>- Guava your ContentResolverish boilerplate<br>- 65K method limit hurts your app and Guava uses too many? Different approaches of handling this issue.<br>- Do's and dont's of Guava for Android.<br><br>And more!"
+  speakers: [5]
   language: en
+  complexity: "Intermediate"  
 -
   id: 005
-  title: "Test: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  track: web
-  subtype: keynote
-  speakers: [2]
-  startTimeStamp: 1382774400
-  endTimestamp: 1382796000
+  title: "Android Wear UX at a glance"
+  description: "Android Wear is the new edition of Android geared towards smart watches. There are several easy ways you as a developer can add Wear support to your existing apps, but in order to make sure your app really rocks on the users' wrists, you need to unlearn some of the habits of designing for mobile. In this presentation I will show the do's, the don'ts, and some of the how of Android Wear development."
+  speakers: [10]
   language: en
+  complexity: "Beginner"
+-
+  id: 006
+  title: "Android Loader, problems and solutions"
+  description: "Assuming the audience is already familiar with Loader class, we'll discuss problems that occur while using it, try to understand their reasons and see how they can be solved with Enroscar Async. And maybe we'll find out that Loader can be a rather powerful tool."
+  speakers: [6]
+  language: ukr
+  complexity: "Intermediate"
+-
+  id: 007
+  title: "Wearables Views"
+  description: "In Android Wear SDK when using custom layouts we got access to 10 brand new Views, which are extremely useful, but which should I use and when is in most cases still unclear. During my presentation I would like to make small run over that topic and explain benefits and advantages of each of them."
+  speakers: [14]
+  language: en
+  complexity: "Intermediate"
+-
+  id: 008
+  title: "RESTful API with Dart"
+  description: "RESTful API is one of the most important part of the modern web applications and Dart provides us possibility to write it easily, fast and effectively. Want to know how? Follow my presentation!"
+  speakers: [15]
+  language: ukr
+  complexity: "Intermediate"
+-
+  id: 009
+  title: "Front-End Tools Beyond DevTools"
+  description: "Every front-end developer knows that Chrome DevTools rocks! It is a primary tool we work with every day. Mastering it is a must. Yet there is more to the story. Real front-end craftspersons don't use a multi-tool for every task. Instead, they use a set of specialised tools to make their work more efficient. In the Chrome world, these tools are called Chrome Extensions.<br><br>During my presentation, I will demonstrate several extensions I have built. I will explain how I built them. You'll not only learn about new tools, but you will also see how easy it is to create them!"
+  speakers: [9]
+  language: en
+  complexity: "Intermediate"
+-
+  id: 010
+  title: "JS for Mobile Dev"
+  description: "We will speak about js frameworks for mobile. Like ionic, steroids, etc..."
+  speakers: [8]
+  language: rus
+  complexity: "Beginner"
+-
+  id: 011
+  title: "Polymer, mf, do you speak it? Bonus track: material design"
+  description: "Everything you should know about Polymer.<br>Material Design: purpose and patterns"
+  speakers: [16]
+  language: ukr
+  complexity: "Intermediate"
+-
+  id: 012
+  title: "How to get 50% women at a high-tech conference"
+  description: "Women Techmakers aims to raise awareness of innovative women leaders in technology and inspire others to join the field.<br><br>I would talk about history and successful growth of Women Techmakers Ukraine community, why is necessary to expand diversity and how we make it with Google's support. As well I will talk about opportunities for women in IT and special programs for girls and students."
+  speakers: [2]
+  language: en
+  complexity: "Intermediate"
+-
+  id: 013
+  title: "Women Techmakers Ukraine: how we support diversity"
+  description: "Women Techmakers aims to raise awareness of innovative women leaders in technology and inspire others to join the field.<br><br>I would talk about history and successful growth of Women Techmakers Ukraine community, why is necessary to expand diversity and how we make it with Google's support. As well I will talk about opportunities for women in IT and special programs for girls and students."
+  speakers: [13]
+  language: urk
+  complexity: "Beginner"

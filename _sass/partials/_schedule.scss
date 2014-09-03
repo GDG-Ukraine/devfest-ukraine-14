@@ -144,11 +144,14 @@ $small-label-width: 80px;
     @media (max-width: 767px) {
         border-top: $schedule-border;
     }
-    &.blank-col {
+    &.service-slot {
         cursor: default;
     }
-    &.service-slot {
-        @extend .blank-col;
+    &.blank-col {
+        @extend .service-slot;
+        @media (min-width: 768px) {
+            min-height: 150px;
+        }
     }
 }
 .color-line {

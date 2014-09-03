@@ -117,12 +117,19 @@
   title: "Women Techmakers Ukraine: how we support diversity"
   description: "Women Techmakers aims to raise awareness of innovative women leaders in technology and inspire others to join the field.<br><br>I would talk about history and successful growth of Women Techmakers Ukraine community, why is necessary to expand diversity and how we make it with Google's support. As well I will talk about opportunities for women in IT and special programs for girls and students."
   speakers: [13]
-  language: urk
+  language: ukr
   complexity: "Beginner"
 -
   id: 014
   title: 'Go in the Cloud: How using Go can help building “cloud ready” applications'
   description: "TBD"
   speakers: [7]
-  language: urk
+  language: ukr
+  complexity: "Intermediate"
+-
+  id: 015
+  title: 'TBD'
+  description: "TBD"
+  speakers: [3]
+  language: en
   complexity: "Intermediate"

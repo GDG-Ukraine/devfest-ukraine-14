@@ -122,7 +122,7 @@
 -
   id: 014
   title: 'Go in the Cloud: How using Go can help building “cloud ready” applications'
-  description: "TBD"
+  description: '<p>Though Go language was introduced quite long time ago, it was not very popular until Cloud Computing came into our life. In this presentation I will explain why Go would be a great choice for developing really cloud-ready apps.</p><ol><li>Introduction to Go language</li><li>Quick comparision Go with other solutions</li><li>Some details of main Go features: goroutins, channels</li><li>Example of go app scaling written in go</li></ol>'
   speakers: [7]
   language: ukr
   complexity: "Intermediate"

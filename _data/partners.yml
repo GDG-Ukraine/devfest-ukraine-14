@@ -11,6 +11,10 @@
   elements: 
     - {name: 'Lemberg', description: 'Lemberg Solutions - Web and Mobile App Development Company', link: 'http://lemberg.co.uk/', imageUrl: 'lemberg.svg'}
 - 
+  group: 'Hackathon sponsor'
+  elements: 
+    - {name: 'Lohika', description: 'A trusted partner in software development', link: 'http://www.lohika.com/', imageUrl: 'lohika.svg'}
+- 
   group: 'General partner'
   elements: 
     - {name: 'IT-BPO', description: 'IT-BPO Lviv Cluster', link: 'http://it-bpo.lviv.ua/', imageUrl: 'it-bpo.png'}
@@ -34,3 +38,4 @@
     - {name: 'Md-Eksperiment', description: 'Фестивали, Дорогие друзья, представляем список фестивалей-партнеров Международного культурного портала Эксперимент. Для вашего удобства мы решили собрать их вместе. Количество постоянно увеличивается. Можно заказать,купить билеты на фестиваль', link: 'http://md-eksperiment.org/page.php?menu_id=3', imageUrl: 'md-eksperiment.png'}
     - {name: 'ІТ у нашому селі', description: 'Itvillage is a media project, which mission is in covering an intersection of technology, business and cultrure', link: 'http://itvillage.in.ua/', imageUrl: 'ituseli.svg'}
     - {name: 'AppClub { build, monetize }', description: 'AppClub - профессиональный клуб мобильных разработчиков и стартапов', link: 'http://appclub.im/', imageUrl: 'appclub.svg'}
+    - {name: 'Mobiconf', description: 'Mobiconf - Experience the World of Mobile Development', link: 'http://www.mobiconf.org/', imageUrl: 'mobiconf.svg'}

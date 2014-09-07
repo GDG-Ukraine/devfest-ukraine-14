@@ -128,8 +128,22 @@
   complexity: "Intermediate"
 -
   id: 015
-  title: 'TBD'
+  title: "TBD"
   description: "TBD"
   speakers: [3]
   language: en
   complexity: "Intermediate"
+-
+  id: 016
+  title: "Graphical experiments with AngularJS"
+  description: "How to connect browser graphic experiments with real-time data using AngularJS."
+  speakers: [17]
+  language: ukr
+  complexity: "Intermediate"
+-
+  id: 017
+  title: "Round table - Ladies in tech"
+  description: "Discussion about ladies in tech. How to get more female attendeed on event and in programming."
+  speakers: [13]
+  language: ukr
+  complexity: "Beginner"

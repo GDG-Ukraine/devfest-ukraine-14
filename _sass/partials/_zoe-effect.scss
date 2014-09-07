@@ -110,7 +110,8 @@ $figcaption-color: #3c4a50;
         }
         .position {
             font-size: 12px;
-            @include trimText(12px, 1, 1);
+            line-height: 1.2;
+            @include trimText(12px, 1.2, 1);
         }
     }
     .bio {

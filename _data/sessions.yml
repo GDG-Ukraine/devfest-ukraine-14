@@ -144,7 +144,7 @@
   id: 017
   title: "Round table - Ladies in tech"
   description: "Discussion about ladies in tech. How to get more female attendeed on event and in programming."
-  speakers: [13]
+  speakers: [13, 2]
   language: ukr
   complexity: "Beginner"
 -

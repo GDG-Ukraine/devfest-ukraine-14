@@ -1,4 +1,16 @@
 - 
+  date: "2014-10-24"
+  dateReadable: "October 24"
+  tracks: 
+    - {title: "Hackathon", color: "#90be4e"}
+    - {title: "Workshops", color: "#03a9f4"}
+  timeslots:
+    - {
+        startTime: "10:00",
+        endTime: "19:00",
+        sessionIds: [666, 777]
+    }
+- 
   date: "2014-10-25"
   dateReadable: "October 25"
   tracks: 

@@ -29,6 +29,16 @@
   place: "Dining room"
   service: true
 -
+  id: 666
+  title: 'Freestyle Hachathon'
+  place: ''
+  service: true
+-
+  id: 777
+  title: 'Workshops'
+  place: ''
+  service: true
+-
   id: 001
   title: "L(e) Android: The whole android ecosystem experience with wear and glass"
   description: "Google TV was an early but premature attempt to extend android out of the phone. Google Glass took that a step further by providing a new UI, UX and APIs. Now with Android Wear, Android has extended to a new environment which is much adoptable than Glass. However, Wear comes with a price, with wear once again we have new UI, UX and set of APIs.<br>This talk intends to give a deep dive into whole new UI, UX and development tools introduced by Android L, Android Wear and the Google Glass showing ways to integrate each and offer a smooth flow between all android platforms."

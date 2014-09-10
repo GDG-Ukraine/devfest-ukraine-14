@@ -138,11 +138,11 @@
   complexity: "Intermediate"
 -
   id: 015
-  title: "TBD"
+  title: "Keynote"
   description: "TBD"
   speakers: [3]
   language: en
-  complexity: "Intermediate"
+  complexity: "Beginner"
 -
   id: 016
   title: "Graphical experiments with AngularJS"
@@ -163,4 +163,11 @@
   description: 'What does Google, Amazon, and Microsoft look for in a candidate? In this session, learn preparation and presentation strategies to help you interview well, communicate effectively, and navigate the challenges of a technical interview. Who knows, someone might even be interviewed live on stage!'
   speakers: [12]
   language: en
+  complexity: "Beginner"
+-
+  id: 019
+  title: 'Google Summer of Code - amazing experience for students'
+  description: 'During presentation we will cover: <ul> <li>What is Google Summer of Code?</li> <li>What are the goals of the program?</li><li>How does Google Summer of Code work?</li><li>Stipends</li><li>Participating projects</li><li>Why should I participate?</li><li>Statistics</li><li>Useful links</li></ul>'
+  speakers: [18]
+  language: rus
   complexity: "Beginner"

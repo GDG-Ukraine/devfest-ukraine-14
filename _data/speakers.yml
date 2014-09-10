@@ -221,3 +221,17 @@
   social: 
     - {name: 'twitter', link: 'https://twitter.com/kira__kit'}
     - {name: 'github', link: 'https://github.com/probably-kira'}
+- 
+  id: 18
+  name: 'Denys'
+  surname: 'Butenko'
+  company: ''
+  title: 'Python Web Developer'
+  bio: 'Denys is a python web developer. He participated and successfully passed the Google Summer of Code 2013 and 2014 years. In his time at Melange (GSoC 2014), he worked on responsive layout for GSoC and GCI. An year ago, at TYPO3, he worked on extension for TYPO3 CMS for OAuth2 protocol. He likes new technologies and devices.'
+  thumbnailUrl: DenysButenko.jpg
+  rockstar: false
+  social: 
+    - {name: 'twitter', link: 'https://twitter.com/denysbutenko'}
+    - {name: 'github', link: 'https://github.com/denysbutenko'}
+    - {name: 'google-plus', link: 'https://google.com/+denysbutenko'}
+    - {name: 'linkedin', link: 'https://www.linkedin.com/pub/denys-butenko/77/364/42b'}

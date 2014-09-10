@@ -171,3 +171,10 @@
   speakers: [18]
   language: rus
   complexity: "Beginner"
+-
+  id: 020
+  title: 'Google Mapmaker'
+  description: 'Google Mapmaker - is a great tool to add important or missing objects to Google Maps. Each contribution will make country map better and as a result Ukraine will be more opened for citizens and foreign visitors from all around the world'
+  speakers: [19]
+  language: ukr
+  complexity: "Beginner"

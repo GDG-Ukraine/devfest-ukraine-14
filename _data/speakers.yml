@@ -246,3 +246,14 @@
   rockstar: false
   social: 
     - {name: 'google-plus', link: 'https://www.google.com/+YaroslavYaroshevskyy'}
+- 
+  id: 20
+  name: 'Yehor'
+  surname: 'Lvivski'
+  company: 'Spatialkey'
+  title: 'Software Architect'
+  bio: 'Yehor is a passionate front end engineer and UX designer. He likes to make useful tools, that help people solve their problems. Currently he is creating a web app, that helps insurance companies save money, and allows you to find a better and safer place to live.'
+  thumbnailUrl: YehorLvivski.jpg
+  rockstar: false
+  social: 
+    - {name: 'site', link: 'http://lvivski.com'}

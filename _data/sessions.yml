@@ -178,3 +178,10 @@
   speakers: [19]
   language: ukr
   complexity: "Beginner"
+-
+  id: 021
+  title: 'Behind The Scenes: Dart'
+  description: "Why isn't Dart so popular right now and how to fix it. A brief overview of Dart success/failure stories and why is it the best front end prototyping tool right now."
+  speakers: [20]
+  language: en
+  complexity: "Intermediate"

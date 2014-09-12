@@ -39,3 +39,4 @@
     - {name: 'ІТ у нашому селі', description: 'Itvillage is a media project, which mission is in covering an intersection of technology, business and cultrure', link: 'http://itvillage.in.ua/', imageUrl: 'ituseli.svg'}
     - {name: 'AppClub { build, monetize }', description: 'AppClub - профессиональный клуб мобильных разработчиков и стартапов', link: 'http://appclub.im/', imageUrl: 'appclub.svg'}
     - {name: 'Mobiconf', description: 'Mobiconf - Experience the World of Mobile Development', link: 'http://www.mobiconf.org/', imageUrl: 'mobiconf.svg'}
+    - {name: 'Symphony Solutions', description: 'Symphony Solutions - Software development tailored to your needs!', link: 'http://www.symphony-solutions.eu/', imageUrl: 'symphony-solutions.png'}

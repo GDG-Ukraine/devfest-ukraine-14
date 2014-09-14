@@ -128,111 +128,74 @@ time {
     left: 0;
     background-color: #fff;
 }
-.loader-gplus {
-    display: inline-block;
+$offset: 125;  // Here is where the magic happens
+$duration: 3s;
+$duration2: $duration*2;
+.spinner {
     position: absolute;
-    top: calc(50% - 20px);
-    left: calc(50% - 20px);
-    width: 40px;
-    height: 40px;
-    overflow: hidden;
-    border-radius: 20px;
-    animation: base 3s steps(1) 0s infinite;
-    &::before, &::after {
-        content: ' ';
-        display: block;
-        width: 50%;
-        height: 100%;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        z-index: 1;
-        border-radius: 0 20px 20px 0;
-        transform-origin: 0 50%;
-    }
-    &::before {
-        z-index: 2;
-        transform-style: preserve-3d;
-        animation: flip 3s linear 0s infinite;
-    }
-    &::after {
-        animation: reveal 3s steps(1) 0s infinite;
-    }
+    top: calc(50% - 33px);
+    left: calc(50% - 33px);
+    animation: rotator $duration linear infinite;
 }
-@keyframes base {
-    0% {
-        transform: rotate(0deg);
-        background-color: #21aa29;
+@keyframes rotator {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.path {
+    stroke-dasharray: $offset;
+    stroke-dashoffset: 0;
+    transform-origin: center;
+    animation:
+        dash $duration2 ease-in-out infinite, 
+        colors $duration2 ease-in infinite;
+    stroke: #4285F4;
+}
+
+@keyframes colors {
+    0% { stroke: #4285F4; }
+    20% { stroke: #4285F4; }
+    25% { stroke: #DE3E35; }
+    45% { stroke: #DE3E35; }
+    50% { stroke: #F7C223; }
+    70% { stroke: #F7C223; }
+    75% { stroke: #1B9A59; }
+    95% { stroke: #1B9A59; }
+    100% { stroke: #4285F4; }
+}
+
+@keyframes dash {
+    0% { stroke-dashoffset: $offset; }
+    12.5% {
+        stroke-dashoffset: $offset/4;
+        transform:rotate(0deg);
     }
     25% {
-        transform: rotate(90deg);
-        background-color: #2159d6;
+        stroke-dashoffset: $offset;
+        transform:rotate(270deg);
+    }
+    37.5% {
+        stroke-dashoffset: $offset/4;
+        transform:rotate(270deg);
     }
     50% {
-        transform: rotate(180deg);
-        background-color: #d62408;
+        stroke-dashoffset: $offset;
+        transform:rotate(540deg);
+    }
+    62.5% {
+        stroke-dashoffset: $offset/4;
+        transform:rotate(540deg);
     }
     75% {
-        transform: rotate(270deg);
-        background-color: #ffcf00;
+        stroke-dashoffset: $offset;
+        transform:rotate(810deg);
+    }
+    87.5% {
+        stroke-dashoffset: $offset/4;
+        transform:rotate(810deg);
     }
     100% {
-        transform: rotate(360deg);
-        background-color: #21aa29;
-    }
-}
-@keyframes reveal {
-    0% {
-        background-color: #2159d6;
-        transform: rotate(0deg);
-    }
-    25% {
-        background-color: #d62408;
-        transform: rotate(180deg);
-    }
-    50% {
-        background-color: #ffcf00;
-        transform: rotate(0deg);
-    }
-    75% {
-        background-color: #21aa29;
-        transform: rotate(180deg);
-    }
-    100% {
-        background-color: #2159d6;
-        transform: rotate(0deg);
-    }
-}
-@keyframes flip {
-    0% {
-        background-color: #21aa29;
-        transform: rotateY(0deg);
-    }
-    12.5%, 87.56% {
-        background-color: #105514;
-    }
-    12.51%, 37.5% {
-        background-color: #102c6b;
-    }
-    25% {
-        background-color: #2159d6;
-    }
-    37.51%, 62.5% {
-        background-color: #6b1204;
-    }
-    50% {
-        background-color: #d62408;
-    }
-    62.51%, 87.5% {
-        background-color: #7f6700;
-    }
-    75%, 78% {
-        background-color: #ffcf00;
-    }
-    100% {
-        background-color: #21aa29;
-        transform: rotateY(-720deg);
+        stroke-dashoffset: $offset;
+        transform:rotate(1080deg);
     }
 }
 .social-links {

@@ -257,3 +257,15 @@
   rockstar: false
   social: 
     - {name: 'site', link: 'http://lvivski.com'}
+- 
+  id: 21
+  name: 'Andrii'
+  surname: 'Komar'
+  company: 'Google'
+  title: 'Business Associate Intern'
+  bio: 'Andrii is a business associate intern in marketing at Google Ukraine, focusing on B2C products and brand. Prior to Google, Andrii has been studying in South Korea, Hong Kong and Germany, double majoring in mechanical engineering and business, with the emphasis on technology management.'
+  thumbnailUrl: AndriiKomar.jpg
+  rockstar: false
+  social: 
+    - {name: 'google-plus', link: 'https://plus.google.com/114293195346554220160'}
+    - {name: 'linkedin', link: 'http://ua.linkedin.com/in/akomar'}

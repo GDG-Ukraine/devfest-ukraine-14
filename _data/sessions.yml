@@ -132,7 +132,7 @@
 -
   id: 014
   title: 'Go in the Cloud: How using Go can help building “cloud ready” applications'
-  description: '<p>Though Go language was introduced quite long time ago, it was not very popular until Cloud Computing came into our life. In this presentation I will explain why Go would be a great choice for developing really cloud-ready apps.</p><ol><li>Introduction to Go language</li><li>Quick comparision Go with other solutions</li><li>Some details of main Go features: goroutins, channels</li><li>Example of go app scaling written in go</li></ol>'
+  description: '<p>Though Go language was introduced quite long time ago, it was not very popular until Cloud Computing came into our life. In this presentation I will explain why Go would be a great choice for developing really cloud-ready apps.</p><br/>1. Introduction to Go language<br/>2. Quick comparision Go with other solutions<br/>3. Some details of main Go features: goroutins, channels<br/>4. Example of go app scaling written in go'
   speakers: [7]
   language: ukr
   complexity: "Intermediate"
@@ -167,7 +167,7 @@
 -
   id: 019
   title: 'Google Summer of Code - amazing experience for students'
-  description: 'During presentation we will cover: <ul> <li>What is Google Summer of Code?</li> <li>What are the goals of the program?</li><li>How does Google Summer of Code work?</li><li>Stipends</li><li>Participating projects</li><li>Why should I participate?</li><li>Statistics</li><li>Useful links</li></ul>'
+  description: 'During presentation we will cover: <br/>-What is Google Summer of Code?<br/>-What are the goals of the program?<br/>-How does Google Summer of Code work?<br/>-Stipends<br/>-Participating projects<br/>-Why should I participate?<br/>-Statistics<br/>-Useful links'
   speakers: [18]
   language: rus
   complexity: "Beginner"
@@ -188,7 +188,7 @@
 -
   id: 022
   title: 'Student opportunities abroad'
-  description: '<p>The world is going global. Borders are being demolished, companies expand internationally, English is becoming more and more widespread.</p><p>We are not limited to one location and can choose to be pretty much in any country we want. There is an effort to be put but it is often very worth doing. The opportunities we have globally are countless and there is something great for anyone. Student years is the best time to experience it and to make a big usage out it.<p><p>The talk will cover: <br/>- Big opportunities for students abroad<br/>- Huge benefits of studying/interning abroad<br/>- Personal life-changing experience of studying in South Korea, Germany and Hong Kong"</p>'
+  description: '<p>The world is going global. Borders are being demolished, companies expand internationally, English is becoming more and more widespread.</p><p>We are not limited to one location and can choose to be pretty much in any country we want. There is an effort to be put but it is often very worth doing. The opportunities we have globally are countless and there is something great for anyone. Student years is the best time to experience it and to make a big usage out it.<p><p>The talk will cover: <br/>- Big opportunities for students abroad<br/>- Huge benefits of studying/interning abroad<br/>- Personal life-changing experience of studying in South Korea, Germany and Hong Kong</p>'
   speakers: [21]
   language: en
   complexity: "Beginner"

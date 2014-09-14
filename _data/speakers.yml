@@ -230,6 +230,8 @@
   bio: 'Denys is a python web developer. He participated and successfully passed the Google Summer of Code 2013 and 2014 years. In his time at Melange (GSoC 2014), he worked on responsive layout for GSoC and GCI. An year ago, at TYPO3, he worked on extension for TYPO3 CMS for OAuth2 protocol. He likes new technologies and devices.'
   thumbnailUrl: DenysButenko.jpg
   rockstar: false
+  ribbon:
+    - {abbr: 'GDG', title: 'Google Developer Group Luhansk', url: 'https://plus.google.com/116514843672888419265/about'}
   social: 
     - {name: 'twitter', link: 'https://twitter.com/denysbutenko'}
     - {name: 'github', link: 'https://github.com/denysbutenko'}
@@ -269,3 +271,17 @@
   social: 
     - {name: 'google-plus', link: 'https://plus.google.com/114293195346554220160'}
     - {name: 'linkedin', link: 'http://ua.linkedin.com/in/akomar'}
+- 
+  id: 22
+  name: 'Roman'
+  surname: 'Herasymenko'
+  company: 'Privatbank'
+  title: 'E-commerce Team Leader'
+  bio: "Roman is Senior Java/Android developer. Currently he is lead of the E-commerce team in Privatbank PSJC and a co-organizer of GDG Dnipropetrovs'k.Roman is interesting in software development for cutting edge technologies and devices like Google Glass and Android Wear."
+  thumbnailUrl: RomanHerasymenko.jpg
+  rockstar: false
+  ribbon:
+    - {abbr: 'GDG', title: 'Google Developer Group Dnipropetrovsk', url: 'https://developers.google.com/groups/chapter/116033068768596939209/'}
+  social: 
+    - {name: 'google-plus', link: 'https://plus.google.com/+RomanGerasimenko/'}
+    - {name: 'linkedin', link: 'http://ua.linkedin.com/pub/roman-gerasimenko/'}

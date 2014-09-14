@@ -192,3 +192,10 @@
   speakers: [21]
   language: en
   complexity: "Beginner"
+-
+  id: 023
+  title: 'New Android Camera API'
+  description: 'The L Developer Preview introduces the new android.hardware.camera2 API to facilitate fine-grain photo capture and image processing.<br/>Access to deeper customisation controls and more image data will make it possible for developers to accomplish much more with the photos we take.'
+  speakers: [22]
+  language: en
+  complexity: "Expert"

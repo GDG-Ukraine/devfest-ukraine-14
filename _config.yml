@@ -158,6 +158,8 @@ ticketsOffers:
   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund."
   validFrom: "2014-08-20T10:00"
   validThrough: "2014-10-23T23:59"
+  soldOut: true
+  soldOutText: "Sold Out"
 
 # Footer
 socialLinks:

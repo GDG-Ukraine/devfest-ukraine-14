@@ -18,6 +18,7 @@
   group: 'Hackathon sponsor'
   elements: 
     - {name: 'Lohika', description: 'A trusted partner in software development', link: 'http://www.lohika.com/', imageUrl: 'lohika.svg'}
+    - {name: 'GitHub', description: 'GitHub is the best place to build software together. Over 4 million people use GitHub to share code.', link: 'https://github.com/', imageUrl: 'github.png'}
 - 
   group: 'General partner'
   elements: 

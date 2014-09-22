@@ -71,12 +71,12 @@
     - {
         startTime: "16:30",
         endTime: "17:00",
-        sessionIds: [007,021,404]
+        sessionIds: [007,021,025]
     }
     - {
         startTime: "17:10",
         endTime: "17:40",
-        sessionIds: [023,404,404]
+        sessionIds: [023,404,024]
     }
     - {
         startTime: "17:50",

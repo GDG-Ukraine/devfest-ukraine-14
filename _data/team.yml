@@ -85,12 +85,12 @@
     - {name: "site", link: "http://olostan.name/"}
 - 
   id: 6
-  name: "Vladimir"
+  name: "Volodymyr"
   surname: "Ivanov"
   company: "UA Developer Program, GDG Kyiv"
   title: "Community Program Committee"
   bio: ""
-  thumbnailUrl: VladimirIvanov.jpg
+  thumbnailUrl: VolodymyrIvanov.jpg
   subTeam: true
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+VladimirIvanovUA"}

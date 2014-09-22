@@ -153,7 +153,7 @@
 -
   id: 017
   title: "Round table - Ladies in tech"
-  description: "Discussion about ladies in tech. How to get more female attendeed on event and in programming."
+  description: 'Round table "Ladies in Tech"<br>- The current situation for women in the national and global IT industry<br>- This year’s changes and trends.<br>- How the Ukrainian community and the GDG W and Women TechMakers can effect the process.<br>- We came into this world to change it for the better, so I hope things discussed at our roundtable will be useful for us and those around.'
   speakers: [13, 2]
   language: en
   complexity: "Beginner"
@@ -199,3 +199,17 @@
   speakers: [22]
   language: en
   complexity: "Expert"
+-
+  id: 024
+  title: 'Opportunities for women in technology from Google'
+  description: 'Agenda:<br>- How to become a recipient of one of the most prestige scholarship for women in technology.<br>- ABSA community is looking for proactive and creative women.<br>- Post Grace Hopper Celebration - the largest gathering women in CS all over the world.'
+  speakers: [23]
+  language: ukr
+  complexity: "Intermediate"
+-
+  id: 025
+  title: 'All Google communities in UA.'
+  description: 'Wow! We were much more than we thought!<br>Introduction to the “Community” flow. A short list of communities of the Google ecosystem and the various programs and stipends supporting students, women and small businesses. A few words about the Ukrainian groups’ place in the global GDG community.'
+  speakers: [24]
+  language: rus
+  complexity: "Beginner"

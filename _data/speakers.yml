@@ -285,3 +285,27 @@
   social: 
     - {name: 'google-plus', link: 'https://plus.google.com/+RomanGerasimenko/'}
     - {name: 'linkedin', link: 'http://ua.linkedin.com/pub/roman-gerasimenko/'}
+- 
+  id: 23
+  name: 'Maryna'
+  surname: 'Zhygadlo'
+  company: 'Ciklum'
+  title: 'Software developer'
+  bio: "Maryna works as a software developer at Ciklum in Kiev. At the current moment she is working in search team of one of the largest Swiss auctions Ricardo.ch. Maryna's strong sides in programming are in .Net technology and Apache Solr search engine. Under her responsibility is making search relevant and fast as possible for buyers. Maryna is a first and only recipient of Google Anita Borg Scholarship in Ukraine. Since this summer she is running Anita Borg Scholarship Alumni community in EMEA region, the main aim of it is to increase the ratio of women in CS globally."
+  thumbnailUrl: MarynaZhygadlo.jpg
+  rockstar: false
+  social: 
+    - {name: 'linkedin', link: 'http://ua.linkedin.com/pub/maryna-zhygadlo/43/7b2/535/'}
+- 
+  id: 24
+  name: 'Volodymyr'
+  surname: 'Ivanov'
+  company: 'Google'
+  title: 'UA Developer Program associate'
+  bio: "Founder and coordinator of the First Google Developer Group in Ukraine - GDG Kyiv-Center. Community manager of the Ukrainian Google developer program, a prominent member of the Ukrainian and international GDG communities, organizer of the first Ukrainian Hackathon, author and co-organizer of DevFest Ukraine 2012-14. “Community” flow moderator at DevFest Ukraine 2014."
+  thumbnailUrl: VolodymyrIvanov.jpg
+  rockstar: false
+  ribbon:
+    - {abbr: 'GDG', title: 'Google Developer Group Kyiv-Center', url: 'https://developers.google.com/groups/chapter/110301321530950732281/'}
+  social: 
+    - {name: 'google-plus', link: 'http://google.com/+VladimirIvanovUA'}

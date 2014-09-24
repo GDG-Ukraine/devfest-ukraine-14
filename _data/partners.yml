@@ -19,6 +19,7 @@
   elements: 
     - {name: 'Lohika', description: 'A trusted partner in software development', link: 'http://www.lohika.com/', imageUrl: 'lohika.svg'}
     - {name: 'GitHub', description: 'GitHub is the best place to build software together. Over 4 million people use GitHub to share code.', link: 'https://github.com/', imageUrl: 'github.svg'}
+    - {name: 'Come In', description: 'Ми – новий формат!Ми – нова концепція кафе!Ми – соціальна мережа у реальному світі.', link: 'http://www.comein.lviv.ua/', imageUrl: 'comein.png'}
 - 
   group: 'General partner'
   elements: 

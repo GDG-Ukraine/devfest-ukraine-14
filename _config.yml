@@ -139,6 +139,8 @@ ticketsOffers:
   buyButtonText: "Buy Now"
   validFrom: "2014-08-25T10:00"
   validThrough: "2014-09-30T23:59"
+  soldOut: true
+  soldOutText: "Sold Out"
  -
   name: "Last Chance"
   price: "450"
@@ -148,7 +150,6 @@ ticketsOffers:
   buyButtonText: "Buy Now"
   validFrom: "2014-10-01T00:00"
   validThrough: "2014-10-23T23:59"
-  disabled: true
  -
   name: "Student"
   price: "200"

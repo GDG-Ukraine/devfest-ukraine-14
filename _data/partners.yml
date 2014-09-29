@@ -15,7 +15,7 @@
   elements: 
     - {name: 'Lemberg', description: 'Lemberg Solutions - Web and Mobile App Development Company', link: 'http://lemberg.co.uk/', imageUrl: 'lemberg.svg'}
 - 
-  group: 'Hackathon sponsor'
+  group: 'Hackathon sponsors'
   elements: 
     - {name: 'Lohika', description: 'A trusted partner in software development', link: 'http://www.lohika.com/', imageUrl: 'lohika.svg'}
     - {name: 'GitHub', description: 'GitHub is the best place to build software together. Over 4 million people use GitHub to share code.', link: 'https://github.com/', imageUrl: 'github.svg'}

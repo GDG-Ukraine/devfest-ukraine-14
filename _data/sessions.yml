@@ -154,7 +154,7 @@
   id: 017
   title: "Round table - Ladies in tech"
   description: 'Round table "Ladies in Tech"<br>- The current situation for women in the national and global IT industry<br>- This year’s changes and trends.<br>- How the Ukrainian community and the GDG W and Women TechMakers can effect the process.<br>- We came into this world to change it for the better, so I hope things discussed at our roundtable will be useful for us and those around.'
-  speakers: [13, 2]
+  speakers: [13, 2, 23]
   language: en
   complexity: "Beginner"
 -
@@ -212,4 +212,11 @@
   description: 'Wow! We were much more than we thought!<br>Introduction to the “Community” flow. A short list of communities of the Google ecosystem and the various programs and stipends supporting students, women and small businesses. A few words about the Ukrainian groups’ place in the global GDG community.'
   speakers: [24]
   language: rus
+  complexity: "Beginner"
+-
+  id: 026
+  title: 'The Google Developer Expert Program'
+  description: "The Google Developer Expert Program is out of beta! Don't worry if you haven't heard about us Experts yet, come to the presentation and learn how you, your GDG or your company/product can benefit from GDEs presence all around the globe. Or maybe, just maybe... you want to join our ranks?"
+  speakers: [10]
+  language: en
   complexity: "Beginner"

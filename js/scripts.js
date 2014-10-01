@@ -4,7 +4,6 @@
             $('#st-container').removeClass('disable-scrolling');
             $('#loading-animation').fadeOut();
             $('#preloader').delay(350).fadeOut(800);
-            initGooglePlus();
             equalheight('.same-height');
         });
 
@@ -45,11 +44,12 @@
                 buyButton.addClass('right-nav-button-hidden');
             }
 
-            $('.slot').each(function() {
+            $('.slot-element').each(function() {
                 var currentPosition = $(this).offset().top - scroll;
                 var offsetActivator = topOffset + $(this).find('.slot-title').height();
                 if (currentPosition <= offsetActivator && currentPosition >= 0) {
-                    $('.track-header.sticky').find('.slot-detail').html($(this).data('slotDetail'));
+                    var data = $(this).parent().data('slotDetail');
+                    $('.track-header.sticky').find('.slot-detail').html(data);
                 }
             });
         });
@@ -246,6 +246,13 @@
             }
         });
 
+        $('.404').each(function() {
+            $(this).parent().addClass('hidden-xs blank-col');
+        });
+        $('.service-label').each(function() {
+            var data = $(this).data('slotDetail');
+            $(this).parent().attr('data-slot-detail',data).addClass('service-slot');
+        });
         $('.timeslot-elements').each(function() {
             var elementsCount = $(this).children().length;
             if ($(this).find('> div.blank-col').length == elementsCount) {
@@ -289,16 +296,6 @@
             }
         }
     });
-
-    //Google plus
-    function initGooglePlus() {
-        var po = document.createElement('script');
-        po.type = 'text/javascript';
-        po.async = true;
-        po.src = 'https://apis.google.com/js/platform.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(po, s);
-    }
 
     // Google maps static
     if (typeof staticGoogleMaps !== 'undefined') {

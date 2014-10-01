@@ -1,10 +1,10 @@
 -
-  id: 202
+  id: 212
   title: "Registration"
   place: "Hall"
   service: true
 -
-  id: 302
+  id: 312
   title: "Keynote"
   place: "Blue room"
   service: true
@@ -31,190 +31,190 @@
 -
   id: 666
   title: 'Freestyle Hackathon'
-  place: ''
+  place: 'Unknown for now'
   service: true
 -
   id: 777
   title: 'Workshops'
-  place: ''
+  place: 'Unknown for now'
   service: true
 -
-  id: 001
+  id: 101
   title: "L(e) Android: The whole android ecosystem experience with wear and glass"
   description: "Google TV was an early but premature attempt to extend android out of the phone. Google Glass took that a step further by providing a new UI, UX and APIs. Now with Android Wear, Android has extended to a new environment which is much adoptable than Glass. However, Wear comes with a price, with wear once again we have new UI, UX and set of APIs.<br>This talk intends to give a deep dive into whole new UI, UX and development tools introduced by Android L, Android Wear and the Google Glass showing ways to integrate each and offer a smooth flow between all android platforms."
   speakers: [12]
   language: en
   complexity: "Intermediate"
 -
-  id: 002
+  id: 102
   title: "The Android NDK"
   description: "The Android NDK is used to integrate asm/C/C++ code into Android applications and libraries.<br>Learn how to use it as well as NDK-based libraries with Eclipse and Android Studio. Discover what changes from the new Android Runtime (ART) may break your integration, and what you need to do in order to take advantage of 64-bit architectures."
   speakers: [11]
   language: en
   complexity: "Intermediate"
 -
-  id: 003
+  id: 103
   title: "Android L Animation"
   description: "I will speak and show how to:<br>- Respond to touch events in your views with touch feedback animations.<br>- Hide and show views with reveal effect animations.<br>- Switch between activities with custom activity transition animations.<br>- Create more natural animations with curved motion.<br>- Animate changes in one or more view properties with view state change animations.<br>- Create icon morphing transition"
   speakers: [4]
   language: en
   complexity: "Intermediate" 
 -
-  id: 004
+  id: 104
   title: "Guava beyond Collections"
   description: "Based on the stats gathered by imaginarynumbers inc., 49% of Java developers wouldn't code Java anymore if not Guava.<br>In fact, Guava is a wonderful library that makes Java development easier and friendlier. And it's applicable also for Android. However, many developers limit its usage to simple Collections' transformations and filters, not revealing many advantages coming with the whole lib.<br>During my presentation I'll also cover some android-specific topics like:<br>- Guava your ContentResolverish boilerplate<br>- 65K method limit hurts your app and Guava uses too many? Different approaches of handling this issue.<br>- Do's and dont's of Guava for Android.<br><br>And more!"
   speakers: [5]
   language: en
   complexity: "Intermediate"  
 -
-  id: 005
+  id: 105
   title: "Android Wear UX at a glance"
   description: "Android Wear is the new edition of Android geared towards smart watches. There are several easy ways you as a developer can add Wear support to your existing apps, but in order to make sure your app really rocks on the users' wrists, you need to unlearn some of the habits of designing for mobile. In this presentation I will show the do's, the don'ts, and some of the how of Android Wear development."
   speakers: [10]
   language: en
   complexity: "Beginner"
 -
-  id: 006
+  id: 106
   title: "Android Loader, problems and solutions"
   description: "Assuming the audience is already familiar with Loader class, we'll discuss problems that occur while using it, try to understand their reasons and see how they can be solved with Enroscar Async. And maybe we'll find out that Loader can be a rather powerful tool."
   speakers: [6]
   language: en
   complexity: "Intermediate"
 -
-  id: 007
+  id: 107
   title: "Wearables Views"
   description: "In Android Wear SDK when using custom layouts we got access to 10 brand new Views, which are extremely useful, but which should I use and when is in most cases still unclear. During my presentation I would like to make small run over that topic and explain benefits and advantages of each of them."
   speakers: [14]
   language: en
   complexity: "Intermediate"
 -
-  id: 008
+  id: 108
   title: "RESTful API with Dart"
   description: "RESTful API is one of the most important part of the modern web applications and Dart provides us possibility to write it easily, fast and effectively. Want to know how? Follow my presentation!"
   speakers: [15]
   language: en
   complexity: "Intermediate"
 -
-  id: 009
+  id: 109
   title: "Front-End Tools Beyond DevTools"
   description: "Every front-end developer knows that Chrome DevTools rocks! It is a primary tool we work with every day. Mastering it is a must. Yet there is more to the story. Real front-end craftspersons don't use a multi-tool for every task. Instead, they use a set of specialised tools to make their work more efficient. In the Chrome world, these tools are called Chrome Extensions.<br><br>During my presentation, I will demonstrate several extensions I have built. I will explain how I built them. You'll not only learn about new tools, but you will also see how easy it is to create them!"
   speakers: [9]
   language: en
   complexity: "Intermediate"
 -
-  id: 010
+  id: 110
   title: "Development for Chrome OS"
   description: "During our talk we will discuss how to develop on Chrome OS, what technologies can we use, and do we really need this?"
   speakers: [8]
   language: rus
   complexity: "Beginner"
 -
-  id: 011
+  id: 111
   title: "Polymer, mf, do you speak it? Bonus track: material design"
   description: "Everything you should know about Polymer.<br>Material Design: purpose and patterns"
   speakers: [16]
   language: en
   complexity: "Intermediate"
 -
-  id: 012
+  id: 112
   title: "How to get 50% women at a high-tech conference"
   description: "Women Techmakers aims to raise awareness of innovative women leaders in technology and inspire others to join the field.<br><br>I would talk about history and successful growth of Women Techmakers Ukraine community, why is necessary to expand diversity and how we make it with Google's support. As well I will talk about opportunities for women in IT and special programs for girls and students."
   speakers: [2]
   language: en
   complexity: "Intermediate"
 -
-  id: 013
+  id: 113
   title: "Women Techmakers Ukraine: how we support diversity"
   description: "Women Techmakers aims to raise awareness of innovative women leaders in technology and inspire others to join the field.<br><br>I would talk about history and successful growth of Women Techmakers Ukraine community, why is necessary to expand diversity and how we make it with Google's support. As well I will talk about opportunities for women in IT and special programs for girls and students."
   speakers: [13]
   language: ukr
   complexity: "Beginner"
 -
-  id: 014
+  id: 114
   title: 'Go in the Cloud: How using Go can help building “cloud ready” applications'
   description: '<p>Though Go language was introduced quite long time ago, it was not very popular until Cloud Computing came into our life. In this presentation I will explain why Go would be a great choice for developing really cloud-ready apps.</p><br/>1. Introduction to Go language<br/>2. Quick comparision Go with other solutions<br/>3. Some details of main Go features: goroutins, channels<br/>4. Example of go app scaling written in go'
   speakers: [7]
   language: ukr
   complexity: "Intermediate"
 -
-  id: 015
+  id: 115
   title: "Keynote"
   description: "TBD"
   speakers: [3]
   language: en
   complexity: "Beginner"
 -
-  id: 016
+  id: 116
   title: "Graphical experiments with AngularJS"
   description: "How to connect browser graphic experiments with real-time data using AngularJS."
   speakers: [17]
   language: en
   complexity: "Intermediate"
 -
-  id: 017
+  id: 117
   title: "Round table - Ladies in tech"
   description: 'Round table "Ladies in Tech"<br>- The current situation for women in the national and global IT industry<br>- This year’s changes and trends.<br>- How the Ukrainian community and the GDG W and Women TechMakers can effect the process.<br>- We came into this world to change it for the better, so I hope things discussed at our roundtable will be useful for us and those around.'
   speakers: [13, 2, 23]
   language: en
   complexity: "Beginner"
 -
-  id: 018
+  id: 118
   title: 'Interview Patterns – Strategies for the technical interview'
   description: 'What does Google, Amazon, and Microsoft look for in a candidate? In this session, learn preparation and presentation strategies to help you interview well, communicate effectively, and navigate the challenges of a technical interview. Who knows, someone might even be interviewed live on stage!'
   speakers: [12]
   language: en
   complexity: "Beginner"
 -
-  id: 019
+  id: 119
   title: 'Google Summer of Code - amazing experience for students'
   description: 'During presentation we will cover: <br/>-What is Google Summer of Code?<br/>-What are the goals of the program?<br/>-How does Google Summer of Code work?<br/>-Stipends<br/>-Participating projects<br/>-Why should I participate?<br/>-Statistics<br/>-Useful links'
   speakers: [18]
   language: rus
   complexity: "Beginner"
 -
-  id: 020
+  id: 120
   title: 'Google Mapmaker'
   description: 'Google Mapmaker - is a great tool to add important or missing objects to Google Maps. Each contribution will make country map better and as a result Ukraine will be more opened for citizens and foreign visitors from all around the world'
   speakers: [19]
   language: ukr
   complexity: "Beginner"
 -
-  id: 021
+  id: 121
   title: 'Behind The Scenes: Dart'
   description: "Why isn't Dart so popular right now and how to fix it. A brief overview of Dart success/failure stories and why is it the best front end prototyping tool right now."
   speakers: [20]
   language: en
   complexity: "Intermediate"
 -
-  id: 022
+  id: 122
   title: 'Student opportunities abroad'
   description: '<p>The world is going global. Borders are being demolished, companies expand internationally, English is becoming more and more widespread.</p><p>We are not limited to one location and can choose to be pretty much in any country we want. There is an effort to be put but it is often very worth doing. The opportunities we have globally are countless and there is something great for anyone. Student years is the best time to experience it and to make a big usage out it.<p><p>The talk will cover: <br/>- Big opportunities for students abroad<br/>- Huge benefits of studying/interning abroad<br/>- Personal life-changing experience of studying in South Korea, Germany and Hong Kong</p>'
   speakers: [21]
   language: en
   complexity: "Beginner"
 -
-  id: 023
+  id: 123
   title: 'New Android Camera API'
   description: 'The L Developer Preview introduces the new android.hardware.camera2 API to facilitate fine-grain photo capture and image processing.<br/>Access to deeper customisation controls and more image data will make it possible for developers to accomplish much more with the photos we take.'
   speakers: [22]
   language: en
   complexity: "Expert"
 -
-  id: 024
+  id: 124
   title: 'Opportunities for women in technology from Google'
   description: 'Agenda:<br>- How to become a recipient of one of the most prestige scholarship for women in technology.<br>- ABSA community is looking for proactive and creative women.<br>- Post Grace Hopper Celebration - the largest gathering women in CS all over the world.'
   speakers: [23]
   language: ukr
   complexity: "Intermediate"
 -
-  id: 025
+  id: 125
   title: 'All Google communities in UA.'
   description: 'Wow! We were much more than we thought!<br>Introduction to the “Community” flow. A short list of communities of the Google ecosystem and the various programs and stipends supporting students, women and small businesses. A few words about the Ukrainian groups’ place in the global GDG community.'
   speakers: [24]
   language: rus
   complexity: "Beginner"
 -
-  id: 026
+  id: 126
   title: 'The Google Developer Expert Program'
   description: "The Google Developer Expert Program is out of beta! Don't worry if you haven't heard about us Experts yet, come to the presentation and learn how you, your GDG or your company/product can benefit from GDEs presence all around the globe. Or maybe, just maybe... you want to join our ranks?"
   speakers: [10]

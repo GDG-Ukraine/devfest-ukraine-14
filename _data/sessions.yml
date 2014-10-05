@@ -29,12 +29,32 @@
   place: "Dining room"
   service: true
 -
-  id: 666
-  title: 'Freestyle Hackathon'
-  place: 'Unknown for now'
+  id: 600
+  title: 'Registration, app selection contest'
+  place: 'ComeIn'
   service: true
 -
-  id: 777
+  id: 601
+  title: 'Hacking, take 1'
+  place: 'ComeIn'
+  service: true
+-
+  id: 602
+  title: 'Hooray, lunch'
+  place: 'ComeIn'
+  service: true
+-
+  id: 603
+  title: 'Hacking, take 2'
+  place: 'ComeIn'
+  service: true
+-
+  id: 604
+  title: 'Demostage'
+  place: 'ComeIn'
+  service: true
+-
+  id: 700
   title: 'Workshops'
   place: 'Unknown for now'
   service: true

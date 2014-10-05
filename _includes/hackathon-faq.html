@@ -1,0 +1,14 @@
+<!-- Hackathon FAQ Section -->
+<section id="hackathon-faq" class="hackathon-faq">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <h3>{{ site.hackathonFaqTitle }}</h3>
+            <ul class="text-left">
+            {% for row in site.hackathonFaqList %}
+                <li class="faq-element animated hiding" data-animation="fadeInDown" data-delay="{{ forloop.index0 | times:200 }}">{{ row.item }}</li>        
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- End Hackathon FAQ Section -->

@@ -1,8 +1,11 @@
-$hackathon-img-width: 250px;
+$hackathon-img-width: 300px;
 $small-hackathon-img-width: 150px;
 
+.about-hackathon {
+	min-height: initial;
+}
 .hackathon-row {
-	margin-bottom: 90px;
+	margin-bottom: 10px;
     @media (max-width: 767px) {
         margin-bottom: 50px;
     }

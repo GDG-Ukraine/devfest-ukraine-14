@@ -1,0 +1,28 @@
+- 
+  id: 0
+  name: 'Mateusz'
+  surname: 'Herych'
+  company: 'Base CRM'
+  title: 'Software Engineer'
+  thumbnailUrl: 'MateuszHerych.jpg'
+- 
+  id: 1
+  name: 'Roman'
+  surname: 'Mazur'
+  company: 'Stanfy'
+  title: 'Head of Android/Java Unit'
+  thumbnailUrl: 'RomanMazur.jpg'
+-
+  id: 2
+  name: 'Murat'
+  surname: 'Yener'
+  company: 'Intel'
+  title: 'Android Developer'
+  thumbnailUrl: 'MuratYener.jpg'
+- 
+  id: 3
+  name: 'Valentyn'
+  surname: 'Shybanov'
+  company: 'Twinfield'
+  title: 'Software engineer/country manager'
+  thumbnailUrl: 'ValentynShybanov.jpg'

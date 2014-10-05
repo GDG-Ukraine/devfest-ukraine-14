@@ -1,0 +1,20 @@
+.hackathon-technologies {
+	h4 {
+		font-size: 35px;
+	}
+}
+.technology-img {
+	margin: 0 auto;
+}
+.or-divider {
+	margin: 20px auto;
+	position: relative;
+	font-size: 30px;
+	@media (min-width: 768px) {
+        top: 50%;
+	    margin: 0;
+	    left: 0;
+	    transform: translateY(-50%);
+    }
+   
+}

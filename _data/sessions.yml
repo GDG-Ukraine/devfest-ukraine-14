@@ -220,3 +220,10 @@
   speakers: [10]
   language: en
   complexity: "Beginner"
+-
+  id: 127
+  title: 'Modern cross-platform mobile development in practice'
+  description: "Nowadays if you want an application to target multiple platforms you can choose from several options. Instead of a write-once-run-everywhere solution I'll show you how to leverage modern C++ which can give you the freedom for writing reusable code while staying resource conscious. By carefully drawing the boundaries of the cross-platform and platform specific components you don't even have to give up the natural platform user experience. We will look at how these parts can be connected using the Android NDK / SDK through some real life examples."
+  speakers: [25]
+  language: en
+  complexity: "Intermediate"

@@ -126,7 +126,7 @@
   title: "Development for Chrome OS"
   description: "During our talk we will discuss how to develop on Chrome OS, what technologies can we use, and do we really need this?"
   speakers: [8]
-  language: rus
+  language: ru
   complexity: "Beginner"
 -
   id: 111
@@ -147,14 +147,14 @@
   title: "Women Techmakers Ukraine: how we support diversity"
   description: "Women Techmakers aims to raise awareness of innovative women leaders in technology and inspire others to join the field.<br><br>I would talk about history and successful growth of Women Techmakers Ukraine community, why is necessary to expand diversity and how we make it with Google's support. As well I will talk about opportunities for women in IT and special programs for girls and students."
   speakers: [13]
-  language: ukr
+  language: uk
   complexity: "Beginner"
 -
   id: 114
   title: 'Go in the Cloud: How using Go can help building “cloud ready” applications'
   description: '<p>Though Go language was introduced quite long time ago, it was not very popular until Cloud Computing came into our life. In this presentation I will explain why Go would be a great choice for developing really cloud-ready apps.</p><br/>1. Introduction to Go language<br/>2. Quick comparision Go with other solutions<br/>3. Some details of main Go features: goroutins, channels<br/>4. Example of go app scaling written in go'
   speakers: [7]
-  language: ukr
+  language: uk
   complexity: "Intermediate"
 -
   id: 115
@@ -189,14 +189,14 @@
   title: 'Google Summer of Code - amazing experience for students'
   description: 'During presentation we will cover: <br/>-What is Google Summer of Code?<br/>-What are the goals of the program?<br/>-How does Google Summer of Code work?<br/>-Stipends<br/>-Participating projects<br/>-Why should I participate?<br/>-Statistics<br/>-Useful links'
   speakers: [18]
-  language: rus
+  language: ru
   complexity: "Beginner"
 -
   id: 120
   title: 'Google Mapmaker'
   description: 'Google Mapmaker - is a great tool to add important or missing objects to Google Maps. Each contribution will make country map better and as a result Ukraine will be more opened for citizens and foreign visitors from all around the world'
   speakers: [19]
-  language: ukr
+  language: uk
   complexity: "Beginner"
 -
   id: 121
@@ -224,14 +224,14 @@
   title: 'Opportunities for women in technology from Google'
   description: 'Agenda:<br>- How to become a recipient of one of the most prestige scholarship for women in technology.<br>- ABSA community is looking for proactive and creative women.<br>- Post Grace Hopper Celebration - the largest gathering women in CS all over the world.'
   speakers: [23]
-  language: ukr
+  language: uk
   complexity: "Intermediate"
 -
   id: 125
   title: 'All Google communities in UA.'
   description: 'Wow! We were much more than we thought!<br>Introduction to the “Community” flow. A short list of communities of the Google ecosystem and the various programs and stipends supporting students, women and small businesses. A few words about the Ukrainian groups’ place in the global GDG community.'
   speakers: [24]
-  language: rus
+  language: ua
   complexity: "Beginner"
 -
   id: 126
@@ -240,3 +240,10 @@
   speakers: [10]
   language: en
   complexity: "Beginner"
+-
+  id: 127
+  title: 'Modern cross-platform mobile development in practice'
+  description: "Nowadays if you want an application to target multiple platforms you can choose from several options. Instead of a write-once-run-everywhere solution I'll show you how to leverage modern C++ which can give you the freedom for writing reusable code while staying resource conscious. By carefully drawing the boundaries of the cross-platform and platform specific components you don't even have to give up the natural platform user experience. We will look at how these parts can be connected using the Android NDK / SDK through some real life examples."
+  speakers: [25]
+  language: en
+  complexity: "Intermediate"

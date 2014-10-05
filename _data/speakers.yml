@@ -309,3 +309,14 @@
     - {abbr: 'GDG', title: 'Google Developer Group Kyiv-Center', url: 'https://developers.google.com/groups/chapter/110301321530950732281/'}
   social: 
     - {name: 'google-plus', link: 'http://google.com/+VladimirIvanovUA'}
+- 
+  id: 25
+  name: 'Peter'
+  surname: 'Nemeth'
+  company: 'Prezi'
+  title: ''
+  bio: 'Peter works at Prezi where he accompanied most of the client applications starting with writing the first web and desktop versions, through several multi-platform experiments, back to his roots, native applications. Before, he co-created Animata, an open source real-time animation software.'
+  thumbnailUrl: PeterNemeth.jpg
+  rockstar: true
+  social: 
+    - {name: 'github', link: 'https://github.com/lowdesertpunk'}

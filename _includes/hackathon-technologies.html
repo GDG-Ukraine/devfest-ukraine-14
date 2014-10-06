@@ -2,7 +2,7 @@
 <section id="hackathon-technologies" class="hackathon-technologies">
     <div class="content-wrapper">
         <div class="col-md-8 col-md-offset-2">
-            <h3>{{ site.hackathonTechnologiesTitle }}</h3>
+            <h4>{{ site.hackathonTechnologiesTitle }}</h4>
             {% for row in site.hackathonTechnologies %}
                 {% assign colsNumber = forloop.length | minus:1 | plus:forloop.length %}
                 {% assign colWidth = 12 | divided_by: colsNumber %}

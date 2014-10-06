@@ -49,3 +49,5 @@
     - {name: 'ITEM-2014', description: 'IT-конференция, посвященная трендам в разработке программных продуктов и управления IT-проектами.', link: 'http://item.dp.ua/en/', imageUrl: 'item.svg'}
     - {name: 'Django Girls', description: 'Django Girls is a one-day workshop about programming in Python and Django tailored for women.', link: 'http://djangogirls.org/lviv', imageUrl: 'django-girls.svg'}
     - {name: 'Root Nation', description: 'Root Nation - сайт о гаджетах и технологиях. Android, iOS, Windows. Обзоры: смартфоны, планшеты, ноутбуки, ПК. Операционные системы, софт, сервисы и ПО.', link: 'http://root-nation.com/', imageUrl: 'root-nation.svg', width: '80px'}
+    - {name: 'Innabtys', description: 'Innabtys — цифровые проекты, интернет-маркетинг, право. Прикладные исследования и работа с веб-проектами, новыми сферами современной экономики.', link: 'http://innabtys.com/', imageUrl: 'innabtys.png', width: '140px'}
+    - {name: 'Garage48', description: 'Garage48 - from an idea to prototype within 48 hours', link: 'http://garage48.org/lviv', imageUrl: 'garage48.png'}

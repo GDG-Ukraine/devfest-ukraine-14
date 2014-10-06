@@ -1,6 +1,6 @@
 - 
   date: "2014-10-24"
-  dateReadable: "October 24"
+  dateReadable: "October 24 - Hackday"
   parallelCount: 2
   tracks: 
     - {parallel: 1, title: "Hackathon", color: "#673ab7"}
@@ -48,9 +48,15 @@
         endTime: "15:00",
         sessionIds: [701]
     }
+     - {
+        parallel: 2,
+        startTime: "16:00",
+        endTime: "18:00",
+        sessionIds: [404]
+    }
 - 
   date: "2014-10-25"
-  dateReadable: "October 25"
+  dateReadable: "October 25 - Conference"
   parallelCount: 1
   tracks: 
     - {parallel: 1, title: "Android", color: "#90be4e"}

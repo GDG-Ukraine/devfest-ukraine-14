@@ -102,7 +102,7 @@ mapCenterCoordinates: "49.842537,24.025701"
 mapMobileCenterCoordinates: "49.841620, 24.029411"
 
 # Venue Block
-venueBlockTitle: "Venue"
+venueBlockTitle: "Conference Venue"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
@@ -264,7 +264,6 @@ hackathonFaqList:
  - {item: "Registration is free but at least one team member should have conference ticket"}
  - {item: "Apps proposed for redesign will be announced on the hackathon"}
  - {item: "Max team size: 3 people"}
- - {item: "Pitch duration: 360 seconds"}
  - {item: "Demo duration: 360 seconds"}
  - {item: "You have to bring your own laptop"}
  - {item: "Winners are selected by independent jouri"}

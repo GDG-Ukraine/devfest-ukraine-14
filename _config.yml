@@ -262,6 +262,7 @@ hackathonTechnologies:
 hackathonFaqTitle: "FAQ"
 hackathonFaqList:
  - {item: "Registration is free but at least one team member should have conference ticket"}
+ - {item: "Registration will be opened on October 13"}
  - {item: "Apps proposed for redesign will be announced on the hackathon"}
  - {item: "Max team size: 3 people"}
  - {item: "Demo duration: 360 seconds"}

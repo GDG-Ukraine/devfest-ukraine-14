@@ -48,7 +48,7 @@
         endTime: "15:00",
         sessionIds: [701]
     }
-     - {
+    - {
         parallel: 2,
         startTime: "16:00",
         endTime: "18:00",

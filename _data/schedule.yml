@@ -1,6 +1,6 @@
 - 
   date: "2014-10-24"
-  dateReadable: "October 24 - Hackday"
+  dateReadable: 'October 24 - Hackday'
   parallelCount: 2
   tracks: 
     - {parallel: 1, title: "Hackathon", color: "#673ab7"}
@@ -56,7 +56,7 @@
     }
 - 
   date: "2014-10-25"
-  dateReadable: "October 25 - Conference"
+  dateReadable: 'October 25 - Conference'
   parallelCount: 1
   tracks: 
     - {parallel: 1, title: "Android", color: "#90be4e"}

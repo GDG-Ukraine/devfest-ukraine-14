@@ -46,7 +46,7 @@ navigationLinks:
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/hackday/", text: "Hackday"}
 bottomNavigationLinks:
  - {permalink: "/#tickets", text: "Buy tickets"}
 rightNavigationButtons:

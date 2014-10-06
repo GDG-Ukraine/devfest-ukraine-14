@@ -63,7 +63,7 @@
 -
   id: 701
   title: "Android Wear Data Sync"
-  description: "Data synchronization between phone and a Android Wear device using Play services.<br>What is timespan of it? I would recommend around 45 minutes - also can I assume that people will have emulator already configured as it is most problematic task."
+  description: "Data synchronization between phone and a Android Wear device using Play services."
   speakers: [14]
   language: en
   complexity: "Intermediate"

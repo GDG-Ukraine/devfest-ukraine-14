@@ -29,6 +29,10 @@
   elements: 
     - {name: 'Lviv Convention Bureau', description: 'Lviv Convention Bureau - Business tourism in Lviv, Ukraine', link: 'http://lvivconvention.com.ua/', imageUrl: 'lvivconventionbureau.svg'}
 - 
+  group: 'General media partner'
+  elements: 
+    - {name: 'DOU', description: 'DOU - Сообщество программистов', link: 'http://dou.ua/', imageUrl: 'dou.svg'}
+- 
   group: 'Information partners'
   elements: 
     - {name: 'career4it', description: 'career4it - employment fair for it talents', link: 'http://career4it.com/en/', imageUrl: 'career4it.png'}

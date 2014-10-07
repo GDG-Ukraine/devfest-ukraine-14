@@ -320,3 +320,15 @@
   rockstar: true
   social: 
     - {name: 'github', link: 'https://github.com/lowdesertpunk'}
+- 
+  id: 26
+  name: 'Katya'
+  surname: 'Sadovnycha'
+  company: 'Prezi'
+  title: 'Software Engineer'
+  bio: 'After finishing Lviv Polytechnic Katya joined Prezi team in Budapest. She made her way from being a Flash developer for browser and desktop to C++ Native world. Katya love to develop user interaction applications, enjoy learning new technologies and travel around the world for an inspiration :)'
+  thumbnailUrl: KatyaSadovnycha.jpg
+  rockstar: true
+  social: 
+    - {name: 'linkedin', link: 'https://www.linkedin.com/profile/view?id=128682248'}
+    - {name: 'site', link: 'http://prezi.com/about/katya-sadovnycha/'}

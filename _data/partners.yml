@@ -11,9 +11,10 @@
   elements: 
     - {name: 'DataArt', description: 'DataArt is a custom software development company that builds advanced solutions for the financial services, healthcare, hospitality, logistics and other industries', link: 'http://www.dataart.com/', imageUrl: 'dataart.svg'}
 - 
-  group: 'Gold sponsor'
+  group: 'Gold sponsors'
   elements: 
     - {name: 'Lemberg', description: 'Lemberg Solutions - Web and Mobile App Development Company', link: 'http://lemberg.co.uk/', imageUrl: 'lemberg.svg'}
+    - {name: 'coMMuna', description: 'coMMuna- це простір для втілення твоїх можливостей, правильно організований для роботи, навчання та відпочинку.', link: 'http://communa.net.ua/en/', imageUrl: 'communa.png'}
 - 
   group: 'Hackathon sponsors'
   elements: 

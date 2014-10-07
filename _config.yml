@@ -185,6 +185,7 @@ footerBlocks:
   title: "Other"
   links:
    - {permalink: "/assets/GDG_DevFest_2014_Partnership_Proposition.pdf", text: "Partnership Proposition"}
+   - {link: "http://bit.ly/dfua-press", text: "Media Accreditation"}
    - {link: "http://bit.ly/dfua-media", text: "Media Kit"}
    - {permalink: "/cod/", text: "Code of Conduct"}
 

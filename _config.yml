@@ -261,13 +261,14 @@ hackathonTechnologies:
 # Hackathon FAQ Block
 hackathonFaqTitle: "FAQ"
 hackathonFaqList:
- - {item: "Registration is free but at least one team member should have conference ticket"}
+ - {item: "Registration is free"}
  - {item: "Registration will be opened on October 13"}
+ - {item: "All hackathon participants are invited to GDG Awards session on Saturday"}
  - {item: "Apps proposed for redesign will be announced on the hackathon"}
  - {item: "Max team size: 3 people"}
- - {item: "Demo duration: 360 seconds"}
+ - {item: "Demo duration: 300 seconds"}
  - {item: "You have to bring your own laptop"}
- - {item: "Winners are selected by independent jouri"}
+ - {item: "Winners are selected by independent jury"}
  - {item: "Winners will be announced on Saturday during GDG Awards"}
 
 # Hackathon Judges Block

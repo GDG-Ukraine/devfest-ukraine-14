@@ -332,3 +332,15 @@
   social: 
     - {name: 'linkedin', link: 'https://www.linkedin.com/profile/view?id=128682248'}
     - {name: 'site', link: 'http://prezi.com/about/katya-sadovnycha/'}
+- 
+  id: 27
+  name: 'Mark'
+  surname: 'Drobnych'
+  company: 'Uzhhorod Gymnasium'
+  title: 'Student'
+  bio: "Mark Drobnych lives Uzhhorod which is in the West of Ukraine. He studies at Senior High School. Mark's hobbies are: Lego, Lego EV3 programming, gadgets and robots. He is good in Lego robotics. Mark occupied first places in Robotica UA 2013 and Robotica UA 2014. He is global finalist of Google Science Fair 2014. Also Mark is saxophone player and fan of Elon Musk."
+  thumbnailUrl: MarkDrobnych.jpg
+  rockstar: false
+  social: 
+    - {name: 'google-plus', link: 'https://plus.google.com/u/0/+MarkDrobnych/posts'}
+    - {name: 'facebook', link: 'https://www.facebook.com/profile.php?id=100007211417481'}

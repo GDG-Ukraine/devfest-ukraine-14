@@ -103,7 +103,7 @@
         parallel: 1,
         startTime: "14:00",
         endTime: "14:30",
-        sessionIds: [104,110,119]
+        sessionIds: [104,110,128~119]
     }
     - {
         parallel: 1,

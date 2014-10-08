@@ -256,3 +256,10 @@
   speakers: [25, 26]
   language: en
   complexity: "Intermediate"
+-
+  id: 128
+  title: 'From hobby to final of Google Science Fair 2014'
+  description: "My name is Mark. I'm 14. I'm from Uzhhorod, Ukraine. I like Lego. A year ago I tried to construct simple microscope from Lego bricks and old usb web camera. Some day I decided to embed some kind of brain into my construction. I used Lego EV3 intelectual brick. I found that my microscope become more and more interesting. I decided to send my idea to Google Science Fair. One day I received fantastic news. I was selected to 90 regional finalists. I added more efforts. Finally my robo-microscope had 3 optical systems and 4 servo motors. It has option of remote control and integration with Google Hangouts. At the same time it's still Lego construction which can be cloned in any school. I took final battle with all my 'ammunition' in Google HQ, Mountain View, September 24, 2014. It was hard battle. I didn't received grand prize. But I don't feel myself a loser. Because I have the next idea..."
+  speakers: [27]
+  language: ua
+  complexity: "Beginner"

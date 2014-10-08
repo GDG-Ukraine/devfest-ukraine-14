@@ -114,7 +114,7 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 tweetsFeedImage: "lviv.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "dfua"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=1500"
+twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=3600"
 
 # Partners Block
 organizersTitle: "Organizers"
@@ -276,15 +276,15 @@ hackathonFaqList:
 judgesImage: "judges.jpg"
 judgesTitle: "Judges"
 
-# Hackathon Prizes Block
-prizesTitle: "Prizes"
+# Hackathon Nominations/Prizes Block
+prizesTitle: "Nominations"
 prizes:
- - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
- - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
- - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+ - {title: "Best Android app redesign", image: "android-redesign.png", info: ""}
+ - {title: "Audience choice", image: "audience-choice.png", info: ""}
+ - {title: "Best Web app redesign", image: "web-redesign.png", info: ""}
 
 # Hackathon Location Block
-hackathonLocationBlockTitle: "Location"
+hackathonLocationBlockTitle: "Hackathon location"
 hackathonLocationName: "ComeIn"
 hackathonLocationLink: "http://www.comein.lviv.ua/"
 hackathonStreetAddress: "Solomii Krushel'nyts'koi St, 3"
@@ -298,5 +298,26 @@ hackathonDoorTime: "09:00"
 hackathonEndTime: "2014-10-24T19:00"
 viewOnMap: "View on Google Maps"
 hackathonPlaceCoordinates: "49.838144, 24.022544"
-hackathonMapCenterCoordinates: "49.837805, 24.020693"
-hackathonMapMobileCenterCoordinates: "49.838779, 24.022341"
+hackathonMapCenterCoordinates: "49.838479, 24.023416"
+hackathonMapMobileCenterCoordinates: "49.839909, 24.026469"
+
+# Workshops About Block
+aboutWorkshopsTitle: "Workshops"
+workshopRows:
+ - {title: "Browser performance", image: "workshops-0.png", details: "JavaScript engines are getting faster, our laptops and mobile phones are getting more powerful however, in spite all of that, we are constantly running into sluggish web apps, choppy scrolling and jerky animations. If you want to avoid that in your projects and deliver a smooth experience to your users, you'll have to think performance. Thankfully, that's exactly what this workshop is all about! Learn how browsers work, how to measure performance, what common bottlenecks you should avoid and put your new knowledge immediately into practice."}
+ - {title: "Android Wear Data Sync", image: "workshops-1.png", details: "Data synchronization between phone and a Android Wear device using Play services."}
+
+ # Workshops Location Block
+workshopLocationBlockTitle: "Workshops location"
+workshopLocationName: "coMMuna"
+workshopLocationLink: "http://communa.net.ua/"
+workshopStreetAddress: "1 Halytska St"
+workshopAddressLocality: "Lviv"
+workshopAddressLocalityRegion: "Lvivska"
+workshopPostalCode: "79000"
+workshopAddressCountry: "Ukraine"
+workshopTimeTitle: "Workshops through:"
+workshopStartTime: "2014-10-24T10:00"
+workshopDoorTime: "09:00"
+workshopEndTime: "2014-10-24T18:00"
+workshopPlaceCoordinates: "49.840999, 24.031144"

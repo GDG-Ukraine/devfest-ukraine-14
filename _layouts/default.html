@@ -114,12 +114,14 @@
             if ($(window).width() > 767) {
                 var googleMaps = 'hackathon',
                     eventPlace = new google.maps.LatLng({{ site.hackathonPlaceCoordinates }}),
+                    workshopPlace = new google.maps.LatLng({{ site.workshopPlaceCoordinates }}),
                     centerMap = new google.maps.LatLng({{ site.hackathonMapCenterCoordinates }}),
                     mobileCenterMap = new google.maps.LatLng({{ site.hackathonMapMobileCenterCoordinates }}),
                     icon = '{{ site.baseurl }}/img/other/map-marker.svg';
             } else {
                var staticGoogleMaps = true,
                 eventPlaceCoordinates = '{{ site.hackathonPlaceCoordinates | replace:' ','' }}',
+                workshopPlace = '{{ site.workshopPlaceCoordinates | replace:' ',''}}',
                 centerMapCoordinates = '{{ site.hackathonMapCenterCoordinates | replace:' ','' }}',
                 mobileCenterMapCoordinates = '{{ site.hackathonMapMobileCenterCoordinates | replace:' ','' }}',
                 icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';

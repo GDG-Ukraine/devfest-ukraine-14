@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Meet our Hackathon Sponsor Lohika"
-date:   2014-09-19 09:00:00
+date:   2014-10-08 09:00:00
 isStaticPost: false
 ---
 

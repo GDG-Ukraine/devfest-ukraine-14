@@ -50,7 +50,7 @@
             document.write('<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"><\/script>')
         } 
     </script>
-    {% elsif page.permalink == '/logistics/' %}
+    {% elsif page.permalink == '/city_guide/' %}
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry"></script>
     {% endif %} 
     <script>
@@ -104,7 +104,7 @@
                     }
                 }
             });
-        {% elsif page.permalink == '/logistics/' %}
+        {% elsif page.permalink == '/city_guide/' %}
             var googleMaps = 'logistics',
                 eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),
                 centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),

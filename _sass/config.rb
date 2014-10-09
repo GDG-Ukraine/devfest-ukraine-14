@@ -5,7 +5,7 @@ require "./remove-all-comments-monkey-patch"
 on_stylesheet_saved do |file|
   css = File.read(file)
   File.open(file, 'w') do |io|
-    io << AutoprefixerRails.process(css, browsers: ["last 2 version", "> 1%"])
+    io << AutoprefixerRails.process(css, browsers: ["last 3 version", "> 1%"])
   end
 end
 

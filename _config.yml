@@ -218,8 +218,8 @@ directionDetailsImage: "lviv-day.jpg"
 directionDetailsTitle: "Get around Lviv"
 directionDetailsCards:
  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
- - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
- - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+ - {title: "Public Transit", information: "Lviv has very diverse public transportation network. Although we strive to hold our conference in the city center, you might want to go somewhere. You have several options: <ul><li>Use <a href='https://play.google.com/store/apps/details?id=com.google.android.apps.maps'>Google Maps</a> Transit</li><li>Use <a href='https://play.google.com/store/apps/details?id=ua.lviv.router'>Lviv Router App</a> for offline public transport routes</li></ol>"}
+ - {title: "Hotels", information: "Several hotels and hostels have special discounts for DevFest attendees! So: <ol><li>Go to <a href='/hotels/'>Hotels</a> page</li><li>Call desired hotel</li><li>Say that you are going to DevFest</li><li>Enjoy your discounted booking!</li></ol>"}
 # directionDetailsWideCards: 
 #  -
 #   title: "Questions?"

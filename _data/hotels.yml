@@ -1,0 +1,40 @@
+- 
+  id: 1
+  name: 'Post House Hostel'
+  discount: '10%'
+  url: 'http://www.posthousehostel.com.ua/'
+  thumbnailUrl: posthouse.png
+  phone: '+38 097 088 79 00'
+  address: 'Slovackogo st., 8'
+- 
+  id: 2
+  name: 'Old Ukrainian Home Hostel'
+  discount: '15%'
+  url: 'http://ukrainianhomehostel.lviv.ua/'
+  thumbnailUrl: oldukr.jpg
+  phone: '+38 067 911 1431'
+  address: 'B. Lepkogo st., 12'
+- 
+  id: 3
+  name: 'Coffee Home Hostel'
+  discount: '15%'
+  url: 'http://coffeehomehostel.lviv.ua/'
+  thumbnailUrl: coffee.jpg
+  phone: '+38 067 911 1431'
+  address: 'Teatralna st., 10'
+- 
+  id: 4
+  name: 'Soviet Home Hostel'
+  discount: '15%'
+  url: 'http://soviethomehostel.lviv.ua/'
+  thumbnailUrl: soviet.jpg
+  phone: '+38 067 911 1431'
+  address: 'Drukarska st., 3'
+- 
+  id: 5
+  name: 'Art Hostel'
+  discount: '15%'
+  url: 'http://www.arthostel.lviv.ua/'
+  thumbnailUrl: art.jpg
+  phone: '+38 067 911 1431'
+  address: 'Rynok sq., 3'

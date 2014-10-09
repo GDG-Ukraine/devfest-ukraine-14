@@ -217,33 +217,9 @@ directionDetailsImage: "lviv-day.jpg"
 directionDetailsTitle: "Get around Lviv"
 directionDetailsCards:
  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
- - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
- - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. We have partner hotels that offer the following discounts:<br><ul class="list-with-description"><li><a href="http://www.posthousehostel.com.ua/" title="Post House Hostel">Post House Hostel - 10%</a></li><li><a href="http://ukrainianhomehostel.lviv.ua/" title="Old Ukrainian Home Hostel">Old Ukrainian Home Hostel - 15%</a></li><li><a href="http://coffeehomehostel.lviv.ua/" title="Coffee Home Hostel">Coffee Home Hostel - 15%</a></li><li><a href="http://soviethomehostel.lviv.ua/" title="Soviet Home Hostel">Soviet Home Hostel - 15%</a></li><li><a href="http://www.arthostel.lviv.ua/" title="Art Hostel">Art Hostel - 15%</a></li></ul>'}
-# directionDetailsWideCards: 
-#  -
-#   title: "Questions?"
-#   subCards:
-#    -
-#     title: "Hotels"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-#    - 
-#     title: "Registration"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-#    -
-#     title: "Attendance Details"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+ - {title: "Public Transit", information: 'Lviv has very diverse public transportation network. Although we strive to hold our conference in the city center, you might want to go somewhere. You have several options: <ul><li>Use <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank">Google Maps</a> Transit</li><li>Use <a href="https://play.google.com/store/apps/details?id=ua.lviv.router" target="_blank">Lviv Router App</a> for offline public transport routes</li></ol>'}
+ - {title: "Hosting", information: 'Several hotels and hostels have special discounts for DevFest attendees! <ul class="list-with-description"><li><a href="http://www.posthousehostel.com.ua/" title="Post House Hostel" target="_blank">Post House Hostel - 10%</a></li><li><a href="http://ukrainianhomehostel.lviv.ua/" title="Old Ukrainian Home Hostel" target="_blank">Old Ukrainian Home Hostel - 15%</a></li><li><a href="http://coffeehomehostel.lviv.ua/" title="Coffee Home Hostel" target="_blank">Coffee Home Hostel - 15%</a></li><li><a href="http://soviethomehostel.lviv.ua/" title="Soviet Home Hostel" target="_blank">Soviet Home Hostel - 15%</a></li><li><a href="http://www.arthostel.lviv.ua/" title="Art Hostel" target="_blank">Art Hostel - 15%</a></li></ul><p>Enjoy your discounted booking!</p>'}
+
 # Hackathon
 hackathonTitle: "Hackathon"
 enableHackathon: true
@@ -304,9 +280,8 @@ hackathonMapMobileCenterCoordinates: "49.839909, 24.026469"
 # Workshops About Block
 aboutWorkshopsTitle: "Workshops"
 workshopRows:
- - {title: "Android Wear Data Sync", image: "workshops-1.png", details: "Data synchronization between phone and a Android Wear device using Play services."}
  - {title: "Browser performance", image: "workshops-0.png", details: "JavaScript engines are getting faster, our laptops and mobile phones are getting more powerful however, in spite all of that, we are constantly running into sluggish web apps, choppy scrolling and jerky animations. If you want to avoid that in your projects and deliver a smooth experience to your users, you'll have to think performance. Thankfully, that's exactly what this workshop is all about! Learn how browsers work, how to measure performance, what common bottlenecks you should avoid and put your new knowledge immediately into practice."}
- - {title: "Polymer: future on your fingers", image: "workshops-2.png", details: "Nowadays Web development is much more, than just hacking HTML code - it is complete process of creating fresh-looking modern visuals, that bring attention to itself from the first look. On the Polymer workshop you will have a chance to touch the future of Web development right now - starting from simple Web Components and up to building complete web page that using Paper elements."}
+ - {title: "Android Wear Data Sync", image: "workshops-1.png", details: "Data synchronization between phone and a Android Wear device using Play services."}
 
  # Workshops Location Block
 workshopLocationBlockTitle: "Workshops location"

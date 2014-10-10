@@ -3,8 +3,26 @@
     <div id="canvas-map" class="canvas-map"></div>
     <div class="content-wrapper">
         <div class="col-lg-3 col-md-4 col-sm-6 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
+        <h4>{{ site.workshopLocationBlockTitle }}</h4>
+            {% if site.workshopLocationName %}
+            <a href="{{ site.workshopLocationLink }}" target="_blank"><h5 class="location-name">{{ site.workshopLocationName }}</h5></a>
+            {% endif %}
+        <p class="location-address">{{ site.workshopStreetAddress }}, {{ site.workshopAddressLocality }}</p>
+            <div class="hackathon-time">
+                <span>{{ site.workshopTimeTitle }}</span>
+                {% assign startTime = site.workshopStartTime | split: "T" %}
+                <time>{{ startTime[1] }}</time> -
+                {% assign endTime = site.workshopEndTime | split: "T" %}
+                <time>{{ endTime[1] }}</time>
+            </div>
+            <a href="http://maps.google.com/maps?ll={{ site.workshopPlaceCoordinates | replace:' ',''}}&z=17&t=m&hl=en-US&gl=US&mapclient=embed&q={{ site.workshopStreetAddress | replace:' ','%20' | replace:',','%2C'}}%2C%20{{ site.workshopAddressLocality | replace:' ','%20' | replace:',','%2C'}}" class="view-on-map" target="_blank">{{ site.viewOnMap }}</a>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="col-lg-3 col-md-4 col-sm-6 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="500">
+        <h4>{{ site.hackathonLocationBlockTitle }}</h4>
             {% if site.hackathonLocationName %}
-            <h5 class="location-name">{{ site.hackathonLocationName }}</h5>
+            <a href="{{ site.hackathonLocationLink }}" target="_blank"><h5 class="location-name">{{ site.hackathonLocationName }}</h5></a>
             {% endif %}
         <p class="location-address">{{ site.hackathonStreetAddress }}, {{ site.hackathonAddressLocality }}</p>
             <div class="hackathon-time">
@@ -15,7 +33,7 @@
                 <time>{{ endTime[1] }}</time>
             </div>
             <a href="http://maps.google.com/maps?ll={{ site.hackathonPlaceCoordinates | replace:' ',''}}&z=17&t=m&hl=en-US&gl=US&mapclient=embed&q={{ site.hackathonStreetAddress | replace:' ','%20' | replace:',','%2C'}}%2C%20{{ site.hackathonAddressLocality | replace:' ','%20' | replace:',','%2C'}}" class="view-on-map" target="_blank">{{ site.viewOnMap }}</a>
-        </div>
+        </div> 
     </div>
 </section>
 <!-- End Hackathon Location Section -->

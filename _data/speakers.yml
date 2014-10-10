@@ -344,3 +344,14 @@
   social: 
     - {name: 'google-plus', link: 'https://plus.google.com/u/0/+MarkDrobnych/posts'}
     - {name: 'facebook', link: 'https://www.facebook.com/profile.php?id=100007211417481'}
+- 
+  id: 28
+  name: 'Nazar'
+  surname: 'Moravskyi'
+  company: 'Eleks'
+  title: 'UX Designer'
+  bio: "Nazar is UX Designer at Eleks with more than 5 years of experience in IT. Working with web and mobile platforms in wide range of domains (Healthcare, Entertainment, Social Networking). Big fan of Android, Edward Tufte and comic books :)"
+  thumbnailUrl: NazarMoravskyi.jpg
+  rockstar: false
+  social: 
+    - {name: 'linkedin', link: 'https://www.linkedin.com/in/moravskiy'}

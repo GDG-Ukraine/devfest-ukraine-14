@@ -8,7 +8,7 @@
                 {% assign colWidth = 12 | divided_by: colsNumber %}
                 {% assign check = forloop.index0 | modulo:2 %}
                 <div class="col-md-{{ colWidth | plus:1 }} col-sm-{{ colWidth | plus:1 }} animated hiding same-height" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="500">
-                    <h4>{{ row.title }}</h4>
+                    <h5>{{ row.title }}</h5>
                     <img class="technology-img img-responsive" src="{{ site.baseurl }}/img/hackathon/{{ row.image }}" alt="{{ row.title }}">
                 </div>
                 {% if forloop.index != forloop.length %}

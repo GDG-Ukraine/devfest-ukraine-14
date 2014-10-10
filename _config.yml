@@ -45,7 +45,7 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
+ - {permalink: "/city_guide/", text: "City guide"}
  - {permalink: "/hackday/", text: "Hackday"}
 bottomNavigationLinks:
  - {permalink: "/#tickets", text: "Buy tickets"}
@@ -114,7 +114,7 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 tweetsFeedImage: "lviv.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "dfua"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=1500"
+twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=3600"
 
 # Partners Block
 organizersTitle: "Organizers"
@@ -217,33 +217,9 @@ directionDetailsImage: "lviv-day.jpg"
 directionDetailsTitle: "Get around Lviv"
 directionDetailsCards:
  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
- - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
- - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
-# directionDetailsWideCards: 
-#  -
-#   title: "Questions?"
-#   subCards:
-#    -
-#     title: "Hotels"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-#    - 
-#     title: "Registration"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-#    -
-#     title: "Attendance Details"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+ - {title: "Public Transit", information: 'Lviv has very diverse public transportation network. Although we strive to hold our conference in the city center, you might want to go somewhere. You have several options: <ul><li>Use <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank">Google Maps</a> Transit</li><li>Use <a href="https://play.google.com/store/apps/details?id=ua.lviv.router" target="_blank">Lviv Router App</a> for offline public transport routes</li></ol>'}
+ - {title: "Hosting", information: 'Several hotels and hostels have special discounts for DevFest attendees! <ul class="list-with-description"><li><a href="http://www.posthousehostel.com.ua/" title="Post House Hostel" target="_blank">Post House Hostel - 10%</a></li><li><a href="http://ukrainianhomehostel.lviv.ua/" title="Old Ukrainian Home Hostel" target="_blank">Old Ukrainian Home Hostel - 15%</a></li><li><a href="http://coffeehomehostel.lviv.ua/" title="Coffee Home Hostel" target="_blank">Coffee Home Hostel - 15%</a></li><li><a href="http://soviethomehostel.lviv.ua/" title="Soviet Home Hostel" target="_blank">Soviet Home Hostel - 15%</a></li><li><a href="http://www.arthostel.lviv.ua/" title="Art Hostel" target="_blank">Art Hostel - 15%</a></li></ul><p>Enjoy your discounted booking!</p>'}
+
 # Hackathon
 hackathonTitle: "Hackathon"
 enableHackathon: true
@@ -276,15 +252,15 @@ hackathonFaqList:
 judgesImage: "judges.jpg"
 judgesTitle: "Judges"
 
-# Hackathon Prizes Block
-prizesTitle: "Prizes"
+# Hackathon Nominations/Prizes Block
+prizesTitle: "Nominations"
 prizes:
- - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
- - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
- - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+ - {title: "Best Android app redesign", image: "android-redesign.png", info: ""}
+ - {title: "Audience choice", image: "audience-choice.png", info: ""}
+ - {title: "Best Web app redesign", image: "web-redesign.png", info: ""}
 
 # Hackathon Location Block
-hackathonLocationBlockTitle: "Location"
+hackathonLocationBlockTitle: "Hackathon location"
 hackathonLocationName: "ComeIn"
 hackathonLocationLink: "http://www.comein.lviv.ua/"
 hackathonStreetAddress: "Solomii Krushel'nyts'koi St, 3"
@@ -298,5 +274,27 @@ hackathonDoorTime: "09:00"
 hackathonEndTime: "2014-10-24T19:00"
 viewOnMap: "View on Google Maps"
 hackathonPlaceCoordinates: "49.838144, 24.022544"
-hackathonMapCenterCoordinates: "49.837805, 24.020693"
-hackathonMapMobileCenterCoordinates: "49.838779, 24.022341"
+hackathonMapCenterCoordinates: "49.838479, 24.023416"
+hackathonMapMobileCenterCoordinates: "49.839909, 24.026469"
+
+# Workshops About Block
+aboutWorkshopsTitle: "Workshops"
+workshopRows:
+ - {title: "Android Wear Data Sync", image: "workshops-1.png", details: "Data synchronization between phone and a Android Wear device using Play services."}
+ - {title: "Browser performance", image: "workshops-0.png", details: "JavaScript engines are getting faster, our laptops and mobile phones are getting more powerful however, in spite all of that, we are constantly running into sluggish web apps, choppy scrolling and jerky animations. If you want to avoid that in your projects and deliver a smooth experience to your users, you'll have to think performance. Thankfully, that's exactly what this workshop is all about! Learn how browsers work, how to measure performance, what common bottlenecks you should avoid and put your new knowledge immediately into practice."}
+ - {title: "Polymer: future on your fingers", image: "workshops-2.png", details: "Nowadays Web development is much more, than just hacking HTML code - it is complete process of creating fresh-looking modern visuals, that bring attention to itself from the first look. On the Polymer workshop you will have a chance to touch the future of Web development right now - starting from simple Web Components and up to building complete web page that using Paper elements."}
+
+ # Workshops Location Block
+workshopLocationBlockTitle: "Workshops location"
+workshopLocationName: "coMMuna"
+workshopLocationLink: "http://communa.net.ua/"
+workshopStreetAddress: "1 Halytska St"
+workshopAddressLocality: "Lviv"
+workshopAddressLocalityRegion: "Lvivska"
+workshopPostalCode: "79000"
+workshopAddressCountry: "Ukraine"
+workshopTimeTitle: "Workshops through:"
+workshopStartTime: "2014-10-24T10:00"
+workshopDoorTime: "09:00"
+workshopEndTime: "2014-10-24T18:00"
+workshopPlaceCoordinates: "49.840999, 24.031144"

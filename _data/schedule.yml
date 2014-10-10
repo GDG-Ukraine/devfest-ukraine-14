@@ -52,7 +52,7 @@
         parallel: 2,
         startTime: "16:00",
         endTime: "18:00",
-        sessionIds: [129]
+        sessionIds: [703]
     }
 - 
   date: "2014-10-25"

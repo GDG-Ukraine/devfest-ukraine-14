@@ -40,19 +40,19 @@
         parallel: 2,
         startTime: "10:00",
         endTime: "12:00",
-        sessionIds: [700]
+        sessionIds: [701]
     }
     - {
         parallel: 2,
         startTime: "13:00",
         endTime: "15:00",
-        sessionIds: [701]
+        sessionIds: [700]
     }
     - {
         parallel: 2,
         startTime: "16:00",
         endTime: "18:00",
-        sessionIds: [404]
+        sessionIds: [129]
     }
 - 
   date: "2014-10-25"

@@ -263,3 +263,10 @@
   speakers: [27]
   language: ua
   complexity: "Beginner"
+-
+  id: 129
+  title: 'Polymer: future on your fingers'
+  description: "Nowadays Web development is much more, than just hacking HTML code - it is complete process of creating fresh-looking modern visuals, that bring attention to itself from the first look. On the Polymer workshop you will have a chance to touch the future of Web development right now - starting from simple Web Components and up to building complete web page that using Paper elements."
+  speakers: [7]
+  language: en
+  complexity: "Beginner"

@@ -102,7 +102,7 @@ mapCenterCoordinates: "49.842537,24.025701"
 mapMobileCenterCoordinates: "49.841620, 24.029411"
 
 # Venue Block
-venueBlockTitle: "Conference Venue"
+venueBlockTitle: "Conference venue"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
@@ -260,7 +260,7 @@ hackathonTechnologies:
  - {title: "Web with Polymer, Angular Js and Dart", image: "web.png"}
 
 # Hackathon FAQ Block
-hackathonFaqTitle: "FAQ"
+hackathonFaqTitle: "Hackathon FAQ"
 hackathonFaqList:
  - {item: "Registration is free"}
  - {item: "Registration will be opened on October 13"}

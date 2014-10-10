@@ -225,7 +225,7 @@
   id: 18
   name: 'Denys'
   surname: 'Butenko'
-  company: ''
+  company: 'GDG Luhansk'
   title: 'Python Web Developer'
   bio: 'Denys is a python web developer. He participated and successfully passed the Google Summer of Code 2013 and 2014 years. In his time at Melange (GSoC 2014), he worked on responsive layout for GSoC and GCI. An year ago, at TYPO3, he worked on extension for TYPO3 CMS for OAuth2 protocol. He likes new technologies and devices.'
   thumbnailUrl: DenysButenko.jpg

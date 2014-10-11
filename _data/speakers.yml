@@ -44,7 +44,7 @@
   surname: 'Danylyk'
   company: 'Lemberg Solutions Limited'
   title: 'Android Developer'
-  bio: '<p>Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.</p>'
+  bio: '<p>Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, IntelliJ IDEA. Eclipse IDE hater.</p>'
   thumbnailUrl: DmytroDanylyk.jpg
   rockstar: false
   social: 
@@ -173,7 +173,7 @@
   surname: 'Shumelchyk'
   company: 'SoftServe'
   title: 'Software developer'
-  bio: 'Kseniia is working as software developer at SotServe. For two years she is leader of GDG Women Ukraine and GDG Dnipropetrovsk. Kseniia actively participate in GDG events, techtalks and conferences devoted software development and so on. Regularly she shares among girls an overview about different programs, grants available for women in IT and my own experience how was involved in some of these programs. Developer of several open-source project during Google Summer of Code program. Participant of TechTalk with global Women Techmakers community.'
+  bio: 'Kseniia is working as software developer at SoftServe. For two years she is leader of GDG Women Ukraine and GDG Dnipropetrovsk. Kseniia actively participate in GDG events, techtalks and conferences devoted software development and so on. Regularly she shares among girls an overview about different programs, grants available for women in IT and my own experience how was involved in some of these programs. Developer of several open-source project during Google Summer of Code program. Participant of TechTalk with global Women Techmakers community.'
   thumbnailUrl: KseniiaShumelchyk.jpg
   rockstar: false
   ribbon:
@@ -277,7 +277,7 @@
   surname: 'Herasymenko'
   company: 'Privatbank'
   title: 'E-commerce Team Leader'
-  bio: "Roman is Senior Java/Android developer. Currently he is lead of the E-commerce team in Privatbank PSJC and a co-organizer of GDG Dnipropetrovs'k.Roman is interesting in software development for cutting edge technologies and devices like Google Glass and Android Wear."
+  bio: "Roman is Senior Java/Android developer. Currently he is lead of the E-commerce team in Privatbank PSJC and a co-organizer of GDG Dnipropetrovsk.Roman is interesting in software development for cutting edge technologies and devices like Google Glass and Android Wear."
   thumbnailUrl: RomanHerasymenko.jpg
   rockstar: false
   ribbon:

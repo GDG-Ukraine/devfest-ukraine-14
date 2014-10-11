@@ -3,7 +3,7 @@
 ### About 
 Project Zeppelin allows you to setup awesome GDG DevFest site in 5 minutes. 
 
-Project is builded on top of [Jekyll](http://jekyllrb.com/) - simple, blog-aware, static site generator. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your website from GitHub’s servers for free. [Learn more about Jekyll](http://jekyllrb.com/).
+Project is built on top of [Jekyll](http://jekyllrb.com/) - simple, blog-aware, static site generator. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your website from GitHub’s servers for free. [Learn more about Jekyll](http://jekyllrb.com/).
 
 Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
 
@@ -12,7 +12,7 @@ Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
 ### Features
 * Easy to setup
 * Simple and responsive design
-* Inegrated speakers and sessions management
+* Integrated speakers and sessions management
 * SVG icons
 * SEO friendly
 
@@ -28,7 +28,7 @@ Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
 
 ## Local development
 
-Check if you have [all requirments for local environment](http://jekyllrb.com/docs/installation/), install [Jekyll server](http://jekyllrb.com/docs/quickstart/) gem and run this command from project root folder:
+Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/), install [Jekyll server](http://jekyllrb.com/docs/quickstart/) gem and run this command from project root folder:
 
 ```bash
     jekyll serve -w
@@ -66,9 +66,9 @@ To watch changes in `.sass` files and compile it to the `.css` on a fly, run thi
 Learn more about Sass development from [documentation](https://github.com/gdg-x/zeppelin/wiki/Sass-development).
 
 
-### Resource optimizations (optional)
+### Resource optimization (optional)
 
-You can optimize images and minify css and javascript automaticaly (for now only on Windows).
+You can optimize images and minify css and javascript automatically (for now only on Windows).
 Optimize all images by running this script from `/automation/images/` folder:
 ```bash
     all_image_optimization.bat -d -jtran -pout -pquant -optip -gsicle -svgo
@@ -113,5 +113,5 @@ Going to use template? Go on! The only thing we ask - let us know at [*lviv@gdg.
 * Design and markup: [Oleh Zasadnyy](https://github.com/ozasadnyy)
 * Idea and Jekyll integration: [Vitaliy Zasadnyy](https://github.com/zasadnyy)
 
-### Licence
-Project is published under the [MIT licence](https://github.com/gdg-x/zeppelin/blob/master/LICENSE.txt). Feel free to clone and modify repo as you want, but don'y forget to add reference to authors :)
+### License
+Project is published under the [MIT licence](https://github.com/gdg-x/zeppelin/blob/master/LICENSE.txt). Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)

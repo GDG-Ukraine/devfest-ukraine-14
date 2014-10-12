@@ -12,6 +12,7 @@
                 </div>
                 <div class="hackathon-details animated hiding" data-animation="{% if check == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}" data-delay="0">
                     <p>{{ row.details }}</p>
+                    <a href="{{ row.registrationLink }}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Registration</a>
                 </div>
             </div>
             {% endfor %}

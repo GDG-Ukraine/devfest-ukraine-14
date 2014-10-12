@@ -5,10 +5,13 @@ $small-hackathon-img-width: 150px;
 	min-height: initial;
 }
 .hackathon-row {
-	margin-bottom: 10px;
+	margin-bottom: 70px;
     @media (max-width: 767px) {
         margin-bottom: 50px;
     }
+    &:last-child {
+    	margin-bottom: 10px;
+    } 
 	&.float-right {
 		.hackathon-img-wrapper {
 			float: right;

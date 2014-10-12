@@ -47,6 +47,13 @@
     - {name: "email", link: "mailto:ostap.andrusiv@gdg.org.ua"}
 - 
   id: 3
+  name: "Galya"
+  surname: "Zasadna"
+  title: "Party and happines"
+  thumbnailUrl: GalyaZasadna.jpg
+  team: true
+- 
+  id: 4
   name: "Volodya"
   surname: "Karpliuk"
   company: "ViSoft"
@@ -59,7 +66,16 @@
     - {name: "twitter", link: "https://twitter.com/keyv23"}
     - {name: "email", link: "mailto:volodya.karpuk@gmail.com"}
 - 
-  id: 4
+  id: 5
+  name: "Kristina"
+  surname: "Kovalenko"
+  title: "Social and media"
+  thumbnailUrl: KristinaKovalenko.jpg
+  team: true
+  social: 
+    - {name: "facebook", link: "https://www.facebook.com/kri.kovalenko"}
+- 
+  id: 6
   name: "Dmytro"
   surname: "Danylyk"
   company: "Lemberg Solutions Limited"
@@ -72,7 +88,7 @@
     - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
     - {name: "github", link: "https://github.com/dmytrodanylyk"}
 - 
-  id: 5
+  id: 7
   name: "Valentyn"
   surname: "Shybanov"
   company: "Twinfield, GDG Kyiv"
@@ -84,7 +100,7 @@
     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
     - {name: "site", link: "http://olostan.name/"}
 - 
-  id: 6
+  id: 8
   name: "Volodymyr"
   surname: "Ivanov"
   company: "UA Developer Program, GDG Kyiv"

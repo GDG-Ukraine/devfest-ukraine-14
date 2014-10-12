@@ -161,7 +161,7 @@
 -
   id: 114
   title: 'Go in the Cloud: How using Go can help building “cloud ready” applications'
-  description: '<p>Though Go language was introduced quite long time ago, it was not very popular until Cloud Computing came into our life. In this presentation I will explain why Go would be a great choice for developing really cloud-ready apps.</p><br/>1. Introduction to Go language<br/>2. Quick comparision Go with other solutions<br/>3. Some details of main Go features: goroutins, channels<br/>4. Example of go app scaling written in go'
+  description: '<p>Though Go language was introduced quite long time ago, it was not very popular until Cloud Computing came into our life. In this presentation I will explain why Go would be a great choice for developing really cloud-ready apps.</p><br/>1. Introduction to Go language<br/>2. Quick comparison Go with other solutions<br/>3. Some details of main Go features: goroutins, channels<br/>4. Example of go app scaling written in go'
   speakers: [7]
   language: en
   complexity: "Intermediate"
@@ -182,7 +182,7 @@
 -
   id: 117
   title: "Round table - Ladies in tech"
-  description: 'Round table "Ladies in Tech"<br>- The current situation for women in the national and global IT industry<br>- This year’s changes and trends.<br>- How the Ukrainian community and the GDG W and Women TechMakers can effect the process.<br>- We came into this world to change it for the better, so I hope things discussed at our roundtable will be useful for us and those around.'
+  description: 'Round table "Ladies in Tech"<br>- The current situation for women in the national and global IT industry<br>- This year’s changes and trends.<br>- How the Ukrainian community and the GDG W and Women TechMakers can effect the process.<br>- We came into this world to change it for the better, so I hope things discussed at our round table will be useful for us and those around.'
   speakers: [13, 2, 23]
   language: en
   complexity: "Beginner"
@@ -237,7 +237,7 @@
   complexity: "Intermediate"
 -
   id: 125
-  title: 'All Google communities in UA.'
+  title: 'All Google communities in UA'
   description: 'Wow! We were much more than we thought!<br>Introduction to the “Community” flow. A short list of communities of the Google ecosystem and the various programs and stipends supporting students, women and small businesses. A few words about the Ukrainian groups’ place in the global GDG community.'
   speakers: [24]
   language: uk
@@ -259,7 +259,7 @@
 -
   id: 128
   title: 'From hobby to final of Google Science Fair 2014'
-  description: "My name is Mark. I'm 14. I'm from Uzhhorod, Ukraine. I like Lego. A year ago I tried to construct simple microscope from Lego bricks and old usb web camera. Some day I decided to embed some kind of brain into my construction. I used Lego EV3 intelectual brick. I found that my microscope become more and more interesting. I decided to send my idea to Google Science Fair. One day I received fantastic news. I was selected to 90 regional finalists. I added more efforts. Finally my robo-microscope had 3 optical systems and 4 servo motors. It has option of remote control and integration with Google Hangouts. At the same time it's still Lego construction which can be cloned in any school. I took final battle with all my 'ammunition' in Google HQ, Mountain View, September 24, 2014. It was hard battle. I didn't received grand prize. But I don't feel myself a loser. Because I have the next idea..."
+  description: "My name is Mark. I'm 14. I'm from Uzhhorod, Ukraine. I like Lego. A year ago I tried to construct simple microscope from Lego bricks and old USB web camera. Some day I decided to embed some kind of brain into my construction. I used Lego EV3 intellectual brick. I found that my microscope become more and more interesting. I decided to send my idea to Google Science Fair. One day I received fantastic news. I was selected to 90 regional finalists. I added more efforts. Finally my robo-microscope had 3 optical systems and 4 servo motors. It has option of remote control and integration with Google Hangouts. At the same time it's still Lego construction which can be cloned in any school. I took final battle with all my 'ammunition' in Google HQ, Mountain View, September 24, 2014. It was hard battle. I didn't received grand prize. But I don't feel myself a loser. Because I have the next idea..."
   speakers: [27]
   language: uk
   complexity: "Beginner"
@@ -270,4 +270,11 @@
   description: "In our talk we will discuss patterns and guides of Material Design, try to understand them and apply on existing application step-by-step. "
   speakers: [28]
   language: uk
+  complexity: "Beginner"
+-
+  id: 703
+  title: 'Polymer: future on your fingers'
+  description: "Nowadays Web development is much more, than just hacking HTML code - it is complete process of creating fresh-looking modern visuals, that bring attention to itself from the first look. On the Polymer workshop you will have a chance to touch the future of Web development right now - starting from simple Web Components and up to building complete web page that using Paper elements."
+  speakers: [7]
+  language: en
   complexity: "Beginner"

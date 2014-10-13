@@ -17,8 +17,7 @@
             </div>
             <a href="http://maps.google.com/maps?ll={{ site.workshopPlaceCoordinates | replace:' ',''}}&z=17&t=m&hl=en-US&gl=US&mapclient=embed&q={{ site.workshopStreetAddress | replace:' ','%20' | replace:',','%2C'}}%2C%20{{ site.workshopAddressLocality | replace:' ','%20' | replace:',','%2C'}}" class="view-on-map" target="_blank">{{ site.viewOnMap }}</a>
         </div>
-
-        <div class="clearfix"></div>
+        
         <div class="col-lg-3 col-md-4 col-sm-6 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="500">
         <h4>{{ site.hackathonLocationBlockTitle }}</h4>
             {% if site.hackathonLocationName %}

@@ -218,6 +218,8 @@
   bio: 'Javascript-developer with extensive experience in highload applications, games enthusiast promotion on HTML5. Enjoy snowboards, owls and cookies. At conferences typically talking about games and everything connected with them, but this time made ​​an exception.'
   thumbnailUrl: YuliaPuchnina.jpg
   rockstar: false
+    - {abbr: 'GDG', title: 'Google Developer Group Kyiv', url: 'https://developers.google.com/groups/chapter/110301321530950732281/'}
+    - {abbr: 'GDGW', title: 'Google Developer Group Women Ukraine', url: 'http://gdg.org.ua/'}
   social: 
     - {name: 'twitter', link: 'https://twitter.com/kira__kit'}
     - {name: 'github', link: 'https://github.com/probably-kira'}

@@ -57,3 +57,4 @@
     - {name: 'Root Nation', description: 'Root Nation - сайт о гаджетах и технологиях. Android, iOS, Windows. Обзоры: смартфоны, планшеты, ноутбуки, ПК. Операционные системы, софт, сервисы и ПО.', link: 'http://root-nation.com/', imageUrl: 'root-nation.svg', width: '80px'}
     - {name: 'Innabtys', description: 'Innabtys — цифровые проекты, интернет-маркетинг, право. Прикладные исследования и работа с веб-проектами, новыми сферами современной экономики.', link: 'http://innabtys.com/', imageUrl: 'innabtys.png', width: '140px'}
     - {name: 'Garage48', description: 'Garage48 - from an idea to prototype within 48 hours', link: 'http://garage48.org/lviv', imageUrl: 'garage48.png'}
+    - {name: 'IT Weekend', description: 'IT Weekend', link: 'https://softserve.ua', imageUrl: 'it-weekend.svg', width: '140px'}

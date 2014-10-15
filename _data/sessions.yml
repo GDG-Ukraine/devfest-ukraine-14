@@ -86,7 +86,7 @@
   title: "Android L Animation"
   description: "I will speak and show how to:<br>- Respond to touch events in your views with touch feedback animations.<br>- Hide and show views with reveal effect animations.<br>- Switch between activities with custom activity transition animations.<br>- Create more natural animations with curved motion.<br>- Animate changes in one or more view properties with view state change animations.<br>- Create icon morphing transition"
   speakers: [4]
-  language: en
+  language: uk
   complexity: "Intermediate" 
 -
   id: 104
@@ -237,7 +237,7 @@
   complexity: "Intermediate"
 -
   id: 125
-  title: 'All Google communities in UA'
+  title: 'All Google communities in Ukraine'
   description: 'Wow! We were much more than we thought!<br>Introduction to the “Community” flow. A short list of communities of the Google ecosystem and the various programs and stipends supporting students, women and small businesses. A few words about the Ukrainian groups’ place in the global GDG community.'
   speakers: [24]
   language: uk

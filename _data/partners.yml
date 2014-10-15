@@ -3,13 +3,15 @@
   elements: 
     - {name: 'Google', description: 'Google', link: 'https://www.google.com.ua/intl/en/about/', imageUrl: 'google.svg'}
 - 
-  group: 'Diamond sponsor'
+  group: 'Diamond sponsors'
   elements: 
     - {name: 'Eleks', description: 'Software development, Localization, Internationalization, QA and Testing Services', link: 'http://eleks.com/', imageUrl: 'eleks.svg'}
+    - {name: 'SoftServe', description: 'SoftServe – Best IT Employer', link: 'https://softserve.ua/en/', imageUrl: 'softserve.svg'}
 - 
-  group: 'Platinum sponsor'
+  group: 'Platinum sponsors'
   elements: 
-    - {name: 'DataArt', description: 'DataArt is a custom software development company that builds advanced solutions for the financial services, healthcare, hospitality, logistics and other industries', link: 'http://www.dataart.com/', imageUrl: 'dataart.svg'}
+    - {name: 'DataArt', description: 'DataArt is a custom software development company that builds advanced solutions for the financial services, healthcare, hospitality, logistics and other industries.', link: 'http://www.dataart.com/', imageUrl: 'dataart.svg'}
+    - {name: 'GlobalLogic', description: 'GlobalLogic is a full product lifecycle services provider that helps customers make amazing products, discover new revenue opportunities, and accelerate time-to-market.', link: 'http://www.globallogic.com/', imageUrl: 'global-logic.svg'}
 - 
   group: 'Gold sponsors'
   elements: 
@@ -39,7 +41,6 @@
     - {name: 'career4it', description: 'career4it - employment fair for it talents', link: 'http://career4it.com/en/', imageUrl: 'career4it.png'}
     - {name: 'IT Arena', description: 'IT Arena - the biggest IT conference in western Ukraine', link: 'http://itarena.lviv.ua/', imageUrl: 'it-arena.svg'}
     - {name: 'Startup Depot', description: 'Startup Depot - Lviv Business Incubator', link: 'http://innovateinlviv.com/', imageUrl: 'startup-depot.svg'}
-    - {name: 'SoftServe', description: 'SoftServe – Best IT Employer', link: 'https://softserve.ua/en/', imageUrl: 'softserve.svg'}
     - {name: 'Betaplace', description: 'Betaplace – Coworking center in Lviv', link: 'http://betaplace.com.ua/', imageUrl: 'betaplace.svg'}
     - {name: 'MCE 2015', description: 'MCE – The mobile technology conference created by developers and designers', link: 'http://mceconf.com/', imageUrl: 'mce.svg'}
     - {name: 'Inspired', description: 'Inspired - це джерело вашого натхнення. Найкращі фотографії, цитати та відео з усього інтернету', link: 'http://inspired.com.ua/', imageUrl: 'inspired.svg'}

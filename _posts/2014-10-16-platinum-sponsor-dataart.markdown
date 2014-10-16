@@ -24,7 +24,7 @@ We invest in relationships with our clients, by putting our own resources upfron
 
 We Make it Easy to Engage and Change Course as Needed
 
-<img src="{{ site.baseurl }}/img/posts/dataart_img.jpg">
+<img src="{{ site.baseurl }}/img/posts/dataart_img.png"/>
 
 
 ###We Bleed Agile!
@@ -45,7 +45,7 @@ Roughly, 60% of projects employ the method at present and the number is growing.
 
 From Idea to Implementation in 8 Steps with DataArt
 
-<img src="{{ site.baseurl }}/img/posts/dataart_img2.jpg">
+<img src="{{ site.baseurl }}/img/posts/dataart_img2.png">
 
 **1. Enquiry**
 

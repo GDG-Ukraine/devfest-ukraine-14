@@ -27,7 +27,7 @@ We Make it Easy to Engage and Change Course as Needed
 <img src="{{ site.baseurl }}/img/posts/dataart_img.png"/>
 
 
-###We Bleed Agile!
+####We Bleed Agile!
 
 **Business Level Approach**
 

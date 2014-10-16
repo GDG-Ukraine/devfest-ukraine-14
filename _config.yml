@@ -114,7 +114,7 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 tweetsFeedImage: "lviv.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "dfua"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=3600"
+twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=4400"
 
 # Partners Block
 organizersTitle: "Organizers"

@@ -28,6 +28,10 @@
   elements: 
     - {name: 'IT-BPO', description: 'IT-BPO Lviv Cluster', link: 'http://it-bpo.lviv.ua/', imageUrl: 'it-bpo.png'}
 - 
+  group: 'Hosting partner'
+  elements: 
+    - {name: 'Astoria', description: 'Готель Асторія персонально твій', link: 'http://astoriahotel.ua/en', imageUrl: 'astoria.png', width: '140px'}
+- 
   group: 'With support of'
   elements: 
     - {name: 'Lviv Convention Bureau', description: 'Lviv Convention Bureau - Business tourism in Lviv, Ukraine', link: 'http://lvivconvention.com.ua/', imageUrl: 'lvivconventionbureau.svg'}

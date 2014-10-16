@@ -79,19 +79,19 @@
         parallel: 1,
         startTime: "10:30",
         endTime: "11:00",
-        sessionIds: [101,108,112]
+        sessionIds: [102,114,125~126]
     }
     - {
         parallel: 1,
         startTime: "11:10",
         endTime: "11:40",
-        sessionIds: [102,109,113]
+        sessionIds: [104,110,120]
     }
     - {
         parallel: 1,
         startTime: "11:50",
         endTime: "12:20",
-        sessionIds: [103,114,118]
+        sessionIds: [106,109,118]
     }
     - {
         parallel: 1,
@@ -103,19 +103,19 @@
         parallel: 1,
         startTime: "14:00",
         endTime: "14:30",
-        sessionIds: [104,110,128~119]
+        sessionIds: [123,116,122]
     }
     - {
         parallel: 1,
         startTime: "14:40",
         endTime: "15:10",
-        sessionIds: [105,111,120]
+        sessionIds: [105,129,128~119]
     }
     - {
         parallel: 1,
         startTime: "15:20",
         endTime: "15:50",
-        sessionIds: [106,116,122]
+        sessionIds: [103,111,112]
     }
     - {
         parallel: 1,
@@ -127,19 +127,19 @@
         parallel: 1,
         startTime: "16:30",
         endTime: "17:00",
-        sessionIds: [107,121,125~126]
+        sessionIds: [127,108,113]
     }
     - {
         parallel: 1,
         startTime: "17:10",
         endTime: "17:40",
-        sessionIds: [123,129,124]
+        sessionIds: [107,121,124]
     }
     - {
         parallel: 1,
         startTime: "17:50",
         endTime: "18:20",
-        sessionIds: [127,404,117]
+        sessionIds: [101,404,117]
     }
     - {
         parallel: 1,

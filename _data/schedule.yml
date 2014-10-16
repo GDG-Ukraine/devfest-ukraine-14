@@ -65,37 +65,37 @@
   timeslots:
     - {
         parallel: 1,
-    	startTime: "09:00",
-    	endTime: "09:50",
+    	startTime: "08:30",
+    	endTime: "09:20",
     	sessionIds: [212]
     }
     - {
         parallel: 1,
-        startTime: "10:00",
-        endTime: "10:50",
+        startTime: "09:30",
+        endTime: "10:20",
         sessionIds: [115]
     }
     - {
         parallel: 1,
-        startTime: "11:00",
-        endTime: "11:30",
+        startTime: "10:30",
+        endTime: "11:00",
         sessionIds: [101,108,112]
     }
     - {
         parallel: 1,
-        startTime: "11:40",
-        endTime: "12:10",
+        startTime: "11:10",
+        endTime: "11:40",
         sessionIds: [102,109,113]
     }
     - {
         parallel: 1,
-        startTime: "12:20",
-        endTime: "12:50",
+        startTime: "11:50",
+        endTime: "12:20",
         sessionIds: [103,114,118]
     }
     - {
         parallel: 1,
-        startTime: "13:00",
+        startTime: "12:30",
         endTime: "13:50",
         sessionIds: [503]
     }

@@ -360,3 +360,15 @@
   rockstar: false
   social: 
     - {name: 'linkedin', link: 'https://www.linkedin.com/in/moravskiy'}
+- 
+  id: 29
+  name: 'Svyatoslav'
+  surname: 'Komakha'
+  company: 'Google'
+  title: 'Head of Marketing, Ukraine and CIS'
+  bio: ""
+  thumbnailUrl: ""
+  rockstar: false
+  social: 
+    - {name: 'google-plus', link: 'https://plus.google.com/+SvyatoslavKomakha'}
+    - {name: 'linkedin', link: 'https://www.linkedin.com/in/komakha'}

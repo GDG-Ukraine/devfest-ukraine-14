@@ -276,7 +276,7 @@
   id: 130
   title: 'Panel "Working for the giant"'
   description: "Panel with top-notch experts about work in Giant world-known companies. IT Village will record another series of their podcast right on our stage!"
-  speakers: [11,3,29]
+  speakers: [11,29,3]
   language: en
   complexity: "Beginner"
 

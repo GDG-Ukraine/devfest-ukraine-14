@@ -181,7 +181,7 @@
   complexity: "Intermediate"
 -
   id: 117
-  title: "Round table - Ladies in tech"
+  title: 'Panel discussion "Ladies in tech"'
   description: 'Round table "Ladies in Tech"<br>- The current situation for women in the national and global IT industry<br>- This year’s changes and trends.<br>- How the Ukrainian community and the GDG W and Women TechMakers can effect the process.<br>- We came into this world to change it for the better, so I hope things discussed at our round table will be useful for us and those around.'
   speakers: [13, 2, 23, 17]
   language: en
@@ -274,7 +274,7 @@
 
 -
   id: 130
-  title: 'Panel "Working for the giant"'
+  title: 'Panel discussion "Working for the giant"'
   description: "Panel with top-notch experts about work in Giant world-known companies. IT Village will record another series of their podcast right on our stage!"
   speakers: [11,29,3]
   language: en

@@ -36,6 +36,10 @@
   elements: 
     - {name: 'and action', description: 'and action - Photo and video production locating in Lviv Ukraine', link: 'http://and-action.net/', imageUrl: 'and-action.png'}
 - 
+  group: 'Print partner'
+  elements: 
+    - {name: 'TCompany', description: 'Стильний і практичний одяг від офіційного представника Fruit of the Loom і Russel в Україні. У нас найкращі ціни, широкий вибір товарів. Замовляйте прямо зараз!', link: 'http://tcomp.com.ua/', imageUrl: 't-company.png', width: '120px'}
+- 
   group: 'With support of'
   elements: 
     - {name: 'Lviv Convention Bureau', description: 'Lviv Convention Bureau - Business tourism in Lviv, Ukraine', link: 'http://lvivconvention.com.ua/', imageUrl: 'lvivconventionbureau.svg'}

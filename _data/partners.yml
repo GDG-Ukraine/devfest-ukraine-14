@@ -6,21 +6,21 @@
   group: 'Diamond sponsors'
   elements: 
     - {name: 'Eleks', description: 'Software development, Localization, Internationalization, QA and Testing Services', link: 'http://eleks.com/', imageUrl: 'eleks.svg'}
-    - {name: 'SoftServe', description: 'SoftServe – Best IT Employer', link: 'https://softserve.ua/en/', imageUrl: 'softserve.svg'}
+    - {name: 'SoftServe', description: 'SoftServe – Best IT Employer', link: 'https://softserve.ua/en/', imageUrl: 'softserve.svg', width: '210px'}
 - 
   group: 'Platinum sponsors'
   elements: 
     - {name: 'DataArt', description: 'DataArt is a custom software development company that builds advanced solutions for the financial services, healthcare, hospitality, logistics and other industries.', link: 'http://www.dataart.com/', imageUrl: 'dataart.svg'}
-    - {name: 'GlobalLogic', description: 'GlobalLogic is a full product lifecycle services provider that helps customers make amazing products, discover new revenue opportunities, and accelerate time-to-market.', link: 'http://www.globallogic.com/', imageUrl: 'global-logic.svg'}
+    - {name: 'GlobalLogic', description: 'GlobalLogic is a full product lifecycle services provider that helps customers make amazing products, discover new revenue opportunities, and accelerate time-to-market.', link: 'http://www.globallogic.com/', imageUrl: 'global-logic.svg', width: '210px'}
 - 
   group: 'Gold sponsors'
   elements: 
-    - {name: 'Lemberg', description: 'Lemberg Solutions - Web and Mobile App Development Company', link: 'http://lemberg.co.uk/', imageUrl: 'lemberg.svg'}
+    - {name: 'Lemberg', description: 'Lemberg Solutions - Web and Mobile App Development Company', link: 'http://lemberg.co.uk/', imageUrl: 'lemberg.svg', width: '140px'}
     - {name: 'coMMuna', description: 'coMMuna- це простір для втілення твоїх можливостей, правильно організований для роботи, навчання та відпочинку.', link: 'http://communa.net.ua/en/', imageUrl: 'communa.png'}
 - 
   group: 'Hackathon sponsors'
   elements: 
-    - {name: 'Lohika', description: 'A trusted partner in software development', link: 'http://www.lohika.com/', imageUrl: 'lohika.svg'}
+    - {name: 'Lohika', description: 'A trusted partner in software development', link: 'http://www.lohika.com/', imageUrl: 'lohika.svg', width: '140px'}
     - {name: 'GitHub', description: 'GitHub is the best place to build software together. Over 4 million people use GitHub to share code.', link: 'https://github.com/', imageUrl: 'github.svg'}
     - {name: 'Come In', description: 'Ми – новий формат!Ми – нова концепція кафе!Ми – соціальна мережа у реальному світі.', link: 'http://www.comein.lviv.ua/', imageUrl: 'comein.png'}
 - 

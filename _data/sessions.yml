@@ -4,11 +4,6 @@
   place: "Hall"
   service: true
 -
-  id: 312
-  title: "Keynote"
-  place: "Blue room"
-  service: true
--
   id: 303
   title: "Closing and GDG Awards"
   place: "Blue room"
@@ -168,7 +163,7 @@
 -
   id: 115
   title: "Keynote"
-  description: "TBD"
+  description: ""
   speakers: [3]
   language: en
   complexity: "Beginner"
@@ -182,7 +177,7 @@
 -
   id: 117
   title: 'Panel discussion "Ladies in tech"'
-  description: 'Round table "Ladies in Tech"<br>- The current situation for women in the national and global IT industry<br>- This year’s changes and trends.<br>- How the Ukrainian community and the GDG W and Women TechMakers can effect the process.<br>- We came into this world to change it for the better, so I hope things discussed at our round table will be useful for us and those around.'
+  description: '- The current situation for women in the national and global IT industry<br>- This year’s changes and trends.<br>- How the Ukrainian community and the GDG W and Women TechMakers can effect the process.<br>- We came into this world to change it for the better, so I hope things discussed at our round table will be useful for us and those around.'
   speakers: [13, 2, 23, 17]
   language: en
   complexity: "Beginner"

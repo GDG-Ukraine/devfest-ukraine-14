@@ -28,9 +28,10 @@
   elements: 
     - {name: 'IT-BPO', description: 'IT-BPO Lviv Cluster', link: 'http://it-bpo.lviv.ua/', imageUrl: 'it-bpo.png'}
 - 
-  group: 'Hosting partner'
+  group: 'Hosting partners'
   elements: 
     - {name: 'Astoria', description: 'Готель Асторія персонально твій', link: 'http://astoriahotel.ua/en', imageUrl: 'astoria.png', width: '140px'}
+    - {name: 'Dnister', description: 'Dnister Premium Hotel Lviv - combining comfort with genuine service.', link: 'http://www.dnister.lviv.ua/', imageUrl: 'dnister.png', width: '140px'}
 - 
   group: 'Production partner'
   elements: 

@@ -118,6 +118,15 @@
             "levelLabel": "Hosting"
         },
         {
+            "id": "hosting02",
+            "name": "Dnister",
+            "desc": "Premium Hotel Dnister Lviv",
+            "website": "http://dnister.lviv.ua",
+            "logo": "http://devfest.gdg.org.ua/img/partners/dnister.png",
+            "level": 7,
+            "levelLabel": "Hosting"
+        },
+        {
             "id": "prod01",
             "name": "and action",
             "desc": "and action - video and photo production",

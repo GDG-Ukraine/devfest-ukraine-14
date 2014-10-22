@@ -4,11 +4,6 @@
   place: "Hall"
   service: true
 -
-  id: 312
-  title: "Keynote"
-  place: "Blue room"
-  service: true
--
   id: 303
   title: "Closing and GDG Awards"
   place: "Blue room"
@@ -168,7 +163,7 @@
 -
   id: 115
   title: "Keynote"
-  description: "TBD"
+  description: ""
   speakers: [3]
   language: en
   complexity: "Beginner"

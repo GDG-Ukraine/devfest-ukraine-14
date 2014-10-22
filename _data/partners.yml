@@ -33,6 +33,10 @@
     - {name: 'Astoria', description: 'Готель Асторія персонально твій', link: 'http://astoriahotel.ua/en', imageUrl: 'astoria.png', width: '140px'}
     - {name: 'Dnister', description: 'Dnister Premium Hotel Lviv - combining comfort with genuine service.', link: 'http://www.dnister.lviv.ua/', imageUrl: 'dnister.png', width: '140px'}
 - 
+  group: 'Party partner'
+  elements: 
+    - {name: 'Nravo', description: 'Nravo is a global company that develops and publishes games for mobile devices of all generations. Our products encompass browser mobile games – MMORPGs that won popularity in many Eastern European countries, games for iOS and Android', link: 'http://nravo.com/', imageUrl: 'nravo.svg', width: '110px'}
+- 
   group: 'Production partner'
   elements: 
     - {name: 'and action', description: 'and action - Photo and video production locating in Lviv Ukraine', link: 'http://and-action.net/', imageUrl: 'and-action.png'}

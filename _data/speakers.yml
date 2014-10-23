@@ -372,3 +372,15 @@
   social: 
     - {name: 'google-plus', link: 'https://plus.google.com/+SvyatoslavKomakha'}
     - {name: 'linkedin', link: 'https://www.linkedin.com/in/komakha'}
+- 
+  id: 30
+  name: 'Sviatoslav'
+  surname: 'Zalishchuk'
+  company: 'IT Village'
+  title: 'Software engineer and podcast host'
+  bio: "Sviat is a tech-savvy guy that likes to solve problems. Web has plenty of those to offer, both technology and business wise, so this guy is trying to stay in the intersection. He’s also hosting a video podcast called itvillage, where those stories that happen around technology world are covered."
+  thumbnailUrl: "SviatoslavZalishchuk.jpg"
+  rockstar: false
+  social: 
+    - {name: 'twitter', link: 'https://twitter.com/szalishchuk'}
+    - {name: 'linkedin', link: 'https://www.linkedin.com/pub/sviatoslav-zalishchuk'}

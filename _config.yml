@@ -47,10 +47,6 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/city_guide/", text: "City guide"}
  - {permalink: "/hackday/", text: "Hackday"}
-bottomNavigationLinks:
- - {permalink: "/#tickets", text: "Buy tickets"}
-rightNavigationButtons:
- - {permalink: "/#tickets", text: "Buy tickets"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -58,8 +54,6 @@ heroTitle: "GDG DevFest <typeout> 2014"
 eventDate: "October 24-25, Lviv"
 typeoutTextValues: '"", "Conference", "Workshops", "Hackathon", "Ukraine"'
 typeoutFallback: "Ukraine"
-heroButtons:
- - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
 aboutTitle: "About GDG DevFest"
@@ -151,6 +145,8 @@ ticketsOffers:
   buyButtonText: "Buy Now"
   validFrom: "2014-10-01T00:00"
   validThrough: "2014-10-23T23:59"
+  soldOut: true
+  soldOutText: "Sold Out"
  -
   name: "Student"
   price: "200"
@@ -278,7 +274,7 @@ hackathonMapMobileCenterCoordinates: "49.839909, 24.026469"
 # Workshops About Block
 aboutWorkshopsTitle: "Workshops"
 workshopRows:
- - {title: "Android Wear Data Sync", image: "workshops-1.png", details: "Data synchronization between phone and a Android Wear device using Play services.", registrationLink: "http://goo.gl/forms/ldNFveU8qr", isRegistrationOpen: true}
+ - {title: "Android Wear Data Sync", image: "workshops-1.png", details: "Data synchronization between phone and a Android Wear device using Play services.", registrationLink: "http://goo.gl/forms/ldNFveU8qr", isRegistrationOpen: false}
  - {title: "Browser performance", image: "workshops-0.png", details: "JavaScript engines are getting faster, our laptops and mobile phones are getting more powerful however, in spite all of that, we are constantly running into sluggish web apps, choppy scrolling and jerky animations. If you want to avoid that in your projects and deliver a smooth experience to your users, you'll have to think performance. Thankfully, that's exactly what this workshop is all about! Learn how browsers work, how to measure performance, what common bottlenecks you should avoid and put your new knowledge immediately into practice.", registrationLink: "http://goo.gl/forms/tqx8HURzxk", isRegistrationOpen: false}
  - {title: "Polymer: future on your fingers", image: "workshops-2.png", details: "Nowadays Web development is much more than just hacking HTML code — it is a complete process of creating fresh-looking modern visuals that attract attention from the first glance. During the Polymer workshop, you will get a chance to touch the future of Web development right now — starting from simple Web Components and up to building a complete Web page using Paper elements.", registrationLink: "http://goo.gl/forms/EVySJDfGw8", isRegistrationOpen: false}
 

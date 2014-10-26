@@ -210,21 +210,6 @@
     - {name: 'github', link: 'https://github.com/smalljam'}
     - {name: 'linkedin', link: 'https://www.linkedin.com/in/antonyatsenko'}
 - 
-  id: 17
-  name: 'Yulia'
-  surname: 'Puchnina'
-  company: 'Universal Mind'
-  title: 'Senior Technical Architect'
-  bio: 'Javascript-developer with extensive experience in highload applications, games enthusiast promotion on HTML5. Enjoy snowboards, owls and cookies. At conferences typically talking about games and everything connected with them, but this time made ​​an exception.'
-  thumbnailUrl: YuliaPuchnina.jpg
-  rockstar: false
-  ribbon:
-    - {abbr: 'GDG', title: 'Google Developer Group Kyiv', url: 'https://developers.google.com/groups/chapter/110301321530950732281/'}
-    - {abbr: 'GDGW', title: 'Google Developer Group Women Ukraine', url: 'http://gdg.org.ua/'}
-  social: 
-    - {name: 'twitter', link: 'https://twitter.com/kira__kit'}
-    - {name: 'github', link: 'https://github.com/probably-kira'}
-- 
   id: 18
   name: 'Denys'
   surname: 'Butenko'
@@ -240,17 +225,6 @@
     - {name: 'github', link: 'https://github.com/denysbutenko'}
     - {name: 'google-plus', link: 'https://google.com/+denysbutenko'}
     - {name: 'linkedin', link: 'https://www.linkedin.com/pub/denys-butenko/77/364/42b'}
-- 
-  id: 19
-  name: 'Yaroslav'
-  surname: 'Yaroshevskyy'
-  company: 'gmm.in.ua'
-  title: 'Founder'
-  bio: 'Yaroslav is one of the leading mapmakers in Ukraine. For last 2 years he mapped around 30000 objects. Wrote more than 50 guides about editing maps in Google Mapmaker for gmm.in.ua, site used by hundreds of other mapmakers from Ukraine.'
-  thumbnailUrl: YaroslavYaroshevskyy.jpg
-  rockstar: false
-  social: 
-    - {name: 'google-plus', link: 'https://www.google.com/+YaroslavYaroshevskyy'}
 - 
   id: 20
   name: 'Yehor'

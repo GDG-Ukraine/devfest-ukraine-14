@@ -79,13 +79,13 @@
         parallel: 1,
         startTime: "10:30",
         endTime: "11:00",
-        sessionIds: [102,114,125~126]
+        sessionIds: [102,114,125]
     }
     - {
         parallel: 1,
         startTime: "11:10",
         endTime: "11:40",
-        sessionIds: [104,110,120]
+        sessionIds: [104,110,126]
     }
     - {
         parallel: 1,

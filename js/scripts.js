@@ -121,6 +121,12 @@
                 event.preventDefault();
             });
         });
+        $(function() {
+            if(window.location.href.indexOf("schedule") > -1 && window.location.hash) {
+                var hash = window.location.hash;
+                $(hash).click();
+            } 
+        });
 
         $(function() {
             var appear, delay, i, offset, _i, _len, _ref;

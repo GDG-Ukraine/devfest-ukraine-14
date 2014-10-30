@@ -69,6 +69,7 @@
   speakers: [12]
   language: en
   complexity: "Intermediate"
+  presentation: "https://speakerdeck.com/gdglviv/murat-yener-l-e-android-the-whole-android-ecosystem-experience-with-wear-and-glass"
 -
   id: 102
   title: "The Android NDK"
@@ -76,6 +77,7 @@
   speakers: [11]
   language: en
   complexity: "Intermediate"
+  presentation: "https://speakerdeck.com/gdglviv/xavier-hallade-the-android-ndk"
 -
   id: 103
   title: "Android L Animation"
@@ -83,6 +85,7 @@
   speakers: [4]
   language: uk
   complexity: "Intermediate" 
+  presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
 -
   id: 104
   title: "Guava beyond Collections"
@@ -90,6 +93,7 @@
   speakers: [5]
   language: en
   complexity: "Intermediate"  
+  presentation: "https://speakerdeck.com/gdglviv/mateusz-herych-guava-beyond-collections"
 -
   id: 105
   title: "Android Wear UX at a glance"
@@ -97,6 +101,7 @@
   speakers: [10]
   language: en
   complexity: "Beginner"
+  presentation: "https://speakerdeck.com/gdglviv/wojtek-kalicinski-android-wear-ux-at-a-glance"
 -
   id: 106
   title: "Android Loader, problems and solutions"
@@ -104,6 +109,7 @@
   speakers: [6]
   language: en
   complexity: "Intermediate"
+  presentation: "https://speakerdeck.com/gdglviv/roma-mazur-android-loader-problems-and-solutions"
 -
   id: 107
   title: "Wearables Views"
@@ -111,6 +117,7 @@
   speakers: [14]
   language: en
   complexity: "Intermediate"
+  presentation: "https://speakerdeck.com/gdglviv/michal-tajchert-wearables-views"
 -
   id: 108
   title: "RESTful API with Dart"
@@ -118,6 +125,7 @@
   speakers: [15]
   language: en
   complexity: "Intermediate"
+  presentation: "http://prezi.com/kgrsopl_ck4h/restful-api-with-dart/?utm_campaign=share&utm_medium=copy"
 -
   id: 109
   title: "Front-End Tools Beyond DevTools"
@@ -132,6 +140,7 @@
   speakers: [8]
   language: ru
   complexity: "Beginner"
+  presentation: "https://speakerdeck.com/gdglviv/dima-maleev-development-for-chrome-os"
 -
   id: 111
   title: "Polymer, motherfucka, do you speak it?"
@@ -139,6 +148,7 @@
   speakers: [16]
   language: en
   complexity: "Intermediate"
+  presentation: "https://speakerdeck.com/gdglviv/anton-iatsenko-polymer-motherfucka-do-you-speak-it"
 -
   id: 112
   title: "How to get 50% women at a high-tech conference"
@@ -146,8 +156,7 @@
   speakers: [2]
   language: en
   complexity: "Intermediate"
-  presentation: "https://docs.google.com/presentation/d/1p4q0V8uTHf36T3dOItl2v55bp1lbYPUusbev86ayccA/edit?usp=sharing"
-  video: "//www.youtube.com/embed/TRmgMe2STL0"
+  presentation: "https://speakerdeck.com/gdglviv/nilay-yener-how-to-get-50-percent-women-at-a-high-tech-conference"
 -
   id: 113
   title: "Women Techmakers Ukraine: how we support diversity"
@@ -155,6 +164,7 @@
   speakers: [13]
   language: uk
   complexity: "Beginner"
+  presentation: "https://speakerdeck.com/gdglviv/kseniia-shumelchyk-women-techmakers-ukraine-how-we-support-diversity"
 -
   id: 114
   title: 'Go in the Cloud: How using Go can help building “cloud ready” applications'
@@ -162,17 +172,19 @@
   speakers: [7]
   language: en
   complexity: "Intermediate"
+  presentation: "http://slides.olostan.name/goincloud/goincloud.html#1"
 -
   id: 115
-  title: "Keynote"
+  title: "Keynote - Higher quality future apps"
   description: ""
   speakers: [3]
   language: en
   complexity: "Beginner"
+  presentation: "https://speakerdeck.com/gdglviv/dawid-ostrowski-higher-quality-future-apps"
 -
   id: 116
   title: "Secret session by Intel"
-  description: "Super secret session by Intel"
+  description: "Session details are under NDA"
   speakers: [11]
   language: en
   complexity: "Expert"
@@ -197,6 +209,7 @@
   speakers: [18]
   language: ru
   complexity: "Beginner"
+  presentation: "https://speakerdeck.com/gdglviv/denys-butenko-google-summer-of-code-amazing-experience-for-students"
 -
   id: 121
   title: 'Behind The Scenes: Dart'
@@ -204,6 +217,7 @@
   speakers: [20]
   language: en
   complexity: "Intermediate"
+  presentation: "https://speakerdeck.com/gdglviv/yehor-lvivski-behind-the-scenes-dart"
 -
   id: 122
   title: 'Student opportunities abroad'
@@ -211,6 +225,7 @@
   speakers: [21]
   language: en
   complexity: "Beginner"
+  presentation: "https://speakerdeck.com/gdglviv/andrii-komar-student-opportunities-abroad"
 -
   id: 123
   title: 'New Android Camera API'
@@ -218,6 +233,7 @@
   speakers: [22]
   language: en
   complexity: "Expert"
+  presentation: "https://speakerdeck.com/gdglviv/roman-herasymenko-new-android-camera-api"
 -
   id: 124
   title: 'Opportunities for women in technology from Google'
@@ -225,6 +241,7 @@
   speakers: [23]
   language: uk
   complexity: "Intermediate"
+  presentation: "https://speakerdeck.com/gdglviv/maryna-zhygadlo-opportunities-for-women-in-technology-from-google"
 -
   id: 125
   title: 'All Google communities in Ukraine'
@@ -232,6 +249,7 @@
   speakers: [24]
   language: uk
   complexity: "Beginner"
+  presentation: "https://speakerdeck.com/gdglviv/volodymyr-ivanov-all-google-communities-in-ukraine"
 -
   id: 126
   title: 'The Google Developer Expert Program'
@@ -239,6 +257,7 @@
   speakers: [10]
   language: en
   complexity: "Beginner"
+  presentation: "https://speakerdeck.com/gdglviv/wojtek-kalicinski-the-google-developer-expert-program"
 -
   id: 127
   title: 'Modern cross-platform mobile development in practice'
@@ -246,6 +265,7 @@
   speakers: [25, 26]
   language: en
   complexity: "Intermediate"
+  presentation:  "https://prezi.com/_s97qdht2wj8/"
 -
   id: 128
   title: 'From hobby to final of Google Science Fair 2014'
@@ -253,7 +273,7 @@
   speakers: [27]
   language: uk
   complexity: "Beginner"
-
+  presentation: "https://speakerdeck.com/gdglviv/mark-drobnych-from-hobby-to-final-of-google-science-fair-2014" 
 -
   id: 129
   title: 'Material Design in Action'
@@ -261,7 +281,7 @@
   speakers: [28]
   language: uk
   complexity: "Beginner"
-
+  presentation: "https://speakerdeck.com/gdglviv/nazar-moravskyi-material-design-in-action"
 -
   id: 130
   title: 'Panel discussion "Working for the giant"'
@@ -269,7 +289,6 @@
   speakers: [11,29,3, 30]
   language: en
   complexity: "Beginner"
-
 -
   id: 703
   title: 'Polymer: future on your fingers'

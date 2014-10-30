@@ -133,6 +133,7 @@
   speakers: [9]
   language: en
   complexity: "Intermediate"
+  presentation: "/presentations/web/konrad-dzwinel-chrome-dev-tools/#1"
 -
   id: 110
   title: "Development for Chrome OS"

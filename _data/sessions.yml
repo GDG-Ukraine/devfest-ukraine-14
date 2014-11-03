@@ -290,6 +290,7 @@
   speakers: [11,29,3, 30]
   language: en
   complexity: "Beginner"
+  video: "https://www.youtube.com/watch?v=HviGcCGtD7Y"
 -
   id: 703
   title: 'Polymer: future on your fingers'

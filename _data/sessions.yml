@@ -169,6 +169,7 @@
   language: en
   complexity: "Intermediate"
   presentation: "https://speakerdeck.com/gdglviv/nilay-yener-how-to-get-50-percent-women-at-a-high-tech-conference"
+  video: "//www.youtube.com/embed/EKvyqpEewBQ?list=PLt8lEzcLNl3061rG0wE7g2G8ymg_LyZbD"
 -
   id: 113
   title: "Women Techmakers Ukraine: how we support diversity"
@@ -177,6 +178,7 @@
   language: uk
   complexity: "Beginner"
   presentation: "https://speakerdeck.com/gdglviv/kseniia-shumelchyk-women-techmakers-ukraine-how-we-support-diversity"
+  video: "//www.youtube.com/embed/YfZ9Te9M3As?list=PLt8lEzcLNl3061rG0wE7g2G8ymg_LyZbD"
 -
   id: 114
   title: 'Go in the Cloud: How using Go can help building “cloud ready” applications'
@@ -209,6 +211,7 @@
   speakers: [13, 2, 23]
   language: en
   complexity: "Beginner"
+  video: "//www.youtube.com/embed/jNrP8yy364E?list=PLt8lEzcLNl3061rG0wE7g2G8ymg_LyZbD"
 -
   id: 118
   title: 'Interview Patterns – Strategies for the technical interview'
@@ -216,6 +219,7 @@
   speakers: [12]
   language: en
   complexity: "Beginner"
+  video: "//www.youtube.com/embed/RcNWhJJRJoc?list=PLt8lEzcLNl3061rG0wE7g2G8ymg_LyZbD"
 -
   id: 119
   title: 'Google Summer of Code - amazing experience for students'
@@ -224,6 +228,7 @@
   language: ru
   complexity: "Beginner"
   presentation: "https://speakerdeck.com/gdglviv/denys-butenko-google-summer-of-code-amazing-experience-for-students"
+  video: "//www.youtube.com/embed/2KIw6vANw9Q?list=PLt8lEzcLNl3061rG0wE7g2G8ymg_LyZbD"
 -
   id: 121
   title: 'Behind The Scenes: Dart'
@@ -241,6 +246,7 @@
   language: en
   complexity: "Beginner"
   presentation: "https://speakerdeck.com/gdglviv/andrii-komar-student-opportunities-abroad"
+  video: "//www.youtube.com/embed/aX8RipW3wF4?list=PLt8lEzcLNl3061rG0wE7g2G8ymg_LyZbD"
 -
   id: 123
   title: 'New Android Camera API'
@@ -258,6 +264,7 @@
   language: uk
   complexity: "Intermediate"
   presentation: "https://speakerdeck.com/gdglviv/maryna-zhygadlo-opportunities-for-women-in-technology-from-google"
+  video: "//www.youtube.com/embed/bAZweXuBT-4?list=PLt8lEzcLNl3061rG0wE7g2G8ymg_LyZbD"
 -
   id: 125
   title: 'All Google communities in Ukraine'
@@ -266,6 +273,7 @@
   language: uk
   complexity: "Beginner"
   presentation: "https://speakerdeck.com/gdglviv/volodymyr-ivanov-all-google-communities-in-ukraine"
+  video: "//www.youtube.com/embed/M4S2IQese6Y?list=PLt8lEzcLNl3061rG0wE7g2G8ymg_LyZbD"
 -
   id: 126
   title: 'The Google Developer Expert Program'
@@ -274,6 +282,7 @@
   language: en
   complexity: "Beginner"
   presentation: "https://speakerdeck.com/gdglviv/wojtek-kalicinski-the-google-developer-expert-program"
+  video: "//www.youtube.com/embed/By6d0JcQOFI?list=PLt8lEzcLNl3061rG0wE7g2G8ymg_LyZbD"
 -
   id: 127
   title: 'Modern cross-platform mobile development in practice'
@@ -291,6 +300,7 @@
   language: uk
   complexity: "Beginner"
   presentation: "https://speakerdeck.com/gdglviv/mark-drobnych-from-hobby-to-final-of-google-science-fair-2014" 
+  video: "//www.youtube.com/embed/zjlZ5Lt1WR8?list=PLt8lEzcLNl3061rG0wE7g2G8ymg_LyZbD"
 -
   id: 129
   title: 'Material Design in Action'

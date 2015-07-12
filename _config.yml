@@ -14,7 +14,7 @@ title: GDG DevFest Ukraine 2014
 email: devfest@gdg.org.ua
 description: "October 24-25, Lviv, Ukraine. GDG DevFest - the biggest Google related event in Ukraine. 350+ attendees, 48 hours of pure Google content, 28+ speakers from Ukraine and beyond, 3 parallel tracks."
 baseurl: "/devfest-ukraine-14/2014"
-url: "http://devfest.gdg.org.ua"
+url: "http://gdg-ukraine.github.io"
 permalink: /blog/:title
 googleAnalyticsTrackingId: "UA-43643469-1"
 googleAnalyticsSiteUrl: "devfest.gdg.org.ua"
